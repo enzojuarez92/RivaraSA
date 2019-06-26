@@ -20,17 +20,17 @@
 @section('content')
 
         <!-- start page title section -->
-        <section class="page-title-section2 bg-img cover-background" data-overlay-dark="7" data-background="img/bg/bg9.jpg">
+        <section class="page-title-section2 bg-img cover-background" data-overlay-dark="7" data-background="{{ asset('img/rivara/sliders/Slider1.jpg') }}">
             <div class="container">
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Contact style4</h1>
+                        <h1>Contactenos</h1>
                     </div>
                     <div class="col-md-12">
                         <ul>
-                            <li><a href="home-1.html">Home</a></li>
-                            <li><a href="javascript:void(0)">Contact style4</a></li>
+                            <li><a href="home-1.html">Inicio</a></li>
+                            <li><a href="javascript:void(0)">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                                 <div class="col-12">
 
                                     <div class="section-heading left half">
-                                        <h4 class="font-weight-600">Get advice any time</h4>
+                                        <h4 class="font-weight-600">Nuestros Datos</h4>
                                     </div>
 
                                 </div>
@@ -60,8 +60,8 @@
                                     <div class="padding-25px-bottom sm-padding-20px-bottom border-bottom border-color-medium-gray">
                                         <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="fas fa-phone vertical-align-top"></i></span>
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Phone Number</h5>
-                                            <p class="no-margin line-height-normal">(+44) 123 456 789</p>
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Teléfono</h5>
+                                            <p class="no-margin line-height-normal">{{ Config::get('telefono') }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -69,8 +69,8 @@
                                     <div class="padding-25px-tb sm-padding-20px-tb border-bottom border-color-medium-gray">
                                         <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="fas fa-map-marker-alt vertical-align-top"></i></span>
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Locations</h5>
-                                            <p class="no-margin line-height-normal">Regina ST, London, SK 8GH.</p>
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Dirección</h5>
+                                            <p class="no-margin line-height-normal">{{ Config::get('direccion') }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@
                                         <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="far fa-envelope vertical-align-top"></i></span>
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
                                             <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Email</h5>
-                                            <p class="no-margin line-height-normal">email@youradress.com</p>
+                                            <p class="no-margin line-height-normal">{{ Config::get('correo') }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -87,11 +87,21 @@
                                 <div class="col-12">
                                     <div class="margin-10px-top">
                                         <ul class="social-icon-style7">
-                                            <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a></li>
-                                            <li><a href="javascript:void(0)"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+                                            @if (FACEBOOK != '')
+                                                <li><a target="_blank" href="{{FACEBOOK}}"><i class="fab fa-facebook-f"></i></a></li>
+                                            @endif
+                                            @if (TWITTER != '')
+                                                <li><a target="_blank" href="{{TWITTER}}"><i class="fab fa-twitter"></i></a></li>
+                                            @endif
+                                            @if (INSTAGRAM != '')
+                                                <li><a target="_blank" href="{{INSTAGRAM}}"><i class="fab fa-instagram"></i></a></li>
+                                            @endif
+                                            @if (YOUTUBE != '')
+                                                <li><a target="_blank" href="{{YOUTUBE}}"><i class="fab fa-youtube"></i></a></li>
+                                            @endif
+                                            @if (LINKEDIN != '')
+                                                <li><a target="_blank" href="{{LINKEDIN}}"><i class="fab fa-linkedin-in"></i></a></li>
+                                            @endif
                                         </ul>
                                     </div>
                                 </div>
@@ -105,8 +115,8 @@
                         <div class="contact-form-box">
               
 
-          <div class="section-heading left half">
-                                        <h4 class="font-weight-600">Let's talk about your business.</h4>
+            <div class="section-heading left half">
+                                        <h4 class="font-weight-600">Contactenos por aqui.</h4>
                                     </div>
 
                             <form method="post" action="bat/rd-mailform.php" class="mailform off2">

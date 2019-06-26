@@ -40,20 +40,20 @@
 
                     <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
 
-                        <img alt="footer-logo" src="{{ asset('LOGO') }}">
-                        <p class="margin-25px-top margin-20px-bottom">Nemo enim enim voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequr magni dolores eos qui ratione voluptatem.</p>
+                        <img alt="footer-logo" src="{{ asset(LOGO) }}">
+                        <p class="margin-25px-top margin-20px-bottom">Texto Institucional de rivara S.A</p>
                         <ul class="footer-list">
                             <li>
                                 <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-map-marker-alt text-theme-color"></i></span>
-                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">74 Guild Street 542B, Great North Town MT.</span>
+                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('direccion') ?? 'Sin datos' }}</span>
                             </li>
                             <li>
                                 <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-mobile-alt text-theme-color"></i></span>
-                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">(+44) 123 456 789</span>
+                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('telefono') ?? 'Sin datos' }}</span>
                             </li>
                             <li>
                                 <span class="d-inline-block vertical-align-top font-size18"><i class="far fa-envelope text-theme-color"></i></span>
-                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">addyour@emailhere</span>
+                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('correo') ?? 'Sin datos' }}</span>
                             </li>
                         </ul>
 
@@ -105,11 +105,21 @@
                         <div class="col-md-6 text-left xs-text-center xs-margin-5px-bottom">
                             <div class="footer-social-icons small">
                                 <ul>
-                                    <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fab fa-youtube"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+                                    @if (FACEBOOK != '')
+                                        <li><a target="_blank" href="{{FACEBOOK}}"><i class="fab fa-facebook-f"></i></a></li>
+                                    @endif
+                                    @if (TWITTER != '')
+                                        <li><a target="_blank" href="{{TWITTER}}"><i class="fab fa-twitter"></i></a></li>
+                                    @endif
+                                    @if (INSTAGRAM != '')
+                                        <li><a target="_blank" href="{{INSTAGRAM}}"><i class="fab fa-instagram"></i></a></li>
+                                    @endif
+                                    @if (YOUTUBE != '')
+                                        <li><a target="_blank" href="{{YOUTUBE}}"><i class="fab fa-youtube"></i></a></li>
+                                    @endif
+                                    @if (LINKEDIN != '')
+                                        <li><a target="_blank" href="{{LINKEDIN}}"><i class="fab fa-linkedin-in"></i></a></li>
+                                    @endif
                                 </ul>
                             </div>
                         </div>

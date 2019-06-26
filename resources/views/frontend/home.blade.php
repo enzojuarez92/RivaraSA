@@ -62,8 +62,8 @@
             <div class="container">
 
                 <div class="section-heading">
-                    <h3 class="title-style2">What we do</h3>
-                    <p class="width-55 sm-width-75 xs-width-95 center-col">Business consulting excepteur sint occaecat cupidatat consulting non proident, sunt in culpa qui officia deserunt laborum market.</p>
+                    <h3 class="title-style2">@lang('home.service_title')</h3>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col">@lang('home.service_content')</p>
                 </div>
 
                 <div class="row">

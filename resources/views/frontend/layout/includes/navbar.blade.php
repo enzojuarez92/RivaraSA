@@ -63,6 +63,12 @@
                                                 <li><a href="blog-post.html">Blog Post</a></li>
                                             </ul>
                                         </li>
+                                        <li>
+                                            <a href="{{ route('contacto') }}">@lang('home.recipes')</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('contacto') }}">@lang('home.contact')</a>
+                                        </li>
                                         <li><a href="javascript:void(0)">ING / ESP</a>
                                             <ul>
                                                 <li><a href="{{route('locale', 'es')}}">@lang('home.lang_es') <img style="width:20px;" src="{{ asset('img/esp.png') }}" alt="bandera_españa"></a></li>

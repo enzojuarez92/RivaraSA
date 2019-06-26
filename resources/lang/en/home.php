@@ -10,4 +10,7 @@ return [
     'lang_es' => 'Spanish',
     'lang_en' => 'English',
 
+    'service_title' => 'Services',
+    'service_content' => 'A desarrollar',
+
 ];
