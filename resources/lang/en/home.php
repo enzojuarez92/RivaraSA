@@ -1,16 +1,12 @@
 <?php
 
 return [
-    'home' => 'Home',
+    'home' => 'Inicio',
     'about_us' => 'About Us',
-    'blog' => 'Blog',
-    'projects' => 'Projects',
+    'services' => 'Services',
+    'recipes' => 'Recipes',
     'contact' => 'Contact',
-    'web_apps' => 'Web Applications',
-    'web_sites' => 'Web Sites',
-    'mobile' => 'Mobile',
-    'outsourcing' => 'Outsourcing',
-    'lenguage' => 'lenguage',
+    'lenguage' => 'Lenguage',
     'lang_es' => 'Spanish',
     'lang_en' => 'English',
 

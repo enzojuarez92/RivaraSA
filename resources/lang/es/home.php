@@ -2,14 +2,10 @@
 
 return [
     'home' => 'Inicio',
-    'about_us' => 'Acerca de Nosotros',
-    'blog' => 'Blog',
-    'projects' => 'Proyectos',
+    'about_us' => 'La Empresa',
+    'services' => 'Servicios',
+    'recipes' => 'Recetas',
     'contact' => 'Contacto',
-    'web_apps' => 'Aplicaciones Web',
-    'web_sites' => 'Sitios Web',
-    'mobile' => 'Mobile',
-    'outsourcing' => 'Tercerización',
     'lenguage' => 'Idioma',
     'lang_es' => 'Español',
     'lang_en' => 'Inglés',

@@ -1,7 +1,7 @@
 @extends(LAYOUT_FRONT.'app')
 
 @section('title', 'Contacto | '.APP_DISPLAY)
-@section('description', 'Contactanos, contanos tu proyecto y trabajemos juntos.')
+@section('description', 'Contactanos, estamos esperando tu consulta.')
 @section('author', APP_DISPLAY)
 @section('keywords', '')
 @section('image', LOGO_REDES)
@@ -19,111 +19,136 @@
 
 @section('content')
 
-    <!-- SECTION -->
-    <!--===============================================================-->
-    <div class="section section-sm section-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-      
-            <h3 class="title-md text-theme hr-left">Contanos tu proyecto</h3>
-			<form class="form-bg text-theme" id="contacto" name="contact" method="post" novalidate="novalidate" method="POST" action="{{route('enviarMensaje')}}" autocomplete="off">
-				@csrf
-              <div class="form-group">
-                <label for="name">Asunto
-                  <span class="required">*</span>
-                </label>
-                <input value="{{old('subject')}}" type="text" name="subject" class="form-control" placeholder="Escriba motivo de consulta" required>
-                {!! $errors->first('subject', '<span class="help-block">:message</span>') !!}
-              </div>
-              <div class="form-group">
-                <label for="name">Nombre
-                  <span class="required">*</span>
-                </label>
-                <input value="{{old('name')}}" type="text" name="name" class="form-control" placeholder="Nombre Completo" required>
-                {!! $errors->first('name', '<span class="help-block">:message</span>') !!}
-              </div>
-              <div class="form-group">
-                  <div class="col-lg-6">
-                    <label for="email">Correo
-                      <span class="required">*</span>
-                    </label>
-                    <input value="{{old('email')}}" type="email" name="email" class="form-control" placeholder="Correo eléctronico" required>
-                    {!! $errors->first('email', '<span class="help-block">:message</span>') !!}
-                  </div>
-                  <div class="col-lg-6">
-                    <label for="email">Teléfono
-                    </label>
-                    <input value="{{old('telefono')}}" type="telefono" name="telefono" class="form-control" placeholder="Número de teléfono" required>
-                    {!! $errors->first('telefono', '<span class="help-block">:message</span>') !!}
-                  </div>
-              </div>
-              <div class="form-group text-theme">
-                <label for="fuente">¿Como nos conocio?
-                  <span class="required">*</span>
-                </label>
-                <select class="form-control" name="conocio" id="">
-                  <option value="">Seleccionar</option>
-                  @foreach ($conocio as $c)
-                    <option value="{{ $c->id }}">{{ $c->titulo }}</option>
-                  @endforeach
-                </select>
-                {!! $errors->first('fuente', '<span class="help-block">:message</span>') !!}
-              </div>
-              <div class="form-group text-theme">
-                <label for="message">Mensaje
-                  <span class="required">*</span>
-                </label>
-                <textarea value="{{old('message')}}" name="message" id="message" class="form-control" rows="6" placeholder="Escriba aquí su mensaje" required></textarea>
-                {!! $errors->first('message', '<span class="help-block">:message</span>') !!}
-              </div>
-              <button style="margin-top: 5px"
-                      type="submit"
-                      class="btn btn-primary text-theme btn-key g-recaptcha"
-                      data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}"
-                      data-callback='onSubmitContacto'>
-                <i class="fa fa-paper-plane"></i>Enviar Consulta
-              </button>
-            </form>
+        <!-- start page title section -->
+        <section class="page-title-section2 bg-img cover-background" data-overlay-dark="7" data-background="img/bg/bg9.jpg">
+            <div class="container">
 
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Contact style4</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="home-1.html">Home</a></li>
+                            <li><a href="javascript:void(0)">Contact style4</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div id="success" class="mt-40">
-              <div class="icon-box bordered">
-                <i class="fa fa-check fa-round fa-4x text-theme"></i>
-                <h3 class="lead text-theme">Your message was successfully sent!</h3>
-              </div>
             </div>
+        </section>
+        <!-- end page title section -->
 
-            <div id="error" class="mt-40">
-              <div class="icon-box bordered">
-                <i class="fa fa-lock fa-round fa-4x text-theme"></i>
-                <h3 class="lead text-theme">Something went wrong, try refreshing and submitting the form again.</h3>
-              </div>
+        <!-- start advice form section -->
+        <section>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
+
+                        <div class="padding-30px-right sm-no-padding-right">
+                            <div class="row">
+                                <div class="col-12">
+
+                                    <div class="section-heading left half">
+                                        <h4 class="font-weight-600">Get advice any time</h4>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 margin-5px-top">
+                                    <div class="padding-25px-bottom sm-padding-20px-bottom border-bottom border-color-medium-gray">
+                                        <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="fas fa-phone vertical-align-top"></i></span>
+                                        <div class="d-inline-block vertical-align-top padding-10px-left width-75">
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Phone Number</h5>
+                                            <p class="no-margin line-height-normal">(+44) 123 456 789</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="padding-25px-tb sm-padding-20px-tb border-bottom border-color-medium-gray">
+                                        <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="fas fa-map-marker-alt vertical-align-top"></i></span>
+                                        <div class="d-inline-block vertical-align-top padding-10px-left width-75">
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Locations</h5>
+                                            <p class="no-margin line-height-normal">Regina ST, London, SK 8GH.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="padding-25px-tb sm-padding-20px-tb">
+                                        <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="far fa-envelope vertical-align-top"></i></span>
+                                        <div class="d-inline-block vertical-align-top padding-10px-left width-75">
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Email</h5>
+                                            <p class="no-margin line-height-normal">email@youradress.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="margin-10px-top">
+                                        <ul class="social-icon-style7">
+                                            <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="javascript:void(0)"><i class="fab fa-youtube"></i></a></li>
+                                            <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="contact-form-box">
+              
+
+          <div class="section-heading left half">
+                                        <h4 class="font-weight-600">Let's talk about your business.</h4>
+                                    </div>
+
+                            <form method="post" action="bat/rd-mailform.php" class="mailform off2">
+                                <input type="hidden" name="form-type" value="contact">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="name" placeholder="Your Name:" data-constraints="@LettersOnly @NotEmpty">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="phone" placeholder="Telephone:" data-constraints="@Phone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="email" placeholder="Email:" data-constraints="@Email @NotEmpty">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea name="message" rows="5" placeholder="Message:" data-constraints="@NotEmpty"></textarea>
+                                    </div>
+                                    <div class="mfControls col-md-12">
+                                        <button type="submit" class="butn theme">Sumbit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-          </div>
+        </section>
+        <!-- end advice form section -->
 
-          <div class="col-md-5 col-md-offset-1">
-            <h3 class="title-md text-theme hr-left">¿Donde estamos?</h3>
-            <p class="text-theme lead">Tenemos nuestras oficinas en Buenos Aires, Argentina.</p>
-            <h3 class="title-md text-theme">Oficina</h3>
-            <ul class="list-unstyled list-md text-theme">
-              <li><i class="fa fa-map-marker fa-box"></i>Direccion: {{ Config::get('direccion') ?? 'Sin datos' }}</li>
-              <li><i class="fa fa-phone fa-box"></i>Teléfono: {{ Config::get('telefono') ?? 'Sin datos' }}</li>
-              <li><i class="fa fa-envelope fa-box"></i>Correo: {{ Config::get('correo') ?? 'Sin datos' }}</li>
-            </ul>
-            <h3 class="title-md text-theme">Horario de Atención</h3>
-            <ul class="list-unstyled list-md text-theme">
-              <li><i class="fa fa-clock-o fa-box"></i>{{ Config::get('horario') ?? 'Sin datos' }}</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+        <!-- start map section -->
+        <div id="map"></div>
+        <!-- end map section -->
+
+
 
 @endsection
 
 @push('styles')
     
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+   <!-- map js -->
+   <script src="/crizal/js/map.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZtTj2tvwsorp_DNPh3ZN_pMlSniet5h4&amp;callback=initMap" async defer></script>
 
 @endpush

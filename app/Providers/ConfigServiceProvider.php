@@ -29,9 +29,9 @@ class ConfigServiceProvider extends ServiceProvider
         define("EMAIL_NOTIFICATION", $conf->email_notification ?? '');
         define("EMAIL_SENDER", $conf->email_sender ?? '');
         define("APP_DISPLAY", $conf->app_name ?? '');
-        define("LOGO", $logoPrincipal ?? 'img/dvs360/logoNegro.svg');
-        define("LOGO_ALTERNATIVO", $logoAlternativo ?? 'img/dvs360/logoBlanco.svg');
-        define("LOGO_REDES", $logoRedes ?? 'img/dvs360/logoNegro.png');
+        define("LOGO", $logoPrincipal ?? 'img/rivara/logo.png');
+        define("LOGO_ALTERNATIVO", $logoAlternativo ?? 'img/rivara/logo_blanco.png');
+        define("LOGO_REDES", $logoRedes ?? 'img/rivara/logo.png');
 
         if (env('APP_ENV') === 'production') {
             define("ADMIN_TAGMANAGER", "<!-- Google Tag Manager -->
