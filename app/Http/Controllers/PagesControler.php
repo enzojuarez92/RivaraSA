@@ -14,6 +14,7 @@ use App\ProjectType;
 use App\Tag;
 use App\Team;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
 class PagesControler extends Controller
@@ -22,9 +23,10 @@ class PagesControler extends Controller
 
     public function home()
     {
-        // $posts = Post::publicados()->orderBy(DB::raw('RAND()'))->take(4)->get();
+        $posts = Post::publicados()->orderBy(DB::raw('RAND()'))->take(3)->get();
         $clients = Client::all();
         return view('frontend.home', compact(
+            'posts',
             'clients'
         ));
     }

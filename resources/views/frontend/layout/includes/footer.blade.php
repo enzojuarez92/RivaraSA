@@ -60,41 +60,30 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
-                        <h3 class="footer-title-style3">Quick Links</h3>
+                        <h3 class="footer-title-style3">Sitio</h3>
                         <div class="row">
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
-                                    <li><a href="javascript:void(0)">News</a></li>
-                                    <li><a href="javascript:void(0)">History</a></li>
-                                    <li><a href="javascript:void(0)">Community</a></li>
-                                    <li><a href="javascript:void(0)">Portfolio</a></li>
-                                    <li><a href="javascript:void(0)">Safety</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6 no-padding-right xs-padding-15px-right">
-                                <ul class="footer-list">
-                                    <li><a href="javascript:void(0)">Construction</a></li>
-                                    <li><a href="javascript:void(0)">Case studies</a></li>
-                                    <li><a href="javascript:void(0)">Blog detail</a></li>
-                                    <li><a href="javascript:void(0)">Sales Services</a></li>
-                                    <li><a href="javascript:void(0)">Services detail</a></li>
+                                    <li><a href="{{ route('home') }}">@lang('home.home')</a></li>
+                                    <li><a href="{{ route('home') }}">@lang('home.services')</a></li>
+                                    <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                                    <li><a href="{{ route('contacto') }}">@lang('home.contact')</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="padding-30px-left sm-no-padding-left">
-                            <h3 class="footer-title-style3">Newsletter</h3>
-                            <p class="margin-20px-bottom">Nemo enim enim voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequr.</p>
-                            <form>
-                                <div class="form-group footer-subscribe">
-                                    <input type="email" placeholder="Subscribe with us" id="Email1" class="form-control">
-                                    <a class="butn theme grey-hover"><span>Join</span></a>
-                                </div>
-                            </form>
+                    <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
+                        <h3 class="footer-title-style3">@lang('home.blog-follow')</h3>
+                        <div class="row">
+                            <div class="col-md-6 no-padding-right xs-padding-15px-right">
+                                <ul class="footer-list xs-margin-5px-bottom">
+                                    <li><a target="_blank" href="{{FACEBOOK}}">Facebook</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
