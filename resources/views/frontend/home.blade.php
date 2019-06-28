@@ -244,7 +244,7 @@
                             <div class="blog-grid-img position-relative">
                                 <img src="{{ asset($p->imagen()) }}" alt="{{ $p->title }}" />
                                 <div class="blog-date">
-                                    <span>20 / feb</span>
+                                    <span>{{  $p->day() }} / {{  $p->month() }}</span>
                                 </div>
                             </div>
                             <div class="blog-grid-text sm-padding-20px-tb bg-white">
