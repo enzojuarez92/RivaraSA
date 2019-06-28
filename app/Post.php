@@ -81,7 +81,7 @@ class Post extends Model
 
     public function escritor()
     {
-        return $this->user->name ?? 'DVS360';
+        return $this->user->name ?? 'Rivara S.A.';
     }
 
     public function imagen()

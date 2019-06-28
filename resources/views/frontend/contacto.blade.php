@@ -19,25 +19,6 @@
 
 @section('content')
 
-        <!-- start page title section -->
-        <section class="page-title-section2 bg-img cover-background" data-overlay-dark="7" data-background="{{ asset('img/rivara/sliders/Slider1.jpg') }}">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Contactenos</h1>
-                    </div>
-                    <div class="col-md-12">
-                        <ul>
-                            <li><a href="home-1.html">Inicio</a></li>
-                            <li><a href="javascript:void(0)">Contacto</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- end page title section -->
 
         <!-- start advice form section -->
         <section>

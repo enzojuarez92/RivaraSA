@@ -1,9 +1,9 @@
 @extends(LAYOUT_FRONT.'app')
 
 @section('title', 'Noticias | '.APP_DISPLAY)
-@section('description', 'Portal de Novedades y Noticias de DVS360.')
+@section('description', 'Portal de Novedades y Noticias de '.APP_DISPLAY)
 @section('author', APP_DISPLAY)
-@section('keywords', 'desarrollo web, desarrollo mobile, laravel, .net')
+@section('keywords', '')
 @section('image', LOGO_REDES)
 
 @section('breadcrumb')
@@ -19,54 +19,55 @@
 
 @section('content')
 
+
+
     <!-- GRIDS -->
     <!--===============================================================-->
     <div class="container">
       <div class="row">
 
-		@include('frontend.blog._sidebarBlog')
+		{{--  @include('frontend.blog._sidebarBlog')  --}}
 
-        <!-- GRID POSTS -->
-        <!--===============================================================-->
-        <div class="col-sm-8 grid-posts">
-          <!-- POST -->
-          @foreach ($posts as $p)
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="wrapper-post">
-                <a href="{{ $p->link() }}" class="text-theme display-block">
-                  <img src="{{ asset($p->imagen()) }}" class="img-responsive full-width" alt="img-theme">
-                </a>
-                <div class="wrapper-post-text">
-                  <h3 class="title-lg text-uppercase text-theme"><a href="{{ $p->link() }}">{{ $p->title }}</a></h3>
-                  <ul class="list-unstyled list-inline text-theme post-date-author">
-                    <li>
-                      <a href="#"><i class="fa fa-comment-o"></i>{{ $p->escritor() }}</a>
-                    </li>
-                    <li>
-                      <a class="link-colored" href="{{ $p->category->link() }}"><i class="fa fa-tag"></i>{{ $p->category->name }}</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-calendar"></i>{{ $p->created_at }}</a>
-                    </li>
-                  </ul>
-                  <p>
-                    {{ $p->extract }}
-                  </p>
-                  <a href="{{ $p->link() }}" class="text-theme btn btn-primary btn-md">Ver Más</a>
+
+        <!-- start blog grid section -->
+        <section class="blogs ">
+            <div class="container">
+                <div class="row">
+                    <!--  start blog left-->
+                    <div class="col-lg-9 col-md-12 padding-30px-right xs-padding-15px-right">
+                        <div class="row">
+                          @foreach ($posts as $p)
+                            <!-- start post -->
+                            <div class="col-lg-6 col-md-12 margin-30px-bottom sm-margin-20px-bottom">
+                                <div class="blog-grid">
+                                    <div class="blog-grid-img position-relative"><img src="{{ $p->imagen() }}" alt="{{ $p->title }}" /></div>
+                                    <div class="blog-grid-text padding-25px-all sm-padding-20px-all ">
+                                        <h4><a href="{{ $p->link() }}">{{ $p->title }}</a></h4>
+                                        <p>{{ $p->extract }}</p>
+                                        <div class="meta border-top border-color-medium-gray padding-15px-top xs-padding-10px-top">
+                                            <ul class="no-margin">
+                                                <li><a href="javascript:void(0)"><i class="fas fa-calendar-alt "></i> {{ $p->published_at }}</a></li>
+                                                <li><a href="javascript:void(0)"><i class="fas fa-user"></i> {{ $p->escritor() }}</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end post -->                              
+                          @endforeach
+                        </div>
+                    </div>
+                    <!--  end blog left-->
+                    @include('frontend.blog._sidebarBlog')
                 </div>
-              </div>
             </div>
-          </div>              
-          @endforeach
+        </section>
+        <!-- end blog grid section -->
 
-          {{-- {{ $posts->links() }} --}}
-          
         </div>
-        <!-- GRID POSTS END -->
-        <!--===============================================================-->
       </div>
-    </div>
+
+
 
 @endsection
 
