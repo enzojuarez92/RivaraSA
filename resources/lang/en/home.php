@@ -13,4 +13,9 @@ return [
     'service_title' => 'Services',
     'service_content' => 'A desarrollar',
 
+    'blog-recent' => 'Recent Posts',
+    'blog-tags' => 'Tags',
+    'blog-follow' => 'Follow Us',
+    'blog-shared' => 'Shared To',
+
 ];

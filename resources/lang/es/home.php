@@ -13,4 +13,9 @@ return [
     'service_title' => 'Servicios',
     'service_content' => 'Nuestro principal objetivo es abarcar, mediante nuestros servicios, las necesidades del productor agropecuario actual demostrando siempre nuestro compromiso y responsabilidad.',
 
+    'blog-recent' => 'Post Recientes',
+    'blog-tags' => 'Etiquetas',
+    'blog-follow' => 'Seguinos',
+    'blog-shared' => 'Compartir',
+
 ];

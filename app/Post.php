@@ -102,4 +102,9 @@ class Post extends Model
 
     }
 
+    public function whatsapp()
+    {
+        return 'https://wa.me/?text=' . env('APP_URL') . $this->link();
+    }
+
 }

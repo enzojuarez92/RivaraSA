@@ -70,13 +70,11 @@
                                         {{ $post->body }}
                                     </div>
                                     <div class="share-post">
-                                        <span>Compartir</span>
+                                        <span>@lang('home.blog-shared')</span>
                                             <ul>
-                                                <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="fab fa-youtube"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a href="{{ Share::load($post->link(), $post->titulo)->facebook() }}"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="{{ Share::load($post->link(), $post->titulo)->twitter() }}"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="{{ Share::load($post->link(), $post->titulo)->linkedin() }}"><i class="fab fa-linkedin-in"></i></a></li>
                                             </ul>
                                     </div>
                                 </div>

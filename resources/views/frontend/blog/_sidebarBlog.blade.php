@@ -4,7 +4,7 @@
 
                             <div class="widget">
                                 <div class="widget-title">
-                                    <h6>Recent Posts</h6>
+                                    <h6>@lang('home.blog-recent')</h6>
                                 </div>
                                 <ul>
                                     @foreach ($ultimos as $u)
@@ -15,7 +15,7 @@
 
                             <div class="widget">
                                 <div class="widget-title">
-                                    <h6>Etiquetas</h6>
+                                    <h6>@lang('home.blog-tags')</h6>
                                 </div>
                                 <ul>
                                   @foreach ($tags as $t)
@@ -26,7 +26,7 @@
 
                             <div class="widget">
                                 <div class="widget-title">
-                                    <h6>Follow Us</h6>
+                                    <h6>@lang('home.blog-follow')</h6>
                                 </div>
                                 <ul class="social-listing">
                                     @if (FACEBOOK != '')

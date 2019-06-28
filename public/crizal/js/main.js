@@ -54,17 +54,17 @@
         var logowhitedark = $(".navbar-brand.logowhite-dark img");
         if (scroll <= 50) {
             $("header").removeClass("scrollHeader").addClass("fixedHeader");
-            logoinner.attr('src', 'img/rivara/logo.png');
-            logodefault.attr('src', 'img/rivara/logo.png');
-            logowhite.attr('src', 'img/rivara/logo.png');
-            logowhitedark.attr('src', 'img/rivara/logo.png');
+            logoinner.attr('src', '/img/rivara/logo.png');
+            logodefault.attr('src', '/img/rivara/logo.png');
+            logowhite.attr('src', '/img/rivara/logo.png');
+            logowhitedark.attr('src', '/img/rivara/logo.png');
         }
         else {
             $("header").removeClass("fixedHeader").addClass("scrollHeader");
-            logoinner.attr('src', 'img/rivara/logo.png');
-            logodefault.attr('src', 'img/rivara/logo.png');
-            logowhite.attr('src', 'img/rivara/logo.png');
-            logowhitedark.attr('src', 'img/rivara/logo.png');
+            logoinner.attr('src', '/img/rivara/logo.png');
+            logodefault.attr('src', '/img/rivara/logo.png');
+            logowhite.attr('src', '/img/rivara/logo.png');
+            logowhitedark.attr('src', '/img/rivara/logo.png');
         }
     });
 
