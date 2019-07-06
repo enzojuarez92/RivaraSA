@@ -21,7 +21,7 @@
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_1_subtitle')</h3>
                                 <h1 class="text-white">@lang('slider.slider_1_title')</h1>
                                 <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_1_content')</p>
-                                <a href="javascript:void(0);" class="butn medium theme">
+                                <a href="{{ route('nosotros') }}" class="butn medium theme">
                                     <span class="alt-font">@lang('slider.slider_1_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
                                 </a>
                             </div>
@@ -45,7 +45,7 @@
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_3_subtitle')</h3>
                                 <h1 class="text-white">@lang('slider.slider_3_title')</h1>
                                 <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_3_content')</p>
-                                <a href="{{ route('home','#servicios') }}" class="butn medium theme">
+                                <a href="{{ route('nosotros') }}" class="butn medium theme">
                                     <span class="alt-font">@lang('slider.slider_3_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
                                 </a>
                             </div>
@@ -163,7 +163,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="text-center">
-                                <img src="{{ asset('img/rivara/sliders/fachadaoficina_baja.jpg') }}" alt="sobre nosotros" />
+                                <img src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="sobre nosotros" />
                             </div>
 
                         </div>

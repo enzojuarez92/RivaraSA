@@ -6,10 +6,12 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="padding-30px-all sm-padding-25px-tb sm-no-padding-lr border-right border-color-light-white sm-no-border-right sm-border-bottom">
-                                <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="fas fa-pencil-alt vertical-align-top"></i></span>
+                                <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="fas fa-cloud-sun vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                    <h5 class="no-margin text-white text-uppercase font-size15">Trend Design</h5>
-                                    <p class="no-margin line-height-normal">Lorem ipsum dolor sit amet</p>
+                                <a href="https://www.accuweather.com/es/ar/buenos-aires/7894/weather-forecast/7894" target="_blank" rel="no-follow">
+                                    <h5 class="no-margin text-white text-uppercase font-size15">CLIMA</h5>
+                                    <p class="no-margin line-height-normal">Mirá el tiempo en tu zona</p>
+                                </a>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +115,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 text-right xs-text-center">
-                            <p class="xs-margin-5px-top xs-font-size13">&copy; 2019 Crizal is Powered by Chitrakoot Web</p>
+                            <p class="xs-margin-5px-top xs-font-size13">&copy; 2019 Powered by <a target="_blank" href="http://dvs360.com/?utm_source=FRONT&utm_medium={{env('APP_NAME')}}">DVS360.com</a></p>
                         </div>
                     </div>
                 </div>
