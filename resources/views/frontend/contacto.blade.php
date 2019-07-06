@@ -97,26 +97,26 @@
               
 
             <div class="section-heading left half">
-                                        <h4 class="font-weight-600">Contactenos por aqui.</h4>
+                                        <h4 class="font-weight-600">Contactenos.</h4>
                                     </div>
 
                             <form method="post" action="bat/rd-mailform.php" class="mailform off2">
                                 <input type="hidden" name="form-type" value="contact">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <input type="text" name="name" placeholder="Your Name:" data-constraints="@LettersOnly @NotEmpty">
+                                        <input type="text" name="name" placeholder="Nombre:" data-constraints="@LettersOnly @NotEmpty">
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="text" name="phone" placeholder="Telephone:" data-constraints="@Phone">
+                                        <input type="text" name="phone" placeholder="Teléfono:" data-constraints="@Phone">
                                     </div>
                                     <div class="col-md-6">
                                         <input type="text" name="email" placeholder="Email:" data-constraints="@Email @NotEmpty">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="message" rows="5" placeholder="Message:" data-constraints="@NotEmpty"></textarea>
+                                        <textarea name="message" rows="5" placeholder="Mensaje:" data-constraints="@NotEmpty"></textarea>
                                     </div>
                                     <div class="mfControls col-md-12">
-                                        <button type="submit" class="butn theme">Sumbit</button>
+                                        <button type="submit" class="butn theme">Enviar</button>
                                     </div>
                                 </div>
                             </form>

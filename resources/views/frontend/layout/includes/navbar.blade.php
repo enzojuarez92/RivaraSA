@@ -55,7 +55,7 @@
                                             <a href="{{ route('blog.index') }}">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="{{ route('contacto') }}">@lang('home.recipes')</a>
+                                            <a href="{{ route('blog.index') }}">@lang('home.recipes')</a>
                                         </li>
                                         <li>
                                             <a href="{{ route('contacto') }}">@lang('home.contact')</a>

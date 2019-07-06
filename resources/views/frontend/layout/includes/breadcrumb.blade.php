@@ -1,5 +1,5 @@
         <!-- start page title section -->
-        <section class="page-title-section2 bg-img cover-background" data-overlay-dark="7" data-background="{{ asset('img/rivara/sliders/Slider1.jpg') }}">
+        <section class="page-title-section2 bg-img cover-background" data-overlay-dark="7" data-background="{{ asset($img ?? 'img/rivara/sliders/Slider1.jpg') }}">
             <div class="container">
 
                 <div class="row">
