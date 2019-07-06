@@ -1,15 +1,16 @@
 @extends(LAYOUT_FRONT.'app')
 
 @section('title', 'Nosotros | '.APP_DISPLAY)
-@section('description', 'Conocé más sobre nuestro equipo y como trabajamos.')
+@section('description', '')
 @section('author', APP_DISPLAY)
 @section('keywords', '')
 @section('image', LOGO_REDES)
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => 'Nosotros', 
-                'subtitle' => 'Subtitulo',
+                'title' => 'La Empresa', 
+                'subtitle' => 'Sobre nosotros',
+                'img' => 'img/rivara/fachadaoficina_baja2.jpg',
                 'links' => array(
                     ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],
                     ['icon' => 'icon-add', 'name' => 'Nosotros', 'url' => route('nosotros')],
@@ -20,175 +21,177 @@
 @section('content')
 
 
-<div class="section">
-      <div class="container">
-        <div class="row mb">
-          <div class="col-sm-6 col-side">
-            <!-- ACCORDION -->
-            <div class="panel-acc panel-group panel-group-v1 panel-group-icon-v1 icon-right" id="accordion-icon-right">
-              <div class="panel panel-default panel-collapse-in">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion-icon-right" href="#content-icon-right-1" class="acc-on collapsed" aria-expanded="false">
-                    ¿Qué hacemos?
-                    </a>
-                  </h4>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
+                        <div class="padding-30px-right">
+
+                            <h4 class="font-weight-600">@lang('about.title')</h4>
+
+                            <p class="margin-10px-bottom">
+                              @lang('about.content')
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="story-video bg-img cover-background box-shadow-primary" data-overlay-dark="0" data-background="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}">
+                            
+
+                            <!-- <div class="inner-border"></div> -->
+                        </div>
+                    </div>
+
                 </div>
-                <div id="content-icon-right-1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                  <div class="panel-body">
-                    <p class="text-theme">
-                      Analizamos las necesidades de nuestros clientes y trabajamos para cumplir sus objetivos utilizando las diferentes herramientas según los objetivos deseen cumplir.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion-icon-right" href="#content-icon-right-2" class="acc-on collapsed" aria-expanded="false">
-                    ¿Cómo lo hacemos?
-                    </a>
-                  </h4>
-                </div>
-                <div id="content-icon-right-2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                  <div class="panel-body">
-                    <p class="text-theme">
-                      Reuniones y tareas conjuntas, nos sumamos y somos parte de tu equipo.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion-icon-right" href="#content-icon-right-3" class="acc-on collapsed" aria-expanded="false">
-                      ¿Cómo comenzaron?
-                    </a>
-                  </h4>
-                </div>
-                <div id="content-icon-right-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                  <div class="panel-body">
-                    <p class="text-theme">
-                      Somos un grupo de desarrolladores que decidimos unir nuestros conocimientos para brindar una solución de 360º a cualquier necesidad de nuestros clientes.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion-icon-right" href="#content-icon-right-4" class="acc-on collapsed" aria-expanded="false">
-                    ¿Por qué trabajar con nosotros
-                    </a>
-                  </h4>
-                </div>
-                <div id="content-icon-right-4" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                  <div class="panel-body">
-                    <p class="text-theme">
-                      Sabemos interpretar tus necesidades, sabemos como llevar tus objetivos a la realidad, lo hacemos en el tiempo estimado a un valor de inversión apropiado.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <!-- SLIDER -->
-            <div class="wrapper-slider">
-              <div id="carousel-30" class="carousel slide" data-ride="carousel" data-interval="3500">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item">
-                    <img class="img-slide" src="/img/dvs360/trabajos/arco.png" alt="theme-img">
-                  </div>
-                  <div class="item active">
-                    <img class="img-slide" src="/img/dvs360/trabajos/exert.png" alt="theme-img">
-                  </div>
-                  <div class="item">
-                    <img class="img-slide" src="/img/dvs360/trabajos/ate2.png" alt="theme-img">
-                  </div>
+        </section>
+        <!-- end about section -->
+
+        <!-- start counter section -->
+        <section class="parallax" data-overlay-dark="7" data-background="{{ asset('img/rivara/sobre_nosotros.jpg') }}">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-5 col-sm-12 xs-margin-20px-bottom">
+                        <div class="story-video">
+
+                            <div class="text-center center-col absolute-middle-center z-index-1">
+                                <a class="video video_btn" href="video/down-time.mp4"><i class="fas fa-play font-size18 xs-font-size16"></i>
+                            </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 col-sm-12 col-12">
+
+                        <h4 class="text-white font-weight-600">@lang('about.counter_title')</h4>
+
+                        <p class="font-size16 sm-font-size14 text-white line-height-30 sm-line-height-28 width-90 no-margin">@lang('about.counter_content')</p>
+                        <div class="separator-line-horrizontal-full bg-white opacity2 margin-50px-tb md-margin-40px-tb sm-margin-30px-tb xs-margin-25px-tb"></div>
+
+                        <div class="row">
+                            <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                                <div class="counter-box text-left xs-text-center">
+
+                                    <h4 class="countup text-white display-block">84</h4>
+                                    <div class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col"></div>
+                                    <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin">@lang('home.counter.1')</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                                <div class="counter-box text-left xs-text-center">
+                                    <h4 class="countup text-white display-block xs-text-center">150</h4>
+                                    <div class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col"></div>
+                                    <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin">@lang('home.counter.2')</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                                <div class="counter-box text-left xs-text-center">
+                                    <h4 class="countup text-white display-block xs-text-center">70000000</h4>
+                                    <div class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col"></div>
+                                    <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin">@lang('home.counter.3')</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-                <!-- Controls -->
-                <a href="#carousel-30" role="button" data-slide="prev">
-                  <i class="fa fa-angle-left fa-2x btn-prev"></i>
-                </a>
-                <a href="#carousel-30" role="button" data-slide="next">
-                  <i class="fa fa-angle-right fa-2x btn-next"></i>
-                </a>
-              </div>
             </div>
-            <!-- SLIDER END-->
-          </div>
-        </div>
-      </div>
-    </div>
+        </section>
+        <!-- end counter section -->
 
-    <!-- SECTION TEAM -->
-    <!--===============================================================-->
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 class="title-v2">NUESTRO EQUIPO</h3>
-          </div>
-        </div>
-        <div class="row">
-
-        @foreach ($team as $t)
-          <div class="col-sm-3 text-center">
-            <div class="content-box bordered">
-              <a href="#" class="img-wrapper text-theme-sm">
-                <img class="img-responsive" src="{{ $t->image }}" alt="theme-img">
-              </a>
-              <h3 class="title-sm text-theme-sm">{{ $t->name }} {{ $t->lastName }}</h3>
-              <p class="text-theme-sm">{{ $t->role }}</p>
-              <div class="text-theme-sm">
-                @isset($t->twitter)
-                <a target="_blank" href="{{$t->twitter}}"><i class="fa fa-twitter fa-box bg" data-toggle="tooltip" data-placement="bottom" title="twitter"></i>
-                </a>
-                @endisset
-                
-                @isset($t->facebook)
-                <a target="_blank" href="{{$t->facebook}}"><i class="fa fa-facebook fa-box bg" data-toggle="tooltip" data-placement="bottom" title="facebook"></i>
-                </a>
-                @endisset
-                
-                @isset($t->instagram)
-                <a target="_blank" href="{{$t->instagram}}"><i class="fa fa-instagram fa-box bg" data-toggle="tooltip" data-placement="bottom" title="instagram"></i>
-                </a>
-                @endisset
-
-                @isset($t->linkedin)
-                <a target="_blank" href="{{$t->linkedin}}"><i class="fa fa-linkedin fa-box bg" data-toggle="tooltip" data-placement="bottom" title="linkedin"></i>
-                </a>
-                @endisset
-
-              </div>
-            </div>
-          </div>
-        @endforeach
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="section section-sm section-top section-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="lead text-center">Trabajamos con las ultimas tecnologías</p>
-            <div id="owl-clients-v2" class="owl-carousel mt-20">
-                @foreach ($partners as $p)
-                <div class="item">
-                  <img class="img-responsive" src="{{ $p->image }}" alt="theme-img">
+        <!-- start what we do section -->
+        <section>
+            <div class="container">
+                <div class="section-heading">
+                    <h3>What We Do</h3>
                 </div>
-                @endforeach
+                <div class="row feature-boxes-container">
+
+                    <div class="col-lg-4 col-md-12 sm-margin-20px-bottom feature-box-04">
+                        <div class="feature-box-inner">
+                            <i class="icon-layers font-size50 md-font-size46 sm-font-size40 xs-font-size38"></i>
+                            <h4 class="font-size15 xs-font-size14 margin-10px-top xs-margin-8px-top text-uppercase font-weight-600 text-black">Business Services</h4>
+                            <div class="sepratar"></div>
+                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 sm-margin-20px-bottom feature-box-04">
+                        <div class="feature-box-inner">
+                            <i class="icon-genius font-size50 md-font-size46 sm-font-size40 xs-font-size38"></i>
+                            <h4 class="font-size15 xs-font-size14 margin-10px-top xs-margin-8px-top text-uppercase font-weight-600 text-black">Saving Investments</h4>
+                            <div class="sepratar"></div>
+                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 feature-box-04">
+                        <div class="feature-box-inner">
+                            <i class="icon-hotairballoon font-size50 md-font-size46 sm-font-size40 xs-font-size38"></i>
+                            <h4 class="font-size15 xs-font-size14 margin-10px-top xs-margin-8px-top text-uppercase font-weight-600 text-black">Online Consulting</h4>
+                            <div class="sepratar"></div>
+                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </section>
+        <!-- end what we do section -->
+
+        <!-- start team section -->
+        <section class="bg-light-gray">
+            <div class="container">
+
+                <div class="section-heading">
+                    <h3>Our Team</h3>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3 xs-margin-20px-bottom mobile-margin-15px-bottom">
+                        <div class="team-members">
+                            <div class="team-members-img"><img alt="img" src="img/team/team-01.jpg"></div>
+                            <div class="team-members-text">
+                                <h4><a href="javascript:void(0)">Jamara Karle</a></h4><span>Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3 xs-margin-20px-bottom mobile-margin-15px-bottom">
+                        <div class="team-members">
+                            <div class="team-members-img"><img alt="img" src="img/team/team-02.jpg">
+                            </div>
+                            <div class="team-members-text">
+                                <h4><a href="javascript:void(0)">Keir Prestonly</a></h4><span>Co-Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3 mobile-margin-15px-bottom">
+                        <div class="team-members">
+                            <div class="team-members-img"><img alt="img" src="img/team/team-03.jpg"></div>
+                            <div class="team-members-text">
+                                <h4><a href="javascript:void(0)">Finley Walkeror</a></h4><span>Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="team-members">
+                            <div class="team-members-img"><img alt="img" src="img/team/team-04.jpg"></div>
+                            <div class="team-members-text">
+                                <h4><a href="javascript:void(0)">Lenethi  Miloler</a></h4><span>Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end team section -->
+
+
 
 
 @endsection

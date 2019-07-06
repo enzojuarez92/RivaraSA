@@ -1,17 +1,20 @@
 <?php
 
 return [
-    'slider_1_title' => 'Title in Inglish',
-    'slider_1_subtitle' => 'SubTitle in Inglish',
-    'slider_1_content' => 'content in inglish, apache very dificult',
+    'slider_1_title' => 'MANAGEMENT OF GRAINS',
+    'slider_1_subtitle' => 'More than 80 years in the',
+    'slider_1_content' => '',
+    'slider_1_link' => 'Know us',
 
-    'slider_2_title' => 'Title in Inglish',
-    'slider_2_subtitle' => 'SubTitle in Inglish',
-    'slider_2_content' => 'content in inglish, apache very dificult',
+    'slider_2_title' => 'PRODUCTIVITY and TRACEABILITY',
+    'slider_2_subtitle' => 'We meet demands with',
+    'slider_2_content' => '',
+    'slider_2_link' => 'Read more',
 
-    'slider_3_title' => 'Title in Inglish',
-    'slider_3_subtitle' => 'SubTitle in Inglish',
-    'slider_3_content' => 'content in inglish, apache very dificult',
+    'slider_3_title' => 'EXPERIENCE and KNOWLEDGE',
+    'slider_3_subtitle' => 'We provide all our',
+    'slider_3_content' => 'in the market to advise you on your sales',
+    'slider_3_link' => 'Know us',
 
     'learn_more' => 'Learn More',
 ];

@@ -37,10 +37,10 @@
                                             <a href="{{ route('home') }}">@lang('home.home')</a>
                                         </li>
                                         <li>
-                                            <a href="{{ route('home') }}">@lang('home.about_us')</a>
+                                            <a href="{{ route('nosotros') }}">@lang('home.about_us')</a>
                                         </li>
-                                        <li><a href="javascript:void(0)">@lang('home.services')</a>
-                                            <ul>
+                                        <li><a href="{{ route('home', '#servicios') }}">@lang('home.services')</a>
+                                            {{-- <ul>
                                                 <li><a href="blog-grid.html">Blog Grid</a></li>
                                                 <li><a href="blog-grid-classic.html">Blog Grid Classic</a></li>
                                                 <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
@@ -49,22 +49,13 @@
                                                 <li><a href="blog-left-sidebar.html">Blog List Left Sidebar</a></li>
                                                 <li><a href="blog-full-width.html">Blog Full Width</a></li>
                                                 <li><a href="blog-post.html">Blog Post</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="javascript:void(0)">Blog</a>
-                                            <ul>
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog-grid-classic.html">Blog Grid Classic</a></li>
-                                                <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-list-sidebar.html">Blog List Right Sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                                <li><a href="blog-full-width.html">Blog Full Width</a></li>
-                                                <li><a href="blog-post.html">Blog Post</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li>
-                                            <a href="{{ route('contacto') }}">@lang('home.recipes')</a>
+                                            <a href="{{ route('blog.index') }}">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('blog.index') }}">@lang('home.recipes')</a>
                                         </li>
                                         <li>
                                             <a href="{{ route('contacto') }}">@lang('home.contact')</a>

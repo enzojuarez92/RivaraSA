@@ -147,6 +147,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         App\Providers\ConfigServiceProvider::class,
+        Chencha\Share\ShareServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -211,6 +212,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Image' => Intervention\Image\Facades\Image::class,
+        'Share' => Chencha\Share\ShareFacade::class,
 
         'ImageHelper' => \App\Helpers\ImageHelper::class,
         'Config' => \App\Helpers\ConfigHelper::class,

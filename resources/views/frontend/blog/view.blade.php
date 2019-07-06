@@ -24,48 +24,99 @@
     <!--===============================================================-->
     <div class="container">
       <div class="row">
-        <!-- GRID POSTS -->
-        <!--===============================================================-->
-        <div class="col-sm-8 grid-posts">
-          <!-- POST ITEM 1 -->
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="wrapper-post">
-                <a href="{{ $post->link() }}" class="text-theme display-block">
-                  <img src="{{ asset($post->imagen()) }}" class="img-responsive full-width" alt="{{ $post->url }}">
-                </a>
-                <div class="wrapper-post-text">
-                  <h2 class="title-lg text-uppercase text-theme"><a href="{{ $post->link() }}">{{ $post->title }}</a></h2>
-                  <ul class="list-unstyled list-inline text-theme post-date-author">
-                    <li>
-                      <a href="#"><i class="fa fa-comment-o"></i>{{ $post->escritor() }}</a>
-                    </li>
-                    <li>
-                      <a class="link-colored" href="#"><i class="fa fa-tag"></i>{{ $post->category->name }}</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-calendar"></i>{{ $post->created_at }}</a>
-                    </li>
-                  </ul>
-                  <p>
-                    {{ $post->extract }}
-                  </p>
-                  <p>
-                    {!! $post->body !!}
-                  </p>
-                  @include('frontend.blog._carrousel')
+       
+
+
+        <!-- start blog post section -->
+        <section class="blogs">
+            <div class="container">
+                <div class="row">
+
+                    <!--  start blog left-->
+                    <div class="col-lg-9 col-md-12 padding-30px-right xs-padding-15px-right sm-margin-30px-bottom">
+                        <div class="posts">
+                            <!--  start post-->
+                            <div class="post">
+                                <div class="post-img">
+                                    <a href="javascript:void(0);" class="width-100">
+                                        <img src="{{ asset($post->imagen()) }}" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="blog-list-simple-text">
+                                        <div class="post-title">
+                                            <h5>{{ $post->title }}</h5>
+                                        </div>
+                                        <ul class="meta">
+                                            <li>
+                                                <a href="javascript:void(0);">
+                                                    <i aria-hidden="true" class="fa fa-user"></i> {{ $post->escritor() }}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);">
+                                                    <i aria-hidden="true" class="fa fa-folder-open"></i> {{ $post->category->name }}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);">
+                                                    <i aria-hidden="true" class="fas fa-calendar-alt"></i> {{ $post->published_at }} 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="post-cont">
+                                        <p class="special">{{ $post->extract }}</p>
+                                        {{ $post->body }}
+                                    </div>
+                                    <div class="share-post">
+                                        <span>@lang('home.blog-shared')</span>
+                                            <ul>
+                                                <li><a href="{{ Share::load($post->link(), $post->titulo)->facebook() }}"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="{{ Share::load($post->link(), $post->titulo)->twitter() }}"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="{{ Share::load($post->link(), $post->titulo)->linkedin() }}"><i class="fab fa-linkedin-in"></i></a></li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  start post-->
+
+                            <!--  start comment-->
+                            <div class="comments-area">
+                                <div class="title-g mb-50">
+                                    <h3>Comments</h3>
+                                </div>
+                                <div class="comment-box">
+                                    <div class="author-thumb">
+                                        <img src="img/blog/01.png" alt="" class="rounded-circle width-85 xs-width-100">
+                                    </div>
+                                    <div class="comment-info">
+                                        <h6><a href="javascript:void(0);">Alex Joyrina</a></h6>
+                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        <div class="reply">
+                                            <a href="javascript:void(0);">
+                                                <i class="fa fa-reply" aria-hidden="true"></i> Reply
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end comment-->
+
+                        </div>
+                    </div>
+                    <!--  end blog left-->
+
+                    <!--  start blog right-->
+                    @include('frontend.blog._sidebarBlog')
+                    <!--  end blog right-->
+
                 </div>
-              </div>
             </div>
-          </div>
+        </section>
+        <!-- end blog post section -->
 
-        {{-- @include('frontend.blog._comments') --}}
-        
 
-        </div>
-        <!-- GRID POSTS END -->
-        <!--===============================================================-->
-        @include('frontend.blog._sidebarBlog')
 
       </div>
     </div>

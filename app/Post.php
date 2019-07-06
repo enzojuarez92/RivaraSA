@@ -81,7 +81,7 @@ class Post extends Model
 
     public function escritor()
     {
-        return $this->user->name ?? 'DVS360';
+        return $this->user->name ?? 'Rivara S.A.';
     }
 
     public function imagen()
@@ -100,6 +100,21 @@ class Post extends Model
     {
         return route('blog.show', $this);
 
+    }
+
+    public function whatsapp()
+    {
+        return 'https://wa.me/?text=' . env('APP_URL') . $this->link();
+    }
+
+    public function day()
+    {
+        return $this->published_at->format('d');
+    }
+
+    public function month()
+    {
+        return $this->published_at->format('m');
     }
 
 }
