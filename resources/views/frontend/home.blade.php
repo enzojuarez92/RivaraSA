@@ -81,7 +81,7 @@
                                         <li>@lang('home.about.item.3')</li>
                                         <li>@lang('home.about.item.4')</li>
                                     </ul>
-                                    <a href="javascript:void(0)" class="butn medium theme margin-25px-top sm-margin-20px-top xs-margin-15px-top"><span>@lang('home.read')</span></a>
+                                    <a href="{{ route('nosotros') }}" class="butn medium theme margin-25px-top sm-margin-20px-top xs-margin-15px-top"><span>@lang('home.read')</span></a>
                                 </div>
 
                             </div>

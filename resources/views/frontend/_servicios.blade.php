@@ -30,7 +30,7 @@
                                                 <li>@lang('home.service.item.1.1')</li>
                                                 <li>@lang('home.service.item.1.2')</li>
                                             </ul>
-                                            <a href="javascript:void(0)" class="font-weight-700 text-theme-color margin-15px-top sm-margin-10px-top display-inline-block">@lang('home.read')...</a>
+                                            <a href="{{ route('servicios', 'insumos') }}" class="font-weight-700 text-theme-color margin-15px-top sm-margin-10px-top display-inline-block">@lang('home.read')...</a>
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@
                                                 <li>@lang('home.service.item.2.1')</li>
                                                 <li>@lang('home.service.item.2.2')</li>
                                             </ul>
-                                            <a href="javascript:void(0)" class="font-weight-700 text-theme-color margin-15px-top sm-margin-10px-top display-inline-block">@lang('home.read')...</a>
+                                            <a href="{{ route('servicios', 'granos') }}" class="font-weight-700 text-theme-color margin-15px-top sm-margin-10px-top display-inline-block">@lang('home.read')...</a>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@
                                                 <li>@lang('home.service.item.3.1')</li>
                                                 <li>@lang('home.service.item.3.2')</li>
                                             </ul>
-                                            <a href="javascript:void(0)" class="font-weight-700 text-theme-color margin-15px-top sm-margin-10px-top display-inline-block">@lang('home.read')...</a>
+                                            <a href="{{ route('servicios', 'alimentos') }}" class="font-weight-700 text-theme-color margin-15px-top sm-margin-10px-top display-inline-block">@lang('home.read')...</a>
                                         </div>
                                     </div>
                                 </div>
