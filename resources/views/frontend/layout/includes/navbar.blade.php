@@ -1,10 +1,8 @@
-        <!-- start header section -->
-        <header class="header-style2">
             <div class="navbar-default">
 
                 <!-- start top search -->
                 <div class="top-search bg-theme">
-                    <div class="container-fluid">
+                    <div class="container">
                         <form class="search-form" action="search.html" method="GET" accept-charset="utf-8">
                             <div class="input-group">
                                 <span class="input-group-addon cursor-pointer">
@@ -17,7 +15,7 @@
                     </div>
                 </div>
                 <!-- end top search -->
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-12">
                             <div class="menu_area alt-font">
@@ -33,6 +31,7 @@
 
                                     <!-- menu area -->
                                     <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
+
                                         <li>
                                             <a href="{{ route('home') }}">@lang('home.home')</a>
                                         </li>
@@ -69,13 +68,6 @@
                                     </ul>
                                     <!-- end menu area -->
 
-                                    <!-- start attribute navigation -->
-                                    <div class="attr-nav sm-no-margin sm-margin-70px-right xs-margin-65px-right">
-                                        <ul>
-                                            {{-- <li class="search"><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li> --}}
-                                        </ul>
-                                    </div>
-                                    <!-- end attribute navigation -->
 
                                 </nav>
                             </div>
@@ -84,5 +76,3 @@
                 </div>
             </div>
 
-        </header>
-        <!-- end header section -->
