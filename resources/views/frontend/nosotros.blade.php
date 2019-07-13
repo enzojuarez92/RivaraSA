@@ -52,18 +52,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-md-5 col-sm-12 xs-margin-20px-bottom">
-                        <div class="story-video">
-
-                            <div class="text-center center-col absolute-middle-center z-index-1">
-                                <a class="video video_btn" href="video/down-time.mp4"><i class="fas fa-play font-size18 xs-font-size16"></i>
-                            </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-7 col-sm-12 col-12">
+                    <div class="col-md-12 col-sm-12 col-12">
 
                         <h4 class="text-white font-weight-600">@lang('about.counter_title')</h4>
 
@@ -102,94 +91,7 @@
         </section>
         <!-- end counter section -->
 
-        <!-- start what we do section -->
-        <section>
-            <div class="container">
-                <div class="section-heading">
-                    <h3>What We Do</h3>
-                </div>
-                <div class="row feature-boxes-container">
-
-                    <div class="col-lg-4 col-md-12 sm-margin-20px-bottom feature-box-04">
-                        <div class="feature-box-inner">
-                            <i class="icon-layers font-size50 md-font-size46 sm-font-size40 xs-font-size38"></i>
-                            <h4 class="font-size15 xs-font-size14 margin-10px-top xs-margin-8px-top text-uppercase font-weight-600 text-black">Business Services</h4>
-                            <div class="sepratar"></div>
-                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-12 sm-margin-20px-bottom feature-box-04">
-                        <div class="feature-box-inner">
-                            <i class="icon-genius font-size50 md-font-size46 sm-font-size40 xs-font-size38"></i>
-                            <h4 class="font-size15 xs-font-size14 margin-10px-top xs-margin-8px-top text-uppercase font-weight-600 text-black">Saving Investments</h4>
-                            <div class="sepratar"></div>
-                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-4 col-md-12 feature-box-04">
-                        <div class="feature-box-inner">
-                            <i class="icon-hotairballoon font-size50 md-font-size46 sm-font-size40 xs-font-size38"></i>
-                            <h4 class="font-size15 xs-font-size14 margin-10px-top xs-margin-8px-top text-uppercase font-weight-600 text-black">Online Consulting</h4>
-                            <div class="sepratar"></div>
-                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- end what we do section -->
-
-        <!-- start team section -->
-        <section class="bg-light-gray">
-            <div class="container">
-
-                <div class="section-heading">
-                    <h3>Our Team</h3>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3 xs-margin-20px-bottom mobile-margin-15px-bottom">
-                        <div class="team-members">
-                            <div class="team-members-img"><img alt="img" src="img/team/team-01.jpg"></div>
-                            <div class="team-members-text">
-                                <h4><a href="javascript:void(0)">Jamara Karle</a></h4><span>Founder</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3 xs-margin-20px-bottom mobile-margin-15px-bottom">
-                        <div class="team-members">
-                            <div class="team-members-img"><img alt="img" src="img/team/team-02.jpg">
-                            </div>
-                            <div class="team-members-text">
-                                <h4><a href="javascript:void(0)">Keir Prestonly</a></h4><span>Co-Founder</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3 mobile-margin-15px-bottom">
-                        <div class="team-members">
-                            <div class="team-members-img"><img alt="img" src="img/team/team-03.jpg"></div>
-                            <div class="team-members-text">
-                                <h4><a href="javascript:void(0)">Finley Walkeror</a></h4><span>Developer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <div class="team-members">
-                            <div class="team-members-img"><img alt="img" src="img/team/team-04.jpg"></div>
-                            <div class="team-members-text">
-                                <h4><a href="javascript:void(0)">Lenethi  Miloler</a></h4><span>Designer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end team section -->
+        @include('frontend._servicios')
 
 
 
