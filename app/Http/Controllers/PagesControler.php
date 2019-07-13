@@ -44,6 +44,19 @@ class PagesControler extends Controller
         ));
     }
 
+    public function servicios()
+    {
+        $partners = Partner::all();
+        $team = Team::all();
+        $clients = Client::all();
+        // $posts = Post::publicados()->orderBy(DB::raw('RAND()'))->take(4)->get();
+        return view('frontend.servicios', compact(
+            'partners',
+            'clients',
+            'team'
+        ));
+    }
+
     public function verPost(Post $post)
     {
         if ($post->isPublished() || auth()->check()) {
