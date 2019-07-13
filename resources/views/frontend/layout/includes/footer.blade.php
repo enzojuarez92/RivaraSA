@@ -80,7 +80,7 @@
                         <div class="row">
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
-                                    <li><a target="_blank" href="{{FACEBOOK}}">Facebook</a></li>
+                                    <li><a target="_blank" href="{{FACEBOOK}}"> Facebook</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 text-right xs-text-center">
-                            <p class="xs-margin-5px-top xs-font-size13">&copy; 2019 Powered by <a target="_blank" href="http://dvs360.com/?utm_source=FRONT&utm_medium={{env('APP_NAME')}}">DVS360.com</a></p>
+                            <p class="xs-margin-5px-top xs-font-size13">&copy; 2019 Powered by <a target="_blank" href="http://rominacico.com.ar">rominacico.com</a></p>
                         </div>
                     </div>
                 </div>
