@@ -1,7 +1,7 @@
 @extends(LAYOUT_FRONT.'app')
 
 @section('title', 'Inicio | '.APP_DISPLAY)
-@section('description', 'Rivara meta description')
+@section('description', 'Fundada en el año 1936, RIVARA S.A. es una empresa familiar prestando desde sus comienzos servicios necesarios para que el productor agropecuario alcance niveles de eficiencia.')
 @section('author', APP_DISPLAY)
 @section('keywords', 'rivara, keywords')
 @section('image', LOGO_REDES)

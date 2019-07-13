@@ -1,7 +1,7 @@
 @extends(LAYOUT_FRONT.'app')
 
 @section('title', 'Servicios | '.APP_DISPLAY)
-@section('description', '')
+@section('description', 'Fundada en el año 1936, RIVARA S.A. es una empresa familiar prestando desde sus comienzos servicios necesarios para que el productor agropecuario alcance niveles de eficiencia.')
 @section('author', APP_DISPLAY)
 @section('keywords', '')
 @section('image', LOGO_REDES)
@@ -34,9 +34,9 @@
                             <h6 class="font-weight-700 font-size16 sm-font-size14 text-uppercase left-title margin-20px-bottom">Nuestros Servicios</h6>
                             <div class="services-single-menu bg-light-gray margin-30px-bottom sm-margin-25px-bottom">
                                 <ul class="no-margin">
-                                    <li><a href="investment-planning.html">Insumos</a></li>
-                                    <li><a href="investment-planning.html">Granos</a></li>
-                                    <li><a href="investment-planning.html">Alimentos</a></li>
+                                    <li><a href="{{ route('servicios', 'insumos') }}">Insumos</a></li>
+                                    <li><a href="{{ route('servicios', 'granos') }}">Granos</a></li>
+                                    <li><a href="{{ route('servicios', 'alimentos') }}">Alimentos</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -109,45 +109,7 @@
                     </div>
                     <!-- end left side section -->
 
-                    <!-- start right side section -->
-                    <div class="col-lg-8 col-md-12 order-1 order-lg-2 sm-margin-30px-bottom">
-                        <div class="services-single-right">
-                            <h5 class="font-weight-600">Insumos</h5>
-                            <div class="margin-40px-bottom sm-margin-30px-bottom"><img src="{{ asset('img/rivara/insumos/insumos1.jpg') }}" class="border-radius-5 box-shadow-primary" alt="" /></div>
-
-
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="inner-title">
-                                        <h6>Agroquímicos y fertilizantes</h6>
-                                    </div>
-                                </div>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom width-95">
-                                    Uno de nuestros objetivos principales es abarcar todos los productos que cubran las necesidades del productor y estar en la búsqueda de la mejor relación precio/calidad, contando siempre con stock para entregas inmediatas.
-                                    <br>
-                                    Para ayudar al productor, ofrecemos canjes por granos disponibles y/o a cosecha. Para eso disponemos con un asesor agronómico quién se encuentra a su servico para profundizar estos temas, evacuar dudas y brindar asesoramiento, cotizando los productos que el productor necesita.
-                                    <br>
-                                    Además contamos con una planta de fertilizantes sólidos a granel y líquidos e incorporamos camiones especialmente adaptados para entregar ambos fertilizantes, donde lo necesite en tiempo y forma.
-                                </p>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="inner-title">
-                                        <h6>Combustibles</h6>
-                                    </div>
-                                </div>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom width-95">
-                                    Nuestra estación de servicio, ubicada sobre la Ruta Nac. Nro. 5, cuenta con un Agroservicio equipado con tanques de gasoil para carga rápida y con entrega de combustibles y lubricantes donde el productor lo solicite. Contamos con dos camiones cisternas con medidores volumétricos para prestar dicho servicio.
-                                    <br>
-                                    Nuestra empresa tiene a su disposición a un vendedor especializado, quién se encuentra a su disposición para el asesoramiento o cotización de los productos.
-                                </p>
-                            </div>
-
-
-                        </div>
-                    </div>
-                    <!-- end right side section -->
+                    @include('frontend.servicios.'.$servicio)
 
                 </div>
             </div>

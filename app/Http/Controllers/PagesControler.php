@@ -44,16 +44,10 @@ class PagesControler extends Controller
         ));
     }
 
-    public function servicios()
+    public function servicios($servicio = 'insumos')
     {
-        $partners = Partner::all();
-        $team = Team::all();
-        $clients = Client::all();
-        // $posts = Post::publicados()->orderBy(DB::raw('RAND()'))->take(4)->get();
         return view('frontend.servicios', compact(
-            'partners',
-            'clients',
-            'team'
+            'servicio'
         ));
     }
 
