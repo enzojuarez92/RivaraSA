@@ -38,17 +38,12 @@
                                         <li>
                                             <a href="{{ route('nosotros') }}">@lang('home.about_us')</a>
                                         </li>
-                                        <li><a href="{{ route('home', '#servicios') }}">@lang('home.services')</a>
-                                            {{-- <ul>
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog-grid-classic.html">Blog Grid Classic</a></li>
-                                                <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-list-sidebar.html">Blog List Right Sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                                <li><a href="blog-full-width.html">Blog Full Width</a></li>
-                                                <li><a href="blog-post.html">Blog Post</a></li>
-                                            </ul> --}}
+                                        <li><a href="#">@lang('home.services')</a>
+                                            <ul>
+                                                <li><a href="{{ route('servicios', 'insumos') }}">Insumos</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">Granos</a></li>
+                                                <li><a href="{{ route('servicios', 'alimentos') }}">Alimentos</a></li>
+                                            </ul>
                                         </li>
                                         <li>
                                             <a href="{{ route('blog.index') }}">Blog</a>
