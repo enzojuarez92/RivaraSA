@@ -35,11 +35,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="story-video bg-img cover-background box-shadow-primary" data-overlay-dark="0" data-background="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}">
-                            
-
-                            <!-- <div class="inner-border"></div> -->
-                        </div>
+                        <img class="img-responsive" src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="oficina" height="100%" width="100%">
+                        {{-- TODO: falta poner bien esta foto --}}
                     </div>
 
                 </div>
