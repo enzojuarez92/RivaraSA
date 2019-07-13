@@ -129,7 +129,7 @@
         <!-- end advice form section -->
 
         <!-- start map section -->
-        <div id="map"></div>
+        {{-- <div id="map"></div> --}}
         <!-- end map section -->
 
 
