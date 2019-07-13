@@ -16,12 +16,14 @@
                                 </p>
 
                                 Los controles se basan en dos factores principales:
-                                <ul>
-                                    <li>- Con el análisis y elección de la semilla a sembrar para la producción de la materia prima.</li>
-                                    <li>- Con el control del desarrollo y movimiento de los granos, para garantizar la identidad preservada (IP) de cada lote de producto terminado.</li>
+                                <ul class="list-style-16">
+                                    <li>Con el análisis y elección de la semilla a sembrar para la producción de la materia prima.</li>
+                                    <li>Con el control del desarrollo y movimiento de los granos, para garantizar la identidad preservada (IP) de cada lote de producto terminado.</li>
                                 </ul>
 
                             </div>
+
+                            <hr>
 
                             <div class="row">
                                 <div class="col-12">

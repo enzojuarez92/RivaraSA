@@ -129,6 +129,8 @@
         </section>
         <!-- end counter section -->
 
+        @include('frontend._mercados')
+
 
         <!-- start blog section -->
         <section class="bg-light-gray">
