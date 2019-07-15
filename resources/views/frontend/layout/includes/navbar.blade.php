@@ -45,9 +45,9 @@
                                                 <li><a href="{{ route('servicios', 'alimentos') }}">Alimentos</a></li>
                                             </ul>
                                         </li>
-                                        <li>
+                                        {{--  <li>
                                             <a href="{{ route('blog.index') }}">Blog</a>
-                                        </li>
+                                        </li>  --}}
                                         <li>
                                             <a href="{{ route('blog.index') }}">@lang('home.recipes')</a>
                                         </li>
