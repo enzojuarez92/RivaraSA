@@ -17,7 +17,7 @@
                                     <i class="text-theme-color icon-genius font-size36 md-font-size34 sm-font-size30 margin-15px-bottom xs-margin-10px-bottom"></i>
                                     <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-extra-dark-gray font-weight-600">@lang('home.service.title.1')</h4>
                                 </div>
-                                <p class="width-95">@lang('home.service.text.1')</p>
+                                <p class="width-95 text-justify">@lang('home.service.text.1')</p>
                                 <div class="border-top border-color-light-black padding-15px-top sm-padding-10px-top">
                                     <a href="javascript:void(0)" class="font-weight-700">@lang('home.read')...</a>
                                 </div>
@@ -43,7 +43,7 @@
                                     <i class="text-theme-color icon-adjustments font-size36 md-font-size34 sm-font-size30 margin-15px-bottom xs-margin-10px-bottom"></i>
                                     <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-extra-dark-gray font-weight-600">@lang('home.service.title.2')</h4>
                                 </div>
-                                <p class="width-95">@lang('home.service.text.2')</p>
+                                <p class="width-95 text-justify">@lang('home.service.text.2')</p>
                                 <div class="border-top border-color-light-black padding-15px-top sm-padding-10px-top">
                                     <a href="javascript:void(0)" class="font-weight-700">@lang('home.read')...</a>
                                 </div>
@@ -69,7 +69,7 @@
                                     <i class="text-theme-color icon-recycle font-size36 md-font-size34 sm-font-size30 margin-15px-bottom xs-margin-10px-bottom"></i>
                                     <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-extra-dark-gray font-weight-600">@lang('home.service.title.3')</h4>
                                 </div>
-                                <p class="width-95">@lang('home.service.text.3')</p>
+                                <p class="width-95 text-justify">@lang('home.service.text.3')</p>
                                 <div class="border-top border-color-light-black padding-15px-top sm-padding-10px-top">
                                     <a href="javascript:void(0)" class="font-weight-700">@lang('home.read')...</a>
                                 </div>

@@ -13,7 +13,7 @@
                 'img' => 'img/rivara/fachadaoficina_baja2.jpg',
                 'links' => array(
                     ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],
-                    ['icon' => 'icon-add', 'name' => 'Nosotros', 'url' => route('nosotros')],
+                    ['icon' => 'icon-add', 'name' => 'La Empresa', 'url' => route('nosotros')],
                 )
             ])
 @endsection
@@ -29,7 +29,7 @@
 
                             <h4 class="font-weight-600">@lang('about.title')</h4>
 
-                            <p class="margin-10px-bottom">
+                            <p class="margin-10px-bottom text-justify">
                               @lang('about.content')
                             </p>
                         </div>
@@ -51,9 +51,9 @@
 
                     <div class="col-md-12 col-sm-12 col-12">
 
-                        <h4 class="text-white font-weight-600">@lang('about.counter_title')</h4>
+                        <h4 class="text-white font-weight-600 text-center">@lang('about.counter_title')</h4>
 
-                        <p class="font-size16 sm-font-size14 text-white line-height-30 sm-line-height-28 width-90 no-margin">@lang('about.counter_content')</p>
+                        <p class="font-size16 sm-font-size14 text-white line-height-30 sm-line-height-28 width-90 no-margin text-center">@lang('about.counter_content')</p>
                         <div class="separator-line-horrizontal-full bg-white opacity2 margin-50px-tb md-margin-40px-tb sm-margin-30px-tb xs-margin-25px-tb"></div>
 
                         <div class="row">
