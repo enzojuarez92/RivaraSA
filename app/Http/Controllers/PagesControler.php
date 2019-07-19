@@ -2,18 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Client;
-use App\Events\ContactoEnviado;
-use App\Lead;
-use App\Mail\testEmail;
-use App\Parametro;
-use App\Partner;
-use App\Post;
-use App\Project;
-use App\ProjectType;
 use App\Tag;
+use App\Lead;
+use App\Post;
 use App\Team;
+use App\Client;
+use App\Partner;
+use App\Project;
+use App\Parametro;
+use App\ProjectType;
+use App\Mail\testEmail;
 use Illuminate\Http\Request;
+use App\Events\ContactoEnviado;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
@@ -23,12 +23,25 @@ class PagesControler extends Controller
 
     public function home()
     {
+        // try {
+        $api_response = file_get_contents('https://markets-api.herokuapp.com/plain');
+        $response = json_decode($api_response, true);
+        if ($response['code'] == 200) {
+            $tables = $response['tables'];
+            foreach ($tables as $name => $table)
+                str_replace("fondo-blanco", "", $table);
+        } else {
+            $tables = null;
+        }
+
         $posts = Post::publicados()->orderBy(DB::raw('RAND()'))->take(3)->get();
         $clients = Client::all();
         return view('frontend.home', compact(
             'posts',
-            'clients'
+            'clients',
+            'tables'
         ));
+        // } catch (\Exception $ex) { } //TODO: Ver si lo dejamos asi
     }
 
     public function nosotros()
