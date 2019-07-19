@@ -17,6 +17,13 @@
                         <li> CHICAGO</li>
                     </ul>
                     <div class="resp-tabs-container hor_1" id="markets-tables">
+                        @if($tables)
+                            @foreach ($tables as $table)
+                                <div>
+                                    {!! $table !!}
+                                </div>
+                            @endforeach
+                        @else
                         <div>
                             <table class="table table-striped">
                                 <thead>
@@ -177,8 +184,8 @@
                                     </tr>
                                 </tbody>
                             </table>
-
                         </div>
+                        @endif
                     </div>
                 </div>
 
@@ -199,56 +206,39 @@
         var tables; // Testing
 
        $(document).ready(function() {
-            $.ajax({
-                url: 'https://markets-api.herokuapp.com/plain',
-                type:  'GET'
-            })
-            .done(resp => {
-                if(resp.code != 200)
-                    throw new Error("La api se encuentra caída.")
+            // $.ajax({
+            //     url: 'https://markets-api.herokuapp.com/plain',
+            //     type:  'GET'
+            // })
+            // .done(resp => {
+            //     if(resp.code != 200)
+            //         throw new Error("La api se encuentra caída.")
                     
-                tables = resp.tables
+            //     tables = resp.tables
 
-                /*
+            //     let htmlTables = '';
+            //     let pos = 0;
 
-                tables.pizarra.child[0].child[1].child.forEach(function(row) {
-                    row.child.forEach(function(el) {
-                        if(el.child)
-                            console.log(el.child[0].text)
-                        else
-                            console.log('-')
-                    })
-                    console.log('------')
-                })
+            //     for(var table in tables) {
 
-                // tables.pizarra.child[0].child[1].child[0].child.forEach(function(el) {
-                //     console.log(el.child[0].text);
-                // })
+            //         htmlTables += `<h2 class="resp-accordion hor_1 resp-tab-active" role="tab" aria-controls="hor_1_tab_item-0" style="background: none white; border-color: rgb(193, 193, 193);"><span class="resp-arrow"></span></h2>`
 
-                */
-                let htmlTables = '';
-                let pos = 0;
+            //         if(pos == 0)
+            //             htmlTables += `<div class="resp-tab-content hor_1 resp-tab-content-active" aria-labelledby="hor_1_tab_item-0" style="display:block">`
+            //         else
+            //             htmlTables += `<div class="resp-tab-content hor_1" aria-labelledby="hor_1_tab_item-${pos}">`
 
-                for(var table in tables) {
+            //         htmlTables += tables[table].replace(/fondo-blanco/g, '')
+            //         htmlTables += `</div>`
 
-                    htmlTables += `<h2 class="resp-accordion hor_1 resp-tab-active" role="tab" aria-controls="hor_1_tab_item-0" style="background: none white; border-color: rgb(193, 193, 193);"><span class="resp-arrow"></span></h2>`
+            //         pos++;
+            //     }
 
-                    if(pos == 0)
-                        htmlTables += `<div class="resp-tab-content hor_1 resp-tab-content-active" aria-labelledby="hor_1_tab_item-0" style="display:block">`
-                    else
-                        htmlTables += `<div class="resp-tab-content hor_1" aria-labelledby="hor_1_tab_item-${pos}">`
-
-                    htmlTables += tables[table].replace(/fondo-blanco/g, '')
-                    htmlTables += `</div>`
-
-                    pos++;
-                }
-
-                $('#markets-tables').html(htmlTables)
-            })
-            .fail(async error => {
-                console.log(`Error al obtener los Mercados: ${error.message}`)
-            })
+            //     $('#markets-tables').html(htmlTables)
+            // })
+            // .fail(async error => {
+            //     console.log(`Error al obtener los Mercados: ${error.message}`)
+            // })
         })
 
     </script>
