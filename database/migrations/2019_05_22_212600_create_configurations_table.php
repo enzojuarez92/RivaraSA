@@ -19,7 +19,7 @@ class CreateConfigurationsTable extends Migration
             $table->string('email_sender')->nullable()->default('no-reply@dvs360.com');
             $table->string('app_name')->nullable()->default('DVS360 Desarrollo Web');
             $table->string('logo')->nullable()->default('img/dvs360/logoNegro.svg');
-            $table->string('logo_alternativo')->nullable()->default('img/dvs360/logoBlanco.svg');
+            $table->string('logo_alternativo')->nullable()->default('img/rivara/log_blanco.png');
             $table->string('logo_redes')->nullable()->default('/img/dvs360/logoNegro.png');
             $table->string('admin_tagmanager')->nullable()->default('GTM-PRWCCWT');
             $table->string('id_analytics')->nullable()->default('191287181');

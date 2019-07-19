@@ -53,6 +53,7 @@ return [
         <br>
         RIVARA S.A. tenemos una unidad de procesamiento de oleaginosas que opera en base a los procesos de extrusión y prensado, para obtener aceites que mantienen sus cualidades vegetales intactas y harinas desactivadas cuyo valor nutricional es muy superior a las harinas de procesos con solventes.
         <br>
+        <br>
         Mediante este proceso agregamos valor a diversas oleaginosas, como la soja, girasol, colza/canola y otras, para la obtención de aceites de alta calidad y obtención de harinas de alto valor nutritivo y digestibilidad.
         Estos productos, retienen en los aceites el porcentaje de ácidos grasos omega3, tocoferoles (antioxidantes naturales), vitamina E y esteroles. En las harinas debido a las características del procesamiento se mantienen intactos los aminoácidos de las proteínas.',
     ],

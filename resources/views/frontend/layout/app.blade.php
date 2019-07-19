@@ -126,6 +126,8 @@
 
     <!-- all js include end -->
 
+    @stack('scripts')
+
 </body>
 
 </html>

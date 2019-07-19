@@ -96,11 +96,13 @@
                         <div class="contact-form-box">
               
 
-            <div class="section-heading left half">
-                                        <h4 class="font-weight-600">Contactenos.</h4>
-                                    </div>
+                    {{--  <div class="section-heading left half">
+                        <h4 class="font-weight-600">Contactenos.</h4>
+                    </div>  --}}
 
-                            <form method="post" action="bat/rd-mailform.php" class="mailform off2">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.010089687986!2d-60.283448284214366!3d-35.031477487764754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bec149e591d371%3A0xc7ad7bc7ea7d9fa0!2sRivara+S.A.!5e0!3m2!1ses!2sar!4v1563225537145!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                            {{--  <form method="post" action="bat/rd-mailform.php" class="mailform off2">
                                 <input type="hidden" name="form-type" value="contact">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -119,7 +121,7 @@
                                         <button type="submit" class="butn theme">Enviar</button>
                                     </div>
                                 </div>
-                            </form>
+                            </form>  --}}
                         </div>
                     </div>
 

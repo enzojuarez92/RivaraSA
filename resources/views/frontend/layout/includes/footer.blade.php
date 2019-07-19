@@ -42,8 +42,8 @@
 
                     <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
 
-                        <img alt="footer-logo" src="{{ asset(LOGO) }}">
-                        <p class="margin-25px-top margin-20px-bottom">Texto Institucional de rivara S.A</p>
+                        <img style="max-width:70%" alt="footer-logo" src="{{ asset(LOGO_ALTERNATIVO) }}">
+                        <p class="margin-25px-top margin-20px-bottom"></p>
                         <ul class="footer-list">
                             <li>
                                 <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-map-marker-alt text-theme-color"></i></span>
@@ -94,7 +94,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 text-left xs-text-center xs-margin-5px-bottom">
-                            <div class="footer-social-icons small">
+                            {{--  <div class="footer-social-icons small">
                                 <ul>
                                     @if (FACEBOOK != '')
                                         <li><a target="_blank" href="{{FACEBOOK}}"><i class="fab fa-facebook-f"></i></a></li>
@@ -112,7 +112,7 @@
                                         <li><a target="_blank" href="{{LINKEDIN}}"><i class="fab fa-linkedin-in"></i></a></li>
                                     @endif
                                 </ul>
-                            </div>
+                            </div>  --}}
                         </div>
                         <div class="col-md-6 text-right xs-text-center">
                             <p class="xs-margin-5px-top xs-font-size13">&copy; 2019 Powered by <a target="_blank" href="http://rominacico.com.ar">rominacico.com</a></p>
