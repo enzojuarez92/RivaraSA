@@ -15,7 +15,7 @@
         <div class="container-fluid full-screen">
             <div class="row slider-fade">
                 <div class="owl-carousel owl-theme width-100">
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/Slider1.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/alta/Slider1.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_1_subtitle')</h3>
@@ -27,7 +27,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/Slider2.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/alta/Slider2.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_2_subtitle')</h3>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center item bg-img" data-overlay-dark="1" data-background="{{ asset('img/rivara/sliders/Slider4.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="1" data-background="{{ asset('img/rivara/sliders/alta/Slider4.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_3_subtitle')</h3>
