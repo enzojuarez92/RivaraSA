@@ -57,6 +57,8 @@
         </div>
         <!-- end slideshow-->
 
+        @include('frontend._mercados')
+
         @include('frontend._servicios')
         <!-- start about section -->
         <section class="bg-light-gray">
@@ -129,7 +131,6 @@
         </section>
         <!-- end counter section -->
 
-        @include('frontend._mercados')
 
 
         <!-- start blog section -->
