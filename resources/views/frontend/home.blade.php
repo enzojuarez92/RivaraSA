@@ -61,7 +61,7 @@
 
         @include('frontend._servicios')
         <!-- start about section -->
-        <section class="bg-light-gray">
+        <section>
             <div class="container">
                 <div class="bg-white box-shadow-primary">
                     <div class="row">
