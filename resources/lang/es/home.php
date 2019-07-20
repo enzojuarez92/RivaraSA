@@ -15,17 +15,17 @@ return [
     'service_content' => 'Nuestro principal objetivo es abarcar, mediante nuestros servicios, las necesidades del productor agropecuario actual demostrando siempre nuestro compromiso y responsabilidad.',
 
     'service.title.1' => 'Insumos',
-    'service.text.1' => 'Estamos en la búsqueda constante de la mejor relación precio / calidad contando siempre con stock para entregas inmediatas.',
+    'service.text.1' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.',
     'service.item.1.1' => 'Agroquímicos y fertilizantes',
     'service.item.1.2' => 'Combustibles',
 
     'service.title.2' => 'Granos',
-    'service.text.2' => 'Contamos con una extensión cultivada de más de 300.000 hectáreas, cumplientos con las más estrictas normas de calidad, conservación del medio ambiente y sustentabilidad para:',
+    'service.text.2' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.',
     'service.item.2.1' => 'Acopio, logística y comercialización',
     'service.item.2.2' => 'Arrendamientos y asociaciones',
 
     'service.title.3' => 'Alimentos',
-    'service.text.3' => 'Los deseos alimentarios de los consumidores se relacionan con tendencias saludables y nutritivas llevando a la sociedad actual a una selección más inteligente de los alimentos que consume',
+    'service.text.3' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.',
     'service.item.3.1' => 'Molienda de Maiz NO GMO',
     'service.item.3.2' => 'Harinas y aceites',
 
