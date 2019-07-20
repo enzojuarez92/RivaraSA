@@ -1,5 +1,5 @@
         <!-- start service section -->
-        <section id="servicios">
+        <section id="servicios" class="bg-light-gray">
             <div class="container">
 
                 <div class="section-heading">

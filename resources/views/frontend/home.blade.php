@@ -15,7 +15,7 @@
         <div class="container-fluid full-screen">
             <div class="row slider-fade">
                 <div class="owl-carousel owl-theme width-100">
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/Slider1.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/alta/Slider1.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_1_subtitle')</h3>
@@ -27,7 +27,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/Slider2.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/alta/Slider2.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_2_subtitle')</h3>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/Slider4.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="1" data-background="{{ asset('img/rivara/sliders/alta/Slider4.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_3_subtitle')</h3>
@@ -57,14 +57,16 @@
         </div>
         <!-- end slideshow-->
 
+        @include('frontend._mercados')
+
         @include('frontend._servicios')
         <!-- start about section -->
-        <section class="bg-light-gray">
+        <section>
             <div class="container">
                 <div class="bg-white box-shadow-primary">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="text-center">
+                            <div>
                                 <img src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="sobre nosotros" />
                             </div>
 
@@ -119,7 +121,7 @@
                     <div class="col-6 col-lg-4 col-md-6">
                         <div class="counter-box">
                             <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-happy"></i></span>
-                            <h4 class="countup text-white display-block xs-text-center">70000000</h4>
+                            <h4 class="countup text-white display-block xs-text-center">70,000,000</h4>
                             <div class="separator-line-horrizontal-medium-light3 bg-white margin-15px-tb xs-margin-10px-tb opacity5 center-col"></div>
                             <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin text-center">@lang('home.counter.3')</p>
                         </div>
@@ -129,7 +131,6 @@
         </section>
         <!-- end counter section -->
 
-        @include('frontend._mercados')
 
 
         <!-- start blog section -->

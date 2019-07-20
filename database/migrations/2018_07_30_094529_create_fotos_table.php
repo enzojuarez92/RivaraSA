@@ -17,7 +17,7 @@ class CreateFotosTable extends Migration
             $table->increments('id');
             $table->morphs('model');
             $table->string('url');
-            $table->string('espacio');
+            $table->string('espacio')->nullable();
             $table->timestamps();
         });
     }
