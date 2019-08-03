@@ -5,7 +5,7 @@
                             <div class="margin-40px-bottom sm-margin-30px-bottom">
                                 <div class="owl-carousel owl-theme text-center">
                                     <div class="item"><img src="{{ asset('img/rivara/servicios/insumos1.jpg') }}" alt="slider insumos" /></div>
-                                    <div class="item"><img src="{{ asset('img/rivara/servicios/insumos2.jpg') }}" alt="slider insumos" /></div>
+                                    <div class="item"><img src="{{ asset('img/rivara/servicios/insumos3.jpg') }}" alt="slider insumos" /></div>
                                 </div>
                             </div>
 

@@ -82,6 +82,15 @@
 
                                 <div class="bg-white separator-line-horrizontal-full opacity3 margin-20px-bottom sm-margin-15px-bottom"></div>
                                 <ul class="text-center no-padding no-margin">
+                                    <li class="text-white margin-5px-bottom"><b>Comercialización de Granos:</b></li>
+                                    <li class="text-white margin-5px-bottom"><i class="fa fa-user font-size16 text-white margin-15px-right"></i><a href="tel:123456789" class="text-white">Ing. ...</a></li>
+                                    <li class="text-white margin-5px-bottom"><i class="fa fa-phone font-size16 text-white margin-15px-right"></i><a href="tel:2346-538870" class="text-white">....</a></li>
+                                    <li class="text-white"><i class="fas fa-envelope-open font-size16 text-white margin-15px-right"></i><a href="mailto:..." class="text-white">...</a></li>
+                                </ul>
+                                {{-- TODO: agregar ñato aca --}}
+                                <br>
+                                <div class="bg-white separator-line-horrizontal-full opacity3 margin-20px-bottom sm-margin-15px-bottom"></div>
+                                <ul class="text-center no-padding no-margin">
                                     <li class="text-white margin-5px-bottom"><b>Agroquímicos y Fertilizantes:</b></li>
                                     <li class="text-white margin-5px-bottom"><i class="fa fa-user font-size16 text-white margin-15px-right"></i><a href="tel:123456789" class="text-white">Ing. Agr. Alejandro Sanchez Cabezudo</a></li>
                                     <li class="text-white margin-5px-bottom"><i class="fa fa-phone font-size16 text-white margin-15px-right"></i><a href="tel:2346-538870" class="text-white">(2346) 538870</a></li>

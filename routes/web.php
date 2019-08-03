@@ -42,10 +42,10 @@ Route::get('post', function () {
     return App\Post::all();
 });
 
-Route::get('/blog', 'BlogController@index')->name('blog.index');
-Route::get('/blog/{post}', 'BlogController@show')->name('blog.show');
-Route::get('/blog/categoria/{category}', 'CategoriesController@show')->name('blog.category.show');
-Route::get('/blog/tags/{tag}', 'TagsController@show')->name('blog.tags.show');
+Route::get('/recetas', 'BlogController@index')->name('blog.index');
+Route::get('/recetas/{post}', 'BlogController@show')->name('blog.show');
+Route::get('/recetas/categoria/{category}', 'CategoriesController@show')->name('blog.category.show');
+Route::get('/recetas/tags/{tag}', 'TagsController@show')->name('blog.tags.show');
 
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth'], function () {
     Route::get('/', 'AdminController@index')->name('admin');
