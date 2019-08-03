@@ -36,7 +36,6 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <img class="img-responsive" src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="oficina" height="100%" width="100%">
-                        {{-- TODO: falta poner bien esta foto --}}
                     </div>
 
                 </div>
@@ -74,7 +73,7 @@
                             </div>
                             <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                                 <div class="counter-box text-left xs-text-center">
-                                    <h4 class="countup text-white display-block xs-text-center">70000000</h4>
+                                    <h4 class="countup text-white display-block xs-text-center">70,000,000</h4>
                                     <div class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col"></div>
                                     <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin">@lang('home.counter.3')</p>
                                 </div>

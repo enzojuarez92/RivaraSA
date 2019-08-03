@@ -32,9 +32,10 @@ return [
     'about.title' => 'Experiencia y compromiso',
     'about.text' => 'Fundada en el año 1936, RIVARA S.A. es una empresa familiar prestando desde sus comienzos servicios necesarios para que el productor agropecuario alcance niveles de eficiencia. Contamos con una amplia infraestructura para cumplir todas las necesidades del sector:',
     'about.item.1' => 'Molino de maíz y planta extractora de aceites.',
-    'about.item.2' => 'Red de plantas de acopio, flota propia para transportar y despachar su producto al resto del mundo Semillero e insumos.',
-    'about.item.3' => 'Personal especializado al servicio del cliente.',
-    'about.item.4' => 'Comercialización de granos certificados a granel.',
+    'about.item.2' => 'Red de plantas de acopio, flota propia para transportar y despachar su producto al resto del mundo.',
+    'about.item.3' => 'Semillero e insumos.',
+    'about.item.4' => 'Personal especializado al servicio del cliente.',
+    'about.item.5' => 'Comercialización de granos certificados a granel.',
 
     'counter.1' => 'Años en el Mercado',
     'counter.2' => 'Empleados',

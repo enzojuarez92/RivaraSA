@@ -4,8 +4,8 @@
                             <h5 class="font-weight-600">@lang('services.granos.titulo')</h5>
                             <div class="margin-40px-bottom sm-margin-30px-bottom">
                                 <div class="owl-carousel owl-theme text-center">
-                                    <div class="item"><img src="{{ asset('img/rivara/servicios/acopio1.jpg') }}" alt="slider insumos" /></div>
-                                    <div class="item"><img src="{{ asset('img/rivara/servicios/acopio2.jpg') }}" alt="slider insumos" /></div>
+                                    <div class="item"><img src="{{ asset('img/rivara/servicios/acopio4.jpg') }}" alt="slider insumos" /></div>
+                                    <div class="item"><img src="{{ asset('img/rivara/servicios/acopio5.jpg') }}" alt="slider insumos" /></div>
                                     <div class="item"><img src="{{ asset('img/rivara/servicios/acopio3.jpg') }}" alt="slider insumos" /></div>
                                 </div>
                             </div>

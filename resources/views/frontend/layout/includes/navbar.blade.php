@@ -23,7 +23,7 @@
 
                                     <div class="navbar-header navbar-header-custom">
                                         <!-- start logo -->
-                                        <a href="index.html" class="navbar-brand"><img id="logo" src="{{ asset(LOGO) }}" alt="logo"></a>
+                                        <a href="{{ route('home') }}" class="navbar-brand"><img id="logo" src="{{ asset(LOGO) }}" alt="logo"></a>
                                         <!-- end logo -->
                                     </div>
 
@@ -54,7 +54,7 @@
                                         <li>
                                             <a href="{{ route('contacto') }}">@lang('home.contact')</a>
                                         </li>
-                                        <li><a href="javascript:void(0)">LENGUAJE</a>
+                                        <li><a href="javascript:void(0)">IDIOMA</a>
                                             <ul>
                                                 <li><a href="{{route('locale', 'es')}}">@lang('home.lang_es') <img style="width:20px;" src="{{ asset('img/esp.png') }}" alt="bandera_españa"></a></li>
                                                 <li><a href="{{route('locale', 'en')}}">@lang('home.lang_en') <img style="width:20px;" src="{{ asset('img/eeuu.png') }}" alt="bandera_estados_unidos"></a></li>
