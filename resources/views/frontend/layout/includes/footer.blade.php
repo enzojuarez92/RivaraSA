@@ -47,15 +47,15 @@
                         <ul class="footer-list">
                             <li>
                                 <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-map-marker-alt text-theme-color"></i></span>
-                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('direccion') ?? 'Sin datos' }}</span>
+                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('direccion') ?? 'Sin datos' }}</span>
                             </li>
                             <li>
                                 <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-mobile-alt text-theme-color"></i></span>
-                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('telefono') ?? 'Sin datos' }}</span>
+                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('telefono') ?? 'Sin datos' }}</span>
                             </li>
                             <li>
                                 <span class="d-inline-block vertical-align-top font-size18"><i class="far fa-envelope text-theme-color"></i></span>
-                                <span class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('correo') ?? 'Sin datos' }}</span>
+                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('correo') ?? 'Sin datos' }}</span>
                             </li>
                         </ul>
 
@@ -66,10 +66,10 @@
                         <div class="row">
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
-                                    <li><a href="{{ route('home') }}">@lang('home.home')</a></li>
-                                    <li><a href="{{ route('home') }}">@lang('home.services')</a></li>
-                                    <li><a href="{{ route('blog.index') }}">Blog</a></li>
-                                    <li><a href="{{ route('contacto') }}">@lang('home.contact')</a></li>
+                                    <li><a style="color:white;" href="{{ route('home') }}">@lang('home.home')</a></li>
+                                    <li><a style="color:white;" href="{{ route('home') }}">@lang('home.services')</a></li>
+                                    <li><a style="color:white;" href="{{ route('blog.index') }}">Blog</a></li>
+                                    <li><a style="color:white;" href="{{ route('contacto') }}">@lang('home.contact')</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                         <div class="row">
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
-                                    <li><a target="_blank" href="{{FACEBOOK}}"> Facebook</a></li>
+                                    <li><a style="color:white;" target="_blank" href="{{FACEBOOK}}"> Facebook</a></li>
                                 </ul>
                             </div>
                         </div>
