@@ -15,10 +15,10 @@ class ConfigurationTableSeeder extends Seeder
         $conf = new Configuration;
         $conf->email_notification = "jonathan.pradi@dvs360.com";
         $conf->facebook = "www.facebok.com";
-        $conf->twitter = "www.twitter.com";
-        $conf->instagram = "www.instagram.com";
-        $conf->youtube = "www.youtube.com";
-        $conf->linkedin = "www.linkedin.com";
+        $conf->twitter = null;
+        $conf->instagram = null;
+        $conf->youtube = null;
+        $conf->linkedin = null;
         $conf->direccion = "Avenida Avellaneda 2540, CABA";
         $conf->telefono = "4613-0147";
         $conf->correo = "info@dvs360.com";

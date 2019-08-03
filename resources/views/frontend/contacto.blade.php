@@ -126,6 +126,8 @@
                     </div>
 
                 </div>
+                <hr>
+                @include('frontend._sucursales')
             </div>
         </section>
         <!-- end advice form section -->
