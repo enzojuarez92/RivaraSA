@@ -38,11 +38,28 @@
                                         <li>
                                             <a href="{{ route('nosotros') }}">@lang('home.about_us')</a>
                                         </li>
-                                        <li><a href="#">@lang('home.services')</a>
+                                        <li>
+                                            <a href="#">GRANOS</a>
                                             <ul>
-                                                <li><a href="{{ route('servicios', 'insumos') }}">Insumos</a></li>
-                                                <li><a href="{{ route('servicios', 'granos') }}">Granos</a></li>
-                                                <li><a href="{{ route('servicios', 'alimentos') }}">Alimentos</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">Comercialización</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">Acopio</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">Logística</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">Arrendamientos</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">INSUMOS</a>
+                                            <ul>
+                                                <li><a href="{{ route('servicios', 'insumos') }}">Agroquímicos y fertilizantes</a></li>
+                                                <li><a href="{{ route('servicios', 'insumos') }}">Agroservice Axion</a></li>
+                                                <li><a href="{{ route('servicios', 'insumos') }}">Estación de Servicio Axion</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">ALIMENTOS</a>
+                                            <ul>
+                                                <li><a href="{{ route('servicios', 'alimentos') }}">Molienda de maíz NO GMO</a></li>
+                                                <li><a href="{{ route('servicios', 'alimentos') }}">Aceites y harinas</a></li>
                                             </ul>
                                         </li>
                                         {{--  <li>
