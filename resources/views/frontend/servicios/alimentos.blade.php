@@ -4,11 +4,11 @@
                             <h5 class="font-weight-600">@lang('services.alimentos.titulo')</h5>
                             <div class="margin-40px-bottom sm-margin-30px-bottom">
                                 <div class="owl-carousel owl-theme text-center">
-                                    <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos1.jpg') }}" alt="slider insumos" /></div>
+                                    <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos8.jpg') }}" alt="slider insumos" /></div>
                                     <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos2.jpg') }}" alt="slider insumos" /></div>
                                     <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos3.jpg') }}" alt="slider insumos" /></div>
                                     <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos4.jpg') }}" alt="slider insumos" /></div>
-                                    <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos5.jpg') }}" alt="slider insumos" /></div>
+                                    <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos9.jpg') }}" alt="slider insumos" /></div>
                                     <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos6.jpg') }}" alt="slider insumos" /></div>
                                     <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos7.jpg') }}" alt="slider insumos" /></div>
                                 </div>

@@ -44,12 +44,12 @@
                                     <div class="blog-grid-text padding-25px-all sm-padding-20px-all ">
                                         <h4><a href="{{ $p->link() }}">{{ $p->title }}</a></h4>
                                         <p>{{ $p->extract }}</p>
-                                        <div class="meta border-top border-color-medium-gray padding-15px-top xs-padding-10px-top">
+                                        {{-- <div class="meta border-top border-color-medium-gray padding-15px-top xs-padding-10px-top">
                                             <ul class="no-margin">
                                                 <li><a href="javascript:void(0)"><i class="fas fa-calendar-alt "></i> {{ $p->published_at }}</a></li>
                                                 <li><a href="javascript:void(0)"><i class="fas fa-user"></i> {{ $p->escritor() }}</a></li>
                                             </ul>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>

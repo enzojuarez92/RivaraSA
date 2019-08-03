@@ -33,6 +33,17 @@
                                 </p>
                             </div>
 
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="inner-title">
+                                        <h6>@lang('services.insumos.item_3_titulo')</h6>
+                                    </div>
+                                </div>
+                                <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
+                                    @lang('services.insumos.item_3_texto')
+                                </p>
+                            </div>
+
 
 
                         </div>

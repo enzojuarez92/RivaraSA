@@ -48,26 +48,26 @@
                                             <h5>{{ $post->title }}</h5>
                                         </div>
                                         <ul class="meta">
-                                            <li>
+                                            {{-- <li>
                                                 <a href="javascript:void(0);">
                                                     <i aria-hidden="true" class="fa fa-user"></i> {{ $post->escritor() }}
                                                 </a>
-                                            </li>
+                                            </li> --}}
                                             <li>
                                                 <a href="javascript:void(0);">
                                                     <i aria-hidden="true" class="fa fa-folder-open"></i> {{ $post->category->name }}
                                                 </a>
                                             </li>
-                                            <li>
+                                            {{-- <li>
                                                 <a href="javascript:void(0);">
                                                     <i aria-hidden="true" class="fas fa-calendar-alt"></i> {{ $post->published_at }} 
                                                 </a>
-                                            </li>
+                                            </li> --}}
                                         </ul>
                                     </div>
                                     <div class="post-cont">
                                         <p class="special">{{ $post->extract }}</p>
-                                        {{ $post->body }}
+                                        {!! $post->body !!}
                                     </div>
                                     <div class="share-post">
                                         <span>@lang('home.blog-shared')</span>
@@ -81,27 +81,6 @@
                             </div>
                             <!--  start post-->
 
-                            <!--  start comment-->
-                            <div class="comments-area">
-                                <div class="title-g mb-50">
-                                    <h3>Comments</h3>
-                                </div>
-                                <div class="comment-box">
-                                    <div class="author-thumb">
-                                        <img src="img/blog/01.png" alt="" class="rounded-circle width-85 xs-width-100">
-                                    </div>
-                                    <div class="comment-info">
-                                        <h6><a href="javascript:void(0);">Alex Joyrina</a></h6>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <div class="reply">
-                                            <a href="javascript:void(0);">
-                                                <i class="fa fa-reply" aria-hidden="true"></i> Reply
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end comment-->
 
                         </div>
                     </div>
