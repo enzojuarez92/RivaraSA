@@ -11,17 +11,15 @@ return [
         <br>
         Además contamos con una planta de fertilizantes sólidos a granel y líquidos e incorporamos camiones especialmente adaptados para entregar ambos fertilizantes, donde lo necesite en tiempo y forma.',
 
-        'item_2_titulo' => 'Agroservice Axion (título)',
+        'item_2_titulo' => 'Agroservice Axion',
         'item_2_texto' => 'Contamos con un Agroservicio equipado con tanques de gasoil para carga rápida y con entrega de combustibles y lubricantes donde el productor lo solicite. Contamos con dos camiones cisternas con medidores volumétricos para prestar dicho servicio.
         <br>
         Nuestra empresa tiene a su disposición a un vendedor especializado, quién se encuentra a su disposición para el asesoramiento o cotización de los productos.
         ',
-        'item_3_titulo' => 'Estación de Servicio Axion (título)',
+        'item_3_titulo' => 'Estación de Servicio Axion',
         'item_3_texto' => 'Tecnología, calidad y seguridad, tres pilares que sintetizan nuestra amplia gama de productos y servicios que ofrecemos dentro de nuestra Estación de Servicio Axion. Equipada con baños, autoservicio y un amplio espacio para el parking y la recreación; como así también, con lubricantes y combustibles de última generación.
         <br>
-        Responsable: Nahuel Ramazzotti.<br>
-        2346 – 471303
-        ',
+        Responsable: <b>Nahuel Ramazzotti. Teléfono: 2346 – 471303<b>',
     ],
     'granos' => [
         'titulo' => 'Granos',

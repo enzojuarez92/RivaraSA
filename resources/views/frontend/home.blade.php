@@ -100,7 +100,7 @@
 
 
         <!-- start counter section -->
-        <section class="parallax" data-overlay-dark="8" data-background="{{ asset('img/rivara/atras_contador.jpg') }}">
+        <section class="parallax" data-overlay-dark="6" data-background="{{ asset('img/rivara/atras_contador.jpg') }}">
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-lg-4 col-md-6 sm-margin-30px-bottom">
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-6 col-lg-4 col-md-6">
                         <div class="counter-box">
-                            <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-happy"></i></span>
+                            <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-linegraph"></i></span>
                             <h4 class="countup text-white display-block xs-text-center">70,000,000</h4>
                             <div class="separator-line-horrizontal-medium-light3 bg-white margin-15px-tb xs-margin-10px-tb opacity5 center-col"></div>
                             <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin text-center">@lang('home.counter.3')</p>
@@ -161,6 +161,13 @@
                         </div>
                     </div>                        
                     @endforeach
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <a class="butn medium theme margin-25px-top sm-margin-20px-top xs-margin-15px-top" style="color:white" href="{{ route('blog.index') }}">
+                            <span>Ver Más Recetas</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

@@ -11,10 +11,15 @@ return [
         <br>
         Además contamos con una planta de fertilizantes sólidos a granel y líquidos e incorporamos camiones especialmente adaptados para entregar ambos fertilizantes, donde lo necesite en tiempo y forma.',
 
-        'item_2_titulo' => 'Combustibles',
-        'item_2_texto' => 'Nuestra estación de servicio, ubicada sobre la Ruta Nac. Nro. 5, cuenta con un Agroservicio equipado con tanques de gasoil para carga rápida y con entrega de combustibles y lubricantes donde el productor lo solicite. Contamos con dos camiones cisternas con medidores volumétricos para prestar dicho servicio.
+        'item_2_titulo' => 'Agroservice Axion',
+        'item_2_texto' => 'Contamos con un Agroservicio equipado con tanques de gasoil para carga rápida y con entrega de combustibles y lubricantes donde el productor lo solicite. Contamos con dos camiones cisternas con medidores volumétricos para prestar dicho servicio.
         <br>
-        Nuestra empresa tiene a su disposición a un vendedor especializado, quién se encuentra a su disposición para el asesoramiento o cotización de los productos.',
+        Nuestra empresa tiene a su disposición a un vendedor especializado, quién se encuentra a su disposición para el asesoramiento o cotización de los productos.
+        ',
+        'item_3_titulo' => 'Estación de Servicio Axion',
+        'item_3_texto' => 'Tecnología, calidad y seguridad, tres pilares que sintetizan nuestra amplia gama de productos y servicios que ofrecemos dentro de nuestra Estación de Servicio Axion. Equipada con baños, autoservicio y un amplio espacio para el parking y la recreación; como así también, con lubricantes y combustibles de última generación.
+        <br>
+        Responsable: <b>Nahuel Ramazzotti. Teléfono: 2346 – 471303<b>',
     ],
     'granos' => [
         'titulo' => 'Granos',
@@ -52,6 +57,7 @@ return [
         Por añadidura, también, nos debemos al mundo en el que vivimos y la protección y cuidado del medio ambiente debe ser prioridad fundamental en la elaboración de alimentos. Por eso, en RIVARA S.A. hemos desarrollado procesos tecnológicos que utilizan medios mecánicos de extracción de aceites, sin la utilización de solventes.
         <br>
         RIVARA S.A. tenemos una unidad de procesamiento de oleaginosas que opera en base a los procesos de extrusión y prensado, para obtener aceites que mantienen sus cualidades vegetales intactas y harinas desactivadas cuyo valor nutricional es muy superior a las harinas de procesos con solventes.
+        <br>
         <br>
         Mediante este proceso agregamos valor a diversas oleaginosas, como la soja, girasol, colza/canola y otras, para la obtención de aceites de alta calidad y obtención de harinas de alto valor nutritivo y digestibilidad.
         Estos productos, retienen en los aceites el porcentaje de ácidos grasos omega3, tocoferoles (antioxidantes naturales), vitamina E y esteroles. En las harinas debido a las características del procesamiento se mantienen intactos los aminoácidos de las proteínas.',

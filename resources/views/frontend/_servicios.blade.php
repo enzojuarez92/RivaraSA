@@ -14,7 +14,7 @@
                             <!-- start feature box item-->
                             <div class="bg-white border border-color-light-black padding-25px-tb padding-30px-lr sm-padding-25px-lr feature-box-03">
                                 <div class="col-md-12 col-sm-12 no-padding margin-15px-bottom xs-margin-10px-bottom alt-font">
-                                    <i class="text-theme-color icon-genius font-size36 md-font-size34 sm-font-size30 margin-15px-bottom xs-margin-10px-bottom"></i>
+                                    <img src="{{ asset('img\rivara\icons\oil-tank-verde-01.png') }}" alt="icono insumos" style="max-width: 40px;margin-bottom:10px;">
                                     <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-extra-dark-gray font-weight-600">@lang('home.service.title.1')</h4>
                                 </div>
                                 <p class="width-95 text-justify">@lang('home.service.text.1')</p>
@@ -40,7 +40,7 @@
                             <!-- start feature box item-->
                             <div class="bg-white border border-color-light-black padding-25px-tb padding-30px-lr sm-padding-25px-lr feature-box-03">
                                 <div class="col-md-12 col-sm-12 no-padding margin-15px-bottom xs-margin-10px-bottom alt-font">
-                                    <i class="text-theme-color icon-adjustments font-size36 md-font-size34 sm-font-size30 margin-15px-bottom xs-margin-10px-bottom"></i>
+                                    <img src="{{ asset('img\rivara\icons\silo-verde-01.png') }}" alt="icono insumos" style="max-width: 40px;margin-bottom:10px;">
                                     <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-extra-dark-gray font-weight-600">@lang('home.service.title.2')</h4>
                                 </div>
                                 <p class="width-95 text-justify">@lang('home.service.text.2')</p>
@@ -66,7 +66,7 @@
                             <!-- start feature box item-->
                             <div class="bg-white border border-color-light-black padding-25px-tb padding-30px-lr sm-padding-25px-lr feature-box-03">
                                 <div class="col-md-12 col-sm-12 no-padding margin-15px-bottom xs-margin-10px-bottom alt-font">
-                                    <i class="text-theme-color icon-recycle font-size36 md-font-size34 sm-font-size30 margin-15px-bottom xs-margin-10px-bottom"></i>
+                                    <img src="{{ asset('img\rivara\icons\grain-verde-01.png') }}" alt="icono insumos" style="max-width: 40px;margin-bottom:10px;">
                                     <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-extra-dark-gray font-weight-600">@lang('home.service.title.3')</h4>
                                 </div>
                                 <p class="width-95 text-justify">@lang('home.service.text.3')</p>
