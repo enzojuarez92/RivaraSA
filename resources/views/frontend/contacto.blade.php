@@ -64,8 +64,17 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-12">
+                                    <div class="padding-25px-tb sm-padding-20px-tb">
+                                        <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="fab fa-facebook-f vertical-align-top"></i></span>
+                                        <div class="d-inline-block vertical-align-top padding-10px-left width-75">
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Seguinos</h5>
+                                            <p class="no-margin line-height-normal">{{ Config::get('correo') }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {{--  <div class="col-12">
                                     <div class="margin-10px-top">
                                         <ul class="social-icon-style7">
                                             @if (FACEBOOK != '')
@@ -85,7 +94,7 @@
                                             @endif
                                         </ul>
                                     </div>
-                                </div>
+                                </div>  --}}
 
                             </div>
                         </div>

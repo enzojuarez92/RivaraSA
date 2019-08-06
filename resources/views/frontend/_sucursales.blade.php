@@ -1,8 +1,8 @@
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="row margin-50px-bottom sm-margin-30px-bottom">
+                        <div class="row margin-10px-bottom sm-margin-10px-bottom">
                             <div class="section-heading col-12">
-                                <h3>Teléfonos Utiles</h3>
+                                <h3>Nuestros Teléfonos</h3>
                             </div>
                         </div>
 
