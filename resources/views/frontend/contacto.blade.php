@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
+                    <div class="col-lg-6 col-md-12">
 
                         <div class="padding-30px-right sm-no-padding-right">
                             <div class="row">
@@ -56,7 +56,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="padding-25px-tb sm-padding-20px-tb">
+                                    <div class="padding-25px-tb sm-padding-20px-tb border-bottom border-color-medium-gray">
                                         <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="far fa-envelope vertical-align-top"></i></span>
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
                                             <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Email</h5>
@@ -135,7 +135,6 @@
                     </div>
 
                 </div>
-                <hr>
                 @include('frontend._sucursales')
             </div>
         </section>

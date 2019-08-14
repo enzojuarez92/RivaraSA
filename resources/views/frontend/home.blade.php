@@ -165,7 +165,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <a class="butn medium theme margin-25px-top sm-margin-20px-top xs-margin-15px-top" style="color:white" href="{{ route('blog.index') }}">
-                            <span>Ver Más Recetas</span>
+                            <span>Ver Más</span>
                         </a>
                     </div>
                 </div>

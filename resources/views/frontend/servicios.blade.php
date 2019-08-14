@@ -34,8 +34,8 @@
                             <h6 class="font-weight-700 font-size16 sm-font-size14 text-uppercase left-title margin-20px-bottom">Nuestros Servicios</h6>
                             <div class="services-single-menu bg-light-gray margin-30px-bottom sm-margin-25px-bottom">
                                 <ul class="no-margin">
-                                    <li><a href="{{ route('servicios', 'insumos') }}">Insumos</a></li>
                                     <li><a href="{{ route('servicios', 'granos') }}">Granos</a></li>
+                                    <li><a href="{{ route('servicios', 'insumos') }}">Insumos</a></li>
                                     <li><a href="{{ route('servicios', 'alimentos') }}">Alimentos</a></li>
                                 </ul>
                             </div>

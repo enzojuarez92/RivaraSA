@@ -1,4 +1,4 @@
-                <div class="row">
+                <div class="row" style="margin-top:40px;">
                     <div class="col-lg-12">
                         <div class="row margin-10px-bottom sm-margin-10px-bottom">
                             <div class="section-heading col-12">
@@ -10,7 +10,7 @@
                                 <div class="col-lg-3 col-md-6">
                                         <div id="accordion" class="accordion-style3">
                                             <div class="card">
-                                                <div class="card-header" id="headingOne">
+                                                <div class="card-header" style="margin-top: 10px;" id="headingOne">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab1" aria-expanded="true" aria-controls="tab1">
 
@@ -34,7 +34,7 @@
                                                 </div>
                                             </div>
                                             <div class="card">
-                                                <div class="card-header" id="headingOne">
+                                                <div class="card-header" style="margin-top: 10px;" id="headingOne">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab2" aria-expanded="true" aria-controls="tab2">
 
@@ -57,7 +57,7 @@
                                 <div class="col-lg-3 col-md-6">
                                         <div id="accordion" class="accordion-style3">
                                             <div class="card">
-                                                <div class="card-header" id="headingOne">
+                                                <div class="card-header" style="margin-top: 10px;" id="headingOne">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab3" aria-expanded="true" aria-controls="tab3">
 
@@ -76,7 +76,7 @@
                                                 </div>
                                             </div>
                                             <div class="card">
-                                                <div class="card-header" id="headingOne">
+                                                <div class="card-header" style="margin-top: 10px;" id="headingOne">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab4" aria-expanded="true" aria-controls="tab4">
 
@@ -104,7 +104,7 @@
                                 <div class="col-lg-3 col-md-6">
                                         <div id="accordion" class="accordion-style3">
                                             <div class="card">
-                                                <div class="card-header" id="headingOne">
+                                                <div class="card-header" style="margin-top: 10px;" id="headingOne">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab5" aria-expanded="true" aria-controls="tab5">
 
@@ -128,7 +128,7 @@
                                                 </div>
                                             </div>
                                             <div class="card">
-                                                <div class="card-header" id="headingOne">
+                                                <div class="card-header" style="margin-top: 10px;" id="headingOne">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab6" aria-expanded="true" aria-controls="tab6">
 
@@ -151,7 +151,7 @@
                                 <div class="col-lg-3 col-md-6">
                                         <div id="accordion" class="accordion-style3">
                                             <div class="card">
-                                                <div class="card-header" id="headingOne">
+                                                <div class="card-header" style="margin-top: 10px;" id="headingOne">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab7" aria-expanded="true" aria-controls="tab7">
 
@@ -170,7 +170,7 @@
                                                 </div>
                                             </div>
                                             <div class="card">
-                                                <div class="card-header" id="headingOne">
+                                                <div class="card-header" style="margin-top: 10px;" id="headingOne">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab8" aria-expanded="true" aria-controls="tab8">
 

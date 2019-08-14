@@ -48,7 +48,7 @@
                                     <a href="javascript:void(0)" class="font-weight-700">@lang('home.read')...</a>
                                 </div>
                                 <div class="show-details">
-                                    <img src="img/content/feature-05.jpg" alt="" />
+                                    <img src="img/content/feature-05.jpg" alt=""/>
                                     <div class="feature-box-detail padding-30px-all">
                                         <div class="border border-color-light-white height-100 padding-20px-all">
                                             <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-theme-color font-weight-600">@lang('home.service.title.2')</h4>
