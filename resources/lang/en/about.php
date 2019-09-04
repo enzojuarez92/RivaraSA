@@ -2,19 +2,15 @@
 
 return [
 
-    'title' => 'Sobre Nosotros',
-    'content' => '
-    Fundada en el año 1936, RIVARA S.A. es una empresa familiar prestando desde sus comienzos servicios necesarios para que el productor agropecuario alcance niveles de eficiencia.
+    'title' => 'About us',
+    'content' => 'Founded in 1936, RIVARA S.A. is a family company which has been providing the farmer with the necessary products for their efficient development.
     <br>
+    In 1995 we inaugurated a mill to grind the corn we grow in our fields; and, in 2004, we opened an oil extracting plant to produce soya bean, sunflower, and canola oils from our oil crops. Furthermore, we have a silo network to storage our grain, and a seedbed for wheat, soya and barley. We offer products to help the farmer grow crops more efficiently. Thus, we not only provide fertilizers, agrochemicals and fuels; but also, the assessment of our agribusiness experts.
     <br>
-    En el año 1995 inauguramos un <b>molino</b> para procesar el maíz que cultivamos y, en el 2004, <b>una planta de extracción de aceites</b>, donde procesamos granos de soja, girasol y canola, que también cultivamos en nuestros campos.
-    Además contamos con <b>una red de plantas de acopio de cereales, un semillero<b> para trigo, soja y cebada y un sector especialmente dedicado al <b>asesoramiento y venta de insumos<b>, contemplando los fertilizantes, agroquímicos y combustibles necesarios para satisfacer las exigencias del productor agrario actual.
-    <br>
-    <br>
-    Nuestra empresa participa activamente en el <b>comercio internacional exportando<b>, desde 1997, a destinos tales como USA, Dinamarca, Holanda, México, Japón, Australia, Israel y Rusia, entre otros.
+    Since 1997, our company has played a role in the global market exporting agricultural goods to The USA, Denmark, Holland, Mexico, Japan, Australia, Israel, and Russia – among others.
     ',
 
-    'counter_title' => 'Experiencia y conocimiento en el mercado para asesorarlo en sus ventas.',
-    'counter_content' => 'Nos sentimos felices con el desarrollo de nuestra empresa y aspiramos a seguir recorriendo un camino de desarrollo y mejora de calidad para y por nuestros clientes.',
+    'counter_title' => 'With our agribusiness experts’ advice you can get the most of your sales.',
+    'counter_content' => 'We are proud of our company development and we look forward to continuing growing and achieving better quality products for our customers.',
 
 ];

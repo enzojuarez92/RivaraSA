@@ -3,13 +3,31 @@
 return [
     'home' => 'Inicio',
     'about_us' => 'La Empresa',
-    'services' => 'Servicios',
+
+    'granos' => 'Granos',
+    'granos-1' => 'Comercialización',
+    'granos-2' => 'Acopio',
+    'granos-3' => 'Logística',
+    'granos-4' => 'Arrendamientos',
+
+    'insumos' => 'Insumos',
+    'insumos-1' => 'Agroquímicos y fertilizantes',
+    'insumos-2' => 'Agroservice Axion',
+    'insumos-3' => 'Estación de Servicio Axion',
+
+    'alimentos' => 'Alimentos',
+    'alimentos-1' => 'Molienda de maíz NO GMO',
+    'alimentos-2' => 'Aceites y harinas',
+
     'recipes' => 'Recetas',
     'contact' => 'Contacto',
     'lenguage' => 'Idioma',
     'lang_es' => 'Español',
     'lang_en' => 'Inglés',
     'read' => 'Leer Más',
+    'know' => 'Conocenos',
+
+    'mercados' => 'Mercados',
 
     'service_title' => 'Servicios',
     'service_content' => 'Nuestro principal objetivo es abarcar, mediante nuestros servicios, las necesidades del productor agropecuario actual demostrando siempre nuestro compromiso y responsabilidad.',

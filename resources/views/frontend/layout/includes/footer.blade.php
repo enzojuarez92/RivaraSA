@@ -71,7 +71,9 @@
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
                                     <li><a style="color:white;" href="{{ route('home') }}">@lang('home.home')</a></li>
-                                    <li><a style="color:white;" href="{{ route('home') }}">@lang('home.services')</a></li>
+                                    <li><a style="color:white;" href="{{ route('servicios', 'granos') }}">@lang('home.granos')</a></li>
+                                    <li><a style="color:white;" href="{{ route('servicios', 'insumos') }}">@lang('home.insumos')</a></li>
+                                    <li><a style="color:white;" href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos')</a></li>
                                     <li><a style="color:white;" href="{{ route('blog.index') }}">Blog</a></li>
                                     <li><a style="color:white;" href="{{ route('contacto') }}">@lang('home.contact')</a></li>
                                 </ul>
