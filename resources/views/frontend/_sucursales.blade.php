@@ -2,7 +2,7 @@
                     <div class="col-lg-12">
                         <div class="row margin-10px-bottom sm-margin-10px-bottom">
                             <div class="section-heading col-12">
-                                <h3>Nuestros Teléfonos</h3>
+                                <h3>@lang('contact.nuestrosTelefonos')</h3>
                             </div>
                         </div>
 
@@ -14,7 +14,7 @@
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab1" aria-expanded="true" aria-controls="tab1">
 
-                                                            Plantas de silos Alberti
+                                                            @lang('contact.nuestrosTelefonos-1')
                                                             
                                                         </button>
                                                     </h5>
@@ -23,12 +23,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            Teléfono: <br> 2346 - 470525
+                                                            @lang('contact.telefono') <br> 2346 - 470525
                                                         </p>
                                                         <hr>
                                                         <p>
                                                             <i class="far fa-envelope"></i>
-                                                            E-mail: <br> plantaalberti@rivara.com.ar
+                                                            @lang('contact.email') <br> plantaalberti@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>
@@ -38,7 +38,7 @@
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab2" aria-expanded="true" aria-controls="tab2">
 
-                                                            Plantas de silos Pla
+                                                            @lang('contact.nuestrosTelefonos-2')
                                                             
                                                         </button>
                                                     </h5>
@@ -47,7 +47,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            Teléfono: <br> 2346 – 538422 / 538423
+                                                            @lang('contact.telefono') <br> 2346 – 538422 / 538423
                                                         </p>
                                                     </div>
                                                 </div>
@@ -61,7 +61,7 @@
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab3" aria-expanded="true" aria-controls="tab3">
 
-                                                            Agroquímicos y fertilizantes
+                                                            @lang('contact.nuestrosTelefonos-3')
                                                             
                                                         </button>
                                                     </h5>
@@ -70,7 +70,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            Teléfono: <br> 2346 – 538368
+                                                            @lang('contact.telefono') <br> 2346 – 538368
                                                         </p>
                                                     </div>
                                                 </div>
@@ -80,7 +80,7 @@
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab4" aria-expanded="true" aria-controls="tab4">
 
-                                                            Logística
+                                                            @lang('contact.nuestrosTelefonos-4')
                                                             
                                                         </button>
                                                     </h5>
@@ -89,12 +89,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            Teléfono: <br> 2346 - 471350
+                                                            @lang('contact.telefono') <br> 2346 - 471350
                                                         </p>
                                                         <hr>
                                                         <p>
                                                             <i class="far fa-envelope"></i>
-                                                            E-mail: <br> logistica@rivara.com.ar
+                                                            @lang('contact.email') <br> logistica@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>
@@ -108,7 +108,7 @@
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab5" aria-expanded="true" aria-controls="tab5">
 
-                                                            Molino
+                                                            @lang('contact.nuestrosTelefonos-5')
                                                             
                                                         </button>
                                                     </h5>
@@ -117,12 +117,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            Teléfono: <br> 2346 – 471732
+                                                            @lang('contact.telefono') <br> 2346 – 471732
                                                         </p>
                                                         <hr>
                                                         <p>
                                                             <i class="far fa-envelope"></i>
-                                                            E-mail: <br> molino@rivara.com.ar
+                                                            @lang('contact.email') <br> molino@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>
@@ -132,7 +132,7 @@
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab6" aria-expanded="true" aria-controls="tab6">
 
-                                                            Aceitera
+                                                            @lang('contact.nuestrosTelefonos-6')
                                                             
                                                         </button>
                                                     </h5>
@@ -141,7 +141,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            Teléfono: <br> 2346 – 471732
+                                                            @lang('contact.telefono') <br> 2346 – 471732
                                                         </p>
                                                     </div>
                                                 </div>
@@ -155,7 +155,7 @@
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab7" aria-expanded="true" aria-controls="tab7">
 
-                                                            EE SS Axion
+                                                            @lang('contact.nuestrosTelefonos-7')
                                                             
                                                         </button>
                                                     </h5>
@@ -164,7 +164,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            Teléfono: <br> 2346 – 471303
+                                                            @lang('contact.telefono') <br> 2346 – 471303
                                                         </p>
                                                     </div>
                                                 </div>
@@ -174,7 +174,7 @@
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tab8" aria-expanded="true" aria-controls="tab8">
 
-                                                            Agroservice Axion
+                                                            @lang('contact.nuestrosTelefonos-8')
                                                             
                                                         </button>
                                                     </h5>
@@ -183,7 +183,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            Teléfono: <br> 2346 – 538428
+                                                            @lang('contact.telefono') <br> 2346 – 538428
                                                         </p>
                                                     </div>
                                                 </div>

@@ -1,6 +1,14 @@
 <?php
 
 return [
+    'cuadro-1' => 'Nuestros Servicios',
+    'cuadro-2' => 'Granos',
+    'cuadro-3' => 'Insumos',
+    'cuadro-4' => 'Insumos y Alimentos',
+
+    'ayuda' => '¿Necesitás ayuda?',
+    'ayuda-1' => 'Agroquimicos y Fertilizantes',
+    'ayuda-2' => 'Combustibles',
     'insumos' => [
         'titulo' => 'Insumos',
 
@@ -52,5 +60,14 @@ return [
         <br>
         <br>
         Mediante este proceso agregamos valor a diversas oleaginosas, como la soja, girasol, colza/canola y otras, para la obtención de aceites de alta calidad y obtención de harinas de alto valor nutritivo y digestibilidad. Estos productos, retienen en los aceites el porcentaje de ácidos grasos omega3, tocoferoles (antioxidantes naturales), vitamina E y esteroles. En las harinas debido a las características del procesamiento se mantienen intactos los aminoácidos de las proteínas.',
+
+        'points' => 'Los controles se basan en dos factores principales:
+        <br>
+        <br>
+        <ul class="list-style-16">
+            <li>Con el análisis y elección de la semilla a sembrar para la producción de la materia prima.</li>
+            <li>Con el control del desarrollo y movimiento de los granos, para garantizar la identidad preservada (IP) de cada lote de producto terminado.</li>
+        </ul>',
+
     ],
 ];

@@ -31,12 +31,12 @@
 
                         <!-- start services -->
                         <div class="services-single-left-box">
-                            <h6 class="font-weight-700 font-size16 sm-font-size14 text-uppercase left-title margin-20px-bottom">Nuestros Servicios</h6>
+                            <h6 class="font-weight-700 font-size16 sm-font-size14 text-uppercase left-title margin-20px-bottom">@lang('services.cuadro-1')</h6>
                             <div class="services-single-menu bg-light-gray margin-30px-bottom sm-margin-25px-bottom">
                                 <ul class="no-margin">
-                                    <li><a href="{{ route('servicios', 'granos') }}">Granos</a></li>
-                                    <li><a href="{{ route('servicios', 'insumos') }}">Insumos</a></li>
-                                    <li><a href="{{ route('servicios', 'alimentos') }}">Alimentos</a></li>
+                                    <li><a href="{{ route('servicios', 'granos') }}">@lang('services.cuadro-2')</a></li>
+                                    <li><a href="{{ route('servicios', 'insumos') }}">@lang('services.cuadro-3')</a></li>
+                                    <li><a href="{{ route('servicios', 'alimentos') }}">@lang('services.cuadro-4')</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                         <div class="bg-img cover-background theme-overlay border-radius-5 margin-30px-bottom sm-margin-25px-bottom" data-overlay-dark="8" data-background="img/bg/bg2.jpg">
                             <div class="position-relative z-index-9 text-center padding-50px-tb md-padding-40px-tb sm-padding-30px-tb padding-30px-lr">
                                 <i class="fas fa-headset font-size50 md-font-size46 sm-font-size42 text-white margin-15px-bottom"></i>
-                                <h5 class="text-white font-weight-600 margin-5px-bottom">¿Necesitás ayuda?</h5>
+                                <h5 class="text-white font-weight-600 margin-5px-bottom">@lang('services.ayuda')</h5>
                                 <p class="text-white font-weight-500"></p>
 
                                 {{--  <div class="bg-white separator-line-horrizontal-full opacity3 margin-20px-bottom sm-margin-15px-bottom"></div>
@@ -91,7 +91,7 @@
                                 <br>
                                 <div class="bg-white separator-line-horrizontal-full opacity3 margin-20px-bottom sm-margin-15px-bottom"></div>
                                 <ul class="text-center no-padding no-margin">
-                                    <li class="text-white margin-5px-bottom"><b>Agroquímicos y Fertilizantes:</b></li>
+                                    <li class="text-white margin-5px-bottom"><b>@lang('services.ayuda-1'):</b></li>
                                     <li class="text-white margin-5px-bottom"><i class="fa fa-user font-size16 text-white margin-15px-right"></i><a href="tel:123456789" class="text-white">Ing. Agr. Alejandro Sanchez Cabezudo</a></li>
                                     <li class="text-white margin-5px-bottom"><i class="fa fa-phone font-size16 text-white margin-15px-right"></i><a href="tel:2346-538870" class="text-white">(2346) 538870</a></li>
                                     <li class="text-white"><i class="fas fa-envelope-open font-size16 text-white margin-15px-right"></i><a href="mailto:alejandros@rivara.com.ar" class="text-white">alejandros@rivara.com.ar</a></li>
@@ -99,7 +99,7 @@
                                 <br>
                                 <div class="bg-white separator-line-horrizontal-full opacity3 margin-20px-bottom sm-margin-15px-bottom"></div>
                                 <ul class="text-center no-padding no-margin">
-                                    <li class="text-white margin-5px-bottom"><b>Combustibles:</b></li>
+                                    <li class="text-white margin-5px-bottom"><b>@lang('services.ayuda-2'):</b></li>
                                     <li class="text-white margin-5px-bottom"><i class="fa fa-user font-size16 text-white margin-15px-right"></i><a href="tel:123456789" class="text-white">Javier Tristant</a></li>
                                     <li class="text-white margin-5px-bottom"><i class="fa fa-phone font-size16 text-white margin-15px-right"></i><a href="tel:" class="text-white">(2346) 471303 | (2346) 538428</a></li>
                                     <li class="text-white"><i class="fas fa-envelope-open font-size16 text-white margin-15px-right"></i><a href="mailto:javiertristant@rivara.com.ar" class="text-white">javiertristant@rivara.com.ar</a></li>
