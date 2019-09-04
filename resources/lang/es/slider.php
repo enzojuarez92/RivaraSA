@@ -6,8 +6,8 @@ return [
     'slider_1_content' => '',
     'slider_1_link' => 'Conocenos',
 
-    'slider_2_title' => 'PRODUCTIVIDAD y TRAZABILIDAD',
-    'slider_2_subtitle' => 'Satisfacemos exigencias con',
+    'slider_2_title' => 'DONDE NECESITES',
+    'slider_2_subtitle' => 'Estamos a tu disposición',
     'slider_2_content' => '',
     'slider_2_link' => 'Leer más',
 

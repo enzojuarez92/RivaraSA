@@ -19,8 +19,10 @@
                             <div class="padding-30px-all sm-padding-25px-tb sm-no-padding-lr border-right border-color-light-white sm-no-border-right sm-border-bottom">
                                 <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="fas fa-file-alt vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                    <h5 class="no-margin text-white text-uppercase font-size15">Documentation</h5>
-                                    <p class="no-margin line-height-normal">Lorem ipsum dolor sit amet</p>
+                                    <a href="https://www.valorsoja.com/" target="_blank" rel="no-follow">
+                                        <h5 class="no-margin text-white text-uppercase font-size15">VALORSOJA.COM</h5>
+                                        <p class="no-margin line-height-normal">Info del sector agropecuario</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -28,8 +30,10 @@
                             <div class="padding-30px-all sm-padding-25px-tb sm-no-padding-lr">
                                 <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="far fa-life-ring vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                    <h5 class="no-margin text-white text-uppercase font-size15">Fast Support</h5>
-                                    <p class="no-margin line-height-normal">Lorem ipsum dolor sit amet</p>
+                                    <a href="http://www.acopiadores.com/acopio-news/todas" target="_blank" rel="no-follow">
+                                        <h5 class="no-margin text-white text-uppercase font-size15">ACOPIADORES.COM</h5>
+                                        <p class="no-margin line-height-normal">Entérate de las últimas noticias</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
