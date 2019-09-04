@@ -8,7 +8,7 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => 'Servicios', 
+                'title' => (Session::get('locale') == 'es') ? 'Servicios' : 'Services', 
                 'subtitle' => 'Conozca nuestros servicios',
                 'img' => 'img/rivara/fachadaoficina_baja2.jpg',
                 'links' => array(
@@ -19,7 +19,6 @@
 @endsection
 
 @section('content')
-
 
         <!-- start service detail section -->
         <section>
@@ -35,7 +34,9 @@
                             <div class="services-single-menu bg-light-gray margin-30px-bottom sm-margin-25px-bottom">
                                 <ul class="no-margin">
                                     <li><a href="{{ route('servicios', 'granos') }}">@lang('services.cuadro-2')</a></li>
+                                    @if (Session::get('locale') == 'es')
                                     <li><a href="{{ route('servicios', 'insumos') }}">@lang('services.cuadro-3')</a></li>
+                                    @endif
                                     <li><a href="{{ route('servicios', 'alimentos') }}">@lang('services.cuadro-4')</a></li>
                                 </ul>
                             </div>

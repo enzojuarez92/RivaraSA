@@ -8,7 +8,7 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => 'Contacto', 
+                'title' => (Session::get('locale') == 'es') ? 'Contacto' : 'Contact', 
                 'subtitle' => 'Subtitulo',
                 'links' => array(
                     ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],

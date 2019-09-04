@@ -8,7 +8,7 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => 'La Empresa', 
+                'title' => (Session::get('locale') == 'es') ? 'La Empresa' : 'About Us', 
                 'subtitle' => 'Sobre nosotros',
                 'img' => 'img/rivara/fachadaoficina_baja2.jpg',
                 'links' => array(

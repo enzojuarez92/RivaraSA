@@ -47,6 +47,7 @@
                                                 <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-4')</a></li>
                                             </ul>
                                         </li>
+                                        @if (Session::get('locale') == 'es')
                                         <li>
                                             <a href="#">@lang('home.insumos')</a>
                                             <ul>
@@ -54,7 +55,8 @@
                                                 <li><a href="{{ route('servicios', 'insumos') }}">@lang('home.insumos-2')</a></li>
                                                 <li><a href="{{ route('servicios', 'insumos') }}">@lang('home.insumos-3')</a></li>
                                             </ul>
-                                        </li>                                            
+                                        </li>                                                                                        
+                                        @endif
                                         <li>
                                             <a href="#">@lang('home.alimentos')</a>
                                             <ul>

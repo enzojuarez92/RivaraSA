@@ -72,7 +72,9 @@
                                 <ul class="footer-list xs-margin-5px-bottom">
                                     <li><a style="color:white;" href="{{ route('home') }}">@lang('home.home')</a></li>
                                     <li><a style="color:white;" href="{{ route('servicios', 'granos') }}">@lang('home.granos')</a></li>
+                                    @if (Session::get('locale') == 'es')
                                     <li><a style="color:white;" href="{{ route('servicios', 'insumos') }}">@lang('home.insumos')</a></li>
+                                    @endif
                                     <li><a style="color:white;" href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos')</a></li>
                                     <li><a style="color:white;" href="{{ route('blog.index') }}">Blog</a></li>
                                     <li><a style="color:white;" href="{{ route('contacto') }}">@lang('home.contact')</a></li>
