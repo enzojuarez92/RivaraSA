@@ -2,7 +2,7 @@
 
 return [
 
-    'title' => 'Sobre Nosotros',
+    'title' => 'La Empresa',
     'content' => '
     Fundada en el año 1936, RIVARA S.A. es una empresa familiar prestando desde sus comienzos servicios necesarios para que el productor agropecuario alcance niveles de eficiencia.
     <br>
