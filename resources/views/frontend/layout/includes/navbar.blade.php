@@ -73,7 +73,7 @@
                                         <li>
                                             <a href="{{ route('contacto') }}">@lang('home.contact')</a>
                                         </li>
-                                        <li><a href="javascript:void(0)">IDIOMA</a>
+                                        <li><a href="javascript:void(0)">@lang('home.lenguage')</a>
                                             <ul>
                                                 <li><a href="{{route('locale', 'es')}}">@lang('home.lang_es') <img style="width:20px;" src="{{ asset('img/esp.png') }}" alt="bandera_españa"></a></li>
                                                 <li><a href="{{route('locale', 'en')}}">@lang('home.lang_en') <img style="width:20px;" src="{{ asset('img/eeuu.png') }}" alt="bandera_estados_unidos"></a></li>

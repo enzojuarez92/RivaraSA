@@ -72,6 +72,7 @@ return [
         Based on the previously descripted concepts, RIVARA S.A. has developed new technological processes which use just mechanical ways to extract the oil from the seeds, avoiding any use of solvent in the process.
         We base our procedures in the extrusion and press procedures to obtain oil from different oilseeds, where the vegetal and raw qualities remain untouched and, in the other hand, the cakes and meals obtained in this process have a higher nutritional values than the conventional solvent extraction meals.
         <br>
+        <br>
         The process in the Oil Plant is the following:
         <br>
         The extrusion process, which is the first step of the process, allows a treatment with high temperature in a short time which inactivate the anti-nutritional components, growth inhibitors and different factors that alters the digestibility o and taste of soybean and other oilseeds, maintaining untouched his nutritional properties. Besides, with this process method, we obtain products with the right sanitary values and a higher permanence in the storage.

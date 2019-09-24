@@ -13,9 +13,7 @@ return [
         'titulo' => 'Insumos',
 
         'item_1_titulo' => 'Agroquímicos y fertilizantes',
-        'item_1_texto' => 'Para ayudar al productor, ofrecemos canjes por granos disponibles y/o a cosecha. Para eso disponemos con un asesor agronómico quién se encuentra a su servico para profundizar estos temas, evacuar dudas y brindar asesoramiento, cotizando los productos que el productor necesita.
-        <br>
-        Disponemos con asesores agronómicos quiénes se encuentran a su servicio para evacuar dudas, brindar asesoramiento y cotizar los productos que el cliente necesita.
+        'item_1_texto' => 'Disponemos con asesores agronómicos quiénes se encuentran a su servicio para evacuar dudas, brindar asesoramiento y cotizar los productos que el cliente necesita.
         <br>
         Además contamos con una planta de fertilizantes sólidos a granel y líquidos e incorporamos camiones especialmente adaptados para entregar ambos fertilizantes, donde lo necesite, en tiempo y forma.',
 
@@ -61,13 +59,7 @@ return [
         <br>
         Mediante este proceso agregamos valor a diversas oleaginosas, como la soja, girasol, colza/canola y otras, para la obtención de aceites de alta calidad y obtención de harinas de alto valor nutritivo y digestibilidad. Estos productos, retienen en los aceites el porcentaje de ácidos grasos omega3, tocoferoles (antioxidantes naturales), vitamina E y esteroles. En las harinas debido a las características del procesamiento se mantienen intactos los aminoácidos de las proteínas.',
 
-        'points' => 'Los controles se basan en dos factores principales:
-        <br>
-        <br>
-        <ul class="list-style-16">
-            <li>Con el análisis y elección de la semilla a sembrar para la producción de la materia prima.</li>
-            <li>Con el control del desarrollo y movimiento de los granos, para garantizar la identidad preservada (IP) de cada lote de producto terminado.</li>
-        </ul>',
+        'points' => '',
 
     ],
 ];

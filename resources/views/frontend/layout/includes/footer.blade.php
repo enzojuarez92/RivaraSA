@@ -9,8 +9,8 @@
                                 <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="fas fa-cloud-sun vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
                                 <a href="https://www.accuweather.com/es/ar/buenos-aires/7894/weather-forecast/7894" target="_blank" rel="no-follow">
-                                    <h5 class="no-margin text-white text-uppercase font-size15">CLIMA</h5>
-                                    <p class="no-margin line-height-normal">Mirá el tiempo en tu zona</p>
+                                    <h5 class="no-margin text-white text-uppercase font-size15">@lang('home.footer.clima')</h5>
+                                    <p class="no-margin line-height-normal">@lang('home.footer.clima_texto')</p>
                                 </a>
                                 </div>
                             </div>
@@ -20,8 +20,8 @@
                                 <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="fas fa-file-alt vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
                                     <a href="https://www.valorsoja.com/" target="_blank" rel="no-follow">
-                                        <h5 class="no-margin text-white text-uppercase font-size15">VALORSOJA.COM</h5>
-                                        <p class="no-margin line-height-normal">Info del sector agropecuario</p>
+                                        <h5 class="no-margin text-white text-uppercase font-size15">@lang('home.footer.vasorja')</h5>
+                                        <p class="no-margin line-height-normal">@lang('home.footer.vasorja_texto')</p>
                                     </a>
                                 </div>
                             </div>
@@ -31,8 +31,8 @@
                                 <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="far fa-life-ring vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
                                     <a href="http://www.acopiadores.com/acopio-news/todas" target="_blank" rel="no-follow">
-                                        <h5 class="no-margin text-white text-uppercase font-size15">ACOPIADORES.COM</h5>
-                                        <p class="no-margin line-height-normal">Entérate de las últimas noticias</p>
+                                        <h5 class="no-margin text-white text-uppercase font-size15">@lang('home.footer.acopiadores')</h5>
+                                        <p class="no-margin line-height-normal">@lang('home.footer.acopiadores_texto')</p>
                                     </a>
                                 </div>
                             </div>

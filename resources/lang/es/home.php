@@ -49,11 +49,11 @@ return [
 
     'about.title' => 'Experiencia y compromiso',
     'about.text' => 'Fundada en el año 1936, RIVARA S.A. es una empresa familiar prestando desde sus comienzos servicios necesarios para que el productor agropecuario alcance niveles de eficiencia. Contamos con una amplia infraestructura para cumplir todas las necesidades del sector:',
-    'about.item.1' => 'Red de plantas de acopio, con flota propia de transporte.',
-    'about.item.2' => 'Semillero e insumos.',
-    'about.item.3' => 'Personal especializado al servicio del cliente.',
-    'about.item.4' => 'Comercialización de granos certificados a granel.',
-    'about.item.5' => 'Molino de maíz y planta extractora de aceites.',
+    'about.item.1' => 'Semillero e insumos.',
+    'about.item.2' => 'Personal especializado al servicio del cliente.',
+    'about.item.3' => 'Comercialización de granos certificados a granel.',
+    'about.item.4' => 'Molino de maíz y planta extractora de aceites.',
+    'about.item.5' => 'Red de plantas de acopio, con flota propia de transporte',
 
     'counter.1' => 'Años en el Mercado',
     'counter.2' => 'Empleados',
@@ -65,4 +65,12 @@ return [
     'blog-shared' => 'Compartir',
     'recipes.text' => 'Inspirate con esta lista de recetas de harina de maíz elaboradas con nuestros productos premium.',
 
+    'footer' => [
+        'clima' => 'CLIMA',
+        'clima_texto' => 'Mirá el tiempo en tu zona',
+        'vasorja' => 'VALORSOJA.COM',
+        'vasorja_texto' => 'Info del sector agropecuario',
+        'acopiadores' => 'ACOPIADORES.COM',
+        'acopiadores_texto' => 'Entérate de las últimas noticias',
+    ],
 ];

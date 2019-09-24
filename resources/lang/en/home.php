@@ -21,9 +21,9 @@ return [
 
     'recipes' => 'Recipes',
     'contact' => 'Contact',
-    'lenguage' => 'Language',
+    'lenguage' => 'LANGUAGE',
     'lang_es' => 'Spanish',
-    'lang_en' => 'Inglish',
+    'lang_en' => 'English',
     'read' => 'Read More',
     'know' => 'Know us',
 
@@ -64,5 +64,14 @@ return [
     'blog-follow' => 'Follow Us',
     'blog-shared' => 'Shared To',
     'recipes.text' => 'Get inspired by this list of cornmeal recipes made with our premium products.',
+
+    'footer' => [
+        'clima' => 'WEATHER',
+        'clima_texto' => 'look at the weather in your area',
+        'vasorja' => 'VALORSOJA.COM',
+        'vasorja_texto' => 'Info from the agricultural sector',
+        'acopiadores' => 'ACOPIADORES.COM',
+        'acopiadores_texto' => 'Find out the latest news',
+    ],
 
 ];
