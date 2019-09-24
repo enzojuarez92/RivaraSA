@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Support\Facades\Session;
 
 class Localization
 {
@@ -15,10 +16,18 @@ class Localization
      */
     public function handle($request, Closure $next)
     {
+        $locale = "es";
+
+//        if($request->getHttpHost() == "rivarasa.com")
+//            $locale = "en";
+
         if(\Session::has('locale'))
-        {
-            \App::setlocale(\Session::get('locale'));
-        }
+            $locale = \Session::get('locale');
+
+        \Session::put('locale', $locale);
+
+        \App::setlocale($locale);
+
         return $next($request);
     }
 }

@@ -1,16 +1,12 @@
 @extends(LAYOUT_FRONT.'app')
 
-@section('title', 'Inicio | '.APP_DISPLAY)
+@section('title', 'Inicio | ' . APP_DISPLAY)
 @section('description', 'Fundada en el año 1936, RIVARA S.A. es una empresa familiar prestando desde sus comienzos servicios necesarios para que el productor agropecuario alcance niveles de eficiencia.')
 @section('author', APP_DISPLAY)
 @section('keywords', 'rivara, keywords')
 @section('image', LOGO_REDES)
 
-
-
 @section('content')
-
-
         <!-- start slideshow-->
         <div class="container-fluid full-screen">
             <div class="row slider-fade">
@@ -69,11 +65,9 @@
                             <div>
                                 <img src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="sobre nosotros" />
                             </div>
-
                         </div>
                         <div class="col-lg-6">
                             <div class="display-table height-100">
-
                                 <div class="padding-30px-lr padding-25px-tb sm-padding-30px-all xs-padding-25px-all display-table-cell vertical-align-middle width-50">
                                     <h4>@lang('home.about.title')</h4>
                                     <p class="width-95 sm-margin-15px-bottom">@lang('home.about.text')</p>
@@ -86,18 +80,13 @@
                                     </ul>
                                     <a href="{{ route('nosotros') }}" class="butn medium theme margin-25px-top sm-margin-20px-top xs-margin-15px-top"><span>@lang('home.know')</span></a>
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
         <!-- end about section -->
-
-
 
         <!-- start counter section -->
         <section class="parallax" data-overlay-dark="6" data-background="{{ asset('img/rivara/atras_contador.jpg') }}">
@@ -131,8 +120,6 @@
             </div>
         </section>
         <!-- end counter section -->
-
-
 
         <!-- start blog section -->
         <section class="bg-light-gray">

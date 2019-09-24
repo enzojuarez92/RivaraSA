@@ -13,9 +13,13 @@
 // DB::listen(function($query){ var_dump($query->sql); });
 
 Route::get('locale/{locale}', function ($locale) {
+
     Session::put('locale', $locale);
+
     return redirect()->back();
+
 })->name('locale');
+
 // Route::feeds();
 
 Route::get('/testEmail', 'PagesControler@testEmail')

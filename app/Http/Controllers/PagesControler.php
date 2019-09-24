@@ -19,8 +19,6 @@ use Illuminate\Support\Facades\Mail;
 
 class PagesControler extends Controller
 {
-    //
-
     public function home()
     {
         try {
