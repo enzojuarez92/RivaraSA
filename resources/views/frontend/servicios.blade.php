@@ -8,12 +8,12 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => (Session::get('locale') == 'es') ? 'Servicios' : 'Services', 
+                'title' => __("services.title"), 
                 'subtitle' => 'Conozca nuestros servicios',
                 'img' => 'img/rivara/fachadaoficina_baja2.jpg',
                 'links' => array(
-                    ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],
-                    ['icon' => 'icon-add', 'name' => 'Servicios', 'url' => route('servicios')],
+                    ['icon' => 'icon-copy', 'name' => __("home.home"), 'url' => route('home')],
+                    ['icon' => 'icon-add', 'name' => __("services.title"), 'url' => route('servicios')],
                 )
             ])
 @endsection

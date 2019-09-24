@@ -12,8 +12,8 @@
         'subtitle' => 'Sobre nosotros',
         'img' => 'img/rivara/fachadaoficina_baja2.jpg',
         'links' => array(
-            ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],
-            ['icon' => 'icon-add', 'name' => 'La Empresa', 'url' => route('nosotros')],
+            ['icon' => 'icon-copy', 'name' => __("home.home"), 'url' => route('home')],
+            ['icon' => 'icon-add', 'name' => __("about.title"), 'url' => route('nosotros')],
         )
     ])
 @endsection

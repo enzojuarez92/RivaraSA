@@ -1,10 +1,11 @@
 <?php
 
 return [
+    'title' => 'Servicios',
     'cuadro-1' => 'Nuestros Servicios',
     'cuadro-2' => 'Granos',
     'cuadro-3' => 'Insumos',
-    'cuadro-4' => 'Insumos y Alimentos',
+    'cuadro-4' => 'Alimentos',
 
     'ayuda' => '¿Necesitás ayuda?',
     'ayuda-1' => 'Agroquimicos y Fertilizantes',

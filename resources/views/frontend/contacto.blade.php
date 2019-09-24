@@ -8,11 +8,11 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => (Session::get('locale') == 'es') ? 'Contacto' : 'Contact', 
+                'title' => __("contact.title"), 
                 'subtitle' => 'Subtitulo',
                 'links' => array(
-                    ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],
-                    ['icon' => 'icon-add', 'name' => 'Contacto', 'url' => route('contacto')],
+                    ['icon' => 'icon-copy', 'name' => __("home.home"), 'url' => route('home')],
+                    ['icon' => 'icon-add', 'name' => __("contact.title"), 'url' => route('contacto')],
                 )
             ])
 @endsection

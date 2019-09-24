@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'title' => 'Services',
     'cuadro-1' => 'Services',
     'cuadro-2' => 'Grains',
     'cuadro-3' => 'Suplies',
