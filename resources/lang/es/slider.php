@@ -16,5 +16,10 @@ return [
     'slider_3_content' => 'en el mercado para asesorarlo en sus ventas',
     'slider_3_link' => 'Conocenos',
 
+    'slider_5_title' => 'ACCESO EXCLUSIVO PARA CLIENTES',
+    'slider_5_subtitle' => 'Registrate ahora!',
+    'slider_5_content' => '',
+    'slider_5_link' => 'Ingresar',
+
     'learn_more' => 'Leer Más',
 ];

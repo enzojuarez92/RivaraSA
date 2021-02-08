@@ -16,5 +16,10 @@ return [
     'slider_3_content' => 'in the market to advise you on your sales',
     'slider_3_link' => 'Know us',
 
+    'slider_5_title' => 'EXCLUSIVE ACCESS FOR CUSTOMERS',
+    'slider_5_subtitle' => 'Register now!',
+    'slider_5_content' => '',
+    'slider_5_link' => 'Login',
+
     'learn_more' => 'Learn More',
 ];

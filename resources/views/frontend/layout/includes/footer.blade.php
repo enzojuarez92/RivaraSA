@@ -78,6 +78,7 @@
                                     <li><a style="color:white;" href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos')</a></li>
                                     <li><a style="color:white;" href="{{ route('blog.index') }}">Blog</a></li>
                                     <li><a style="color:white;" href="{{ route('contacto') }}">@lang('home.contact')</a></li>
+                                    <li><a style="color:white;" target="_blank" href="https://clientes.rivara.com.ar/">@lang('home.login')</a></li>
                                 </ul>
                             </div>
                         </div>

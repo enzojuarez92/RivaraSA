@@ -79,6 +79,11 @@
                                                 <li><a href="{{ route('locale', 'en') }}">@lang('home.lang_en') <img style="width:20px;" src="{{ asset('img/eeuu.png') }}" alt="bandera_estados_unidos"></a></li>
                                             </ul>
                                         </li>
+                                        <li>
+                                            <a target="_blank" href="https://clientes.rivara.com.ar/">
+                                                <img style="width: 25px;" src="{{ asset('/img/profile-user.svg') }}" alt="login">
+                                            </a>
+                                        </li>
                                     </ul>
                                     <!-- end menu area -->
 
