@@ -78,7 +78,6 @@
                                     <li><a style="color:white;" href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos')</a></li>
                                     <li><a style="color:white;" href="{{ route('blog.index') }}">Blog</a></li>
                                     <li><a style="color:white;" href="{{ route('contacto') }}">@lang('home.contact')</a></li>
-                                    <li><a style="color:white;" target="_blank" href="https://clientes.rivara.com.ar/">@lang('home.login')</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -90,6 +89,15 @@
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
                                     <li><a style="color:white;" target="_blank" href="{{FACEBOOK}}"> Facebook</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <h3 class="footer-title-style3">@lang('home.login')</h3>
+                        <div class="row">
+                            <div class="col-md-6 no-padding-right xs-padding-15px-right">
+                                <ul class="footer-list xs-margin-5px-bottom">
+                                    <li><a style="color:white;" target="_blank" href="https://clientes.rivara.com.ar/"> @lang('home.login_link')</a></li>
                                 </ul>
                             </div>
                         </div>

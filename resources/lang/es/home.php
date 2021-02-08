@@ -22,6 +22,7 @@ return [
     'recipes' => 'Recetas',
     'contact' => 'Contacto',
     'login' => 'Acceso Clientes',
+    'login_link' => 'Ingresar',
     'lenguage' => 'Idioma',
     'lang_es' => 'Español',
     'lang_en' => 'Inglés',
