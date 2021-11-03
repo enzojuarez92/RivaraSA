@@ -9,8 +9,8 @@
                                 <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="fas fa-cloud-sun vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
                                 <a href="https://www.accuweather.com/es/ar/buenos-aires/7894/weather-forecast/7894" target="_blank" rel="no-follow">
-                                    <h5 class="no-margin text-white text-uppercase font-size15">CLIMA</h5>
-                                    <p class="no-margin line-height-normal">Mirá el tiempo en tu zona</p>
+                                    <h5 class="no-margin text-white text-uppercase font-size15">@lang('home.footer.clima')</h5>
+                                    <p class="no-margin line-height-normal">@lang('home.footer.clima_texto')</p>
                                 </a>
                                 </div>
                             </div>
@@ -19,8 +19,10 @@
                             <div class="padding-30px-all sm-padding-25px-tb sm-no-padding-lr border-right border-color-light-white sm-no-border-right sm-border-bottom">
                                 <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="fas fa-file-alt vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                    <h5 class="no-margin text-white text-uppercase font-size15">Documentation</h5>
-                                    <p class="no-margin line-height-normal">Lorem ipsum dolor sit amet</p>
+                                    <a href="https://www.valorsoja.com/" target="_blank" rel="no-follow">
+                                        <h5 class="no-margin text-white text-uppercase font-size15">@lang('home.footer.vasorja')</h5>
+                                        <p class="no-margin line-height-normal">@lang('home.footer.vasorja_texto')</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -28,8 +30,10 @@
                             <div class="padding-30px-all sm-padding-25px-tb sm-no-padding-lr">
                                 <span class="d-inline-block font-size36 line-height-30 sm-font-size32 sm-line-height-30 text-light-gray vertical-align-top width-40px"><i class="far fa-life-ring vertical-align-top"></i></span>
                                 <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                    <h5 class="no-margin text-white text-uppercase font-size15">Fast Support</h5>
-                                    <p class="no-margin line-height-normal">Lorem ipsum dolor sit amet</p>
+                                    <a href="http://www.acopiadores.com/acopio-news/todas" target="_blank" rel="no-follow">
+                                        <h5 class="no-margin text-white text-uppercase font-size15">@lang('home.footer.acopiadores')</h5>
+                                        <p class="no-margin line-height-normal">@lang('home.footer.acopiadores_texto')</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +71,11 @@
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
                                     <li><a style="color:white;" href="{{ route('home') }}">@lang('home.home')</a></li>
-                                    <li><a style="color:white;" href="{{ route('home') }}">@lang('home.services')</a></li>
+                                    <li><a style="color:white;" href="{{ route('servicios', 'granos') }}">@lang('home.granos')</a></li>
+                                    @if (Session::get('locale') == 'es')
+                                    <li><a style="color:white;" href="{{ route('servicios', 'insumos') }}">@lang('home.insumos')</a></li>
+                                    @endif
+                                    <li><a style="color:white;" href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos')</a></li>
                                     <li><a style="color:white;" href="{{ route('blog.index') }}">Blog</a></li>
                                     <li><a style="color:white;" href="{{ route('contacto') }}">@lang('home.contact')</a></li>
                                 </ul>
@@ -81,6 +89,15 @@
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
                                     <li><a style="color:white;" target="_blank" href="{{FACEBOOK}}"> Facebook</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <h3 class="footer-title-style3">@lang('home.login')</h3>
+                        <div class="row">
+                            <div class="col-md-6 no-padding-right xs-padding-15px-right">
+                                <ul class="footer-list xs-margin-5px-bottom">
+                                    <li><a style="color:white;" target="_blank" href="https://clientes.rivara.com.ar/"> @lang('home.login_link')</a></li>
                                 </ul>
                             </div>
                         </div>

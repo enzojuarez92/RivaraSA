@@ -8,11 +8,11 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => 'Contacto', 
+                'title' => __("contact.title"), 
                 'subtitle' => 'Subtitulo',
                 'links' => array(
-                    ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],
-                    ['icon' => 'icon-add', 'name' => 'Contacto', 'url' => route('contacto')],
+                    ['icon' => 'icon-copy', 'name' => __("home.home"), 'url' => route('home')],
+                    ['icon' => 'icon-add', 'name' => __("contact.title"), 'url' => route('contacto')],
                 )
             ])
 @endsection
@@ -25,14 +25,14 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
+                    <div class="col-lg-6 col-md-12">
 
                         <div class="padding-30px-right sm-no-padding-right">
                             <div class="row">
                                 <div class="col-12">
 
                                     <div class="section-heading left half">
-                                        <h4 class="font-weight-600">Nuestros Datos</h4>
+                                        <h4 class="font-weight-600">@lang('contact.nosotros')</h4>
                                     </div>
 
                                 </div>
@@ -41,7 +41,7 @@
                                     <div class="padding-25px-bottom sm-padding-20px-bottom border-bottom border-color-medium-gray">
                                         <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="fas fa-phone vertical-align-top"></i></span>
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Teléfono</h5>
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">@lang('contact.telefono')</h5>
                                             <p class="no-margin line-height-normal">{{ Config::get('telefono') }}</p>
                                         </div>
                                     </div>
@@ -50,16 +50,16 @@
                                     <div class="padding-25px-tb sm-padding-20px-tb border-bottom border-color-medium-gray">
                                         <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="fas fa-map-marker-alt vertical-align-top"></i></span>
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Dirección</h5>
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">@lang('contact.direccion')</h5>
                                             <p class="no-margin line-height-normal">{{ Config::get('direccion') }}</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="padding-25px-tb sm-padding-20px-tb">
+                                    <div class="padding-25px-tb sm-padding-20px-tb border-bottom border-color-medium-gray">
                                         <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="far fa-envelope vertical-align-top"></i></span>
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Email</h5>
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">@lang('contact.email')</h5>
                                             <p class="no-margin line-height-normal">{{ Config::get('correo') }}</p>
                                         </div>
                                     </div>
@@ -68,8 +68,8 @@
                                     <div class="padding-25px-tb sm-padding-20px-tb">
                                         <span class="d-inline-block font-size26 sm-font-size22 xs-font-size20 line-height-30 text-theme-color vertical-align-top width-30px xs-width-25px"><i class="fab fa-facebook-f vertical-align-top"></i></span>
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
-                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">Seguinos</h5>
-                                            <p class="no-margin line-height-normal">{{ Config::get('correo') }}</p>
+                                            <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">@lang('contact.seguinos')</h5>
+                                            <a target="_blank" href="{{FACEBOOK}}">@RivaraSA</a>
                                         </div>
                                     </div>
                                 </div>
@@ -135,7 +135,6 @@
                     </div>
 
                 </div>
-                <hr>
                 @include('frontend._sucursales')
             </div>
         </section>

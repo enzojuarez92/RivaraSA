@@ -3,7 +3,7 @@
     <div class="container">
 
         <div class="section-heading">
-            <h3 class="title-style2">Mercados</h3>
+            <h3 class="title-style2">@lang('home.mercados')</h3>
         </div>
 
         <div class="row">

@@ -11,7 +11,7 @@
                 'title' => 'Blog', 
                 'subtitle' => 'Blog Noticias',
                 'links' => array(
-                    ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],
+                    ['icon' => 'icon-copy', 'name' => __("home.home"), 'url' => route('home')],
                     ['icon' => 'icon-add', 'name' => 'Blog', 'url' => route('blog.index')],
                     ['icon' => 'icon-add', 'name' => $post->title, 'url' => ''],
                 )

@@ -39,27 +39,29 @@
                                             <a href="{{ route('nosotros') }}">@lang('home.about_us')</a>
                                         </li>
                                         <li>
-                                            <a href="#">GRANOS</a>
+                                            <a href="#">@lang('home.granos')</a>
                                             <ul>
-                                                <li><a href="{{ route('servicios', 'granos') }}">Comercialización</a></li>
-                                                <li><a href="{{ route('servicios', 'granos') }}">Acopio</a></li>
-                                                <li><a href="{{ route('servicios', 'granos') }}">Logística</a></li>
-                                                <li><a href="{{ route('servicios', 'granos') }}">Arrendamientos</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-1')</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-2')</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-3')</a></li>
+                                                <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-4')</a></li>
                                             </ul>
                                         </li>
+                                        @if (Session::get('locale') == 'es')
                                         <li>
-                                            <a href="#">INSUMOS</a>
+                                            <a href="#">@lang('home.insumos')</a>
                                             <ul>
-                                                <li><a href="{{ route('servicios', 'insumos') }}">Agroquímicos y fertilizantes</a></li>
-                                                <li><a href="{{ route('servicios', 'insumos') }}">Agroservice Axion</a></li>
-                                                <li><a href="{{ route('servicios', 'insumos') }}">Estación de Servicio Axion</a></li>
+                                                <li><a href="{{ route('servicios', 'insumos') }}">@lang('home.insumos-1')</a></li>
+                                                <li><a href="{{ route('servicios', 'insumos') }}">@lang('home.insumos-2')</a></li>
+                                                <li><a href="{{ route('servicios', 'insumos') }}">@lang('home.insumos-3')</a></li>
                                             </ul>
-                                        </li>
+                                        </li>                                                                                        
+                                        @endif
                                         <li>
-                                            <a href="#">ALIMENTOS</a>
+                                            <a href="#">@lang('home.alimentos')</a>
                                             <ul>
-                                                <li><a href="{{ route('servicios', 'alimentos') }}">Molienda de maíz NO GMO</a></li>
-                                                <li><a href="{{ route('servicios', 'alimentos') }}">Aceites y harinas</a></li>
+                                                <li><a href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos-1')</a></li>
+                                                <li><a href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos-2')</a></li>
                                             </ul>
                                         </li>
                                         {{--  <li>
@@ -71,11 +73,16 @@
                                         <li>
                                             <a href="{{ route('contacto') }}">@lang('home.contact')</a>
                                         </li>
-                                        <li><a href="javascript:void(0)">IDIOMA</a>
+                                        <li><a href="javascript:void(0)">@lang('home.lenguage')</a>
                                             <ul>
-                                                <li><a href="{{route('locale', 'es')}}">@lang('home.lang_es') <img style="width:20px;" src="{{ asset('img/esp.png') }}" alt="bandera_españa"></a></li>
-                                                <li><a href="{{route('locale', 'en')}}">@lang('home.lang_en') <img style="width:20px;" src="{{ asset('img/eeuu.png') }}" alt="bandera_estados_unidos"></a></li>
+                                                <li><a href="{{ route('locale', 'es') }}">@lang('home.lang_es') <img style="width:20px;" src="{{ asset('img/esp.png') }}" alt="bandera_españa"></a></li>
+                                                <li><a href="{{ route('locale', 'en') }}">@lang('home.lang_en') <img style="width:20px;" src="{{ asset('img/eeuu.png') }}" alt="bandera_estados_unidos"></a></li>
                                             </ul>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://clientes.rivara.com.ar/">
+                                                <img style="width: 25px;" src="{{ asset('/img/profile-user.svg') }}" alt="login">
+                                            </a>
                                         </li>
                                     </ul>
                                     <!-- end menu area -->

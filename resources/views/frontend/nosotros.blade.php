@@ -7,20 +7,18 @@
 @section('image', LOGO_REDES)
 
 @section('breadcrumb')
-            @include('frontend.layout.includes.breadcrumb', [
-                'title' => 'La Empresa', 
-                'subtitle' => 'Sobre nosotros',
-                'img' => 'img/rivara/fachadaoficina_baja2.jpg',
-                'links' => array(
-                    ['icon' => 'icon-copy', 'name' => 'Inicio', 'url' => route('home')],
-                    ['icon' => 'icon-add', 'name' => 'La Empresa', 'url' => route('nosotros')],
-                )
-            ])
+    @include('frontend.layout.includes.breadcrumb', [
+        'title' => __("about.title"),
+        'subtitle' => 'Sobre nosotros',
+        'img' => 'img/rivara/fachadaoficina_baja2.jpg',
+        'links' => array(
+            ['icon' => 'icon-copy', 'name' => __("home.home"), 'url' => route('home')],
+            ['icon' => 'icon-add', 'name' => __("about.title"), 'url' => route('nosotros')],
+        )
+    ])
 @endsection
 
 @section('content')
-
-
         <section>
             <div class="container">
                 <div class="row">
@@ -88,20 +86,11 @@
         <!-- end counter section -->
 
         @include('frontend._servicios')
-
-
-
-
 @endsection
 
-
-
 @push('styles')
-
   <link href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
 @endpush
-
 
 @push('scripts')
   <script src="/z-theme/assets/js/page/page.about-us-option-2.js"></script>

@@ -11,6 +11,7 @@
                     <div class="col-12">
                         <div class="services-grids owl-carousel">
 
+                            @if (Session::get('locale') == 'es')
                             <!-- start feature box item-->
                             <div class="bg-white border border-color-light-black padding-25px-tb padding-30px-lr sm-padding-25px-lr feature-box-03">
                                 <div class="col-md-12 col-sm-12 no-padding margin-15px-bottom xs-margin-10px-bottom alt-font">
@@ -36,6 +37,8 @@
                                 </div>
                             </div>
                             <!-- end feature box item-->
+                                
+                            @endif
 
                             <!-- start feature box item-->
                             <div class="bg-white border border-color-light-black padding-25px-tb padding-30px-lr sm-padding-25px-lr feature-box-03">
@@ -48,14 +51,16 @@
                                     <a href="javascript:void(0)" class="font-weight-700">@lang('home.read')...</a>
                                 </div>
                                 <div class="show-details">
-                                    <img src="img/content/feature-05.jpg" alt="" />
+                                    <img src="img/content/feature-05.jpg" alt=""/>
                                     <div class="feature-box-detail padding-30px-all">
                                         <div class="border border-color-light-white height-100 padding-20px-all">
                                             <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-theme-color font-weight-600">@lang('home.service.title.2')</h4>
+                                            @if (Session::get('locale') == 'es')
                                             <ul class="list-style-13 text-white">
                                                 <li>@lang('home.service.item.2.1')</li>
                                                 <li>@lang('home.service.item.2.2')</li>
-                                            </ul>
+                                            </ul>                                                
+                                            @endif
                                             <a href="{{ route('servicios', 'granos') }}" class="font-weight-700 text-theme-color margin-15px-top sm-margin-10px-top display-inline-block">@lang('home.read')...</a>
                                         </div>
                                     </div>
@@ -78,10 +83,12 @@
                                     <div class="feature-box-detail padding-30px-all">
                                         <div class="border border-color-light-white height-100 padding-20px-all">
                                             <h4 class="font-size18 sm-font-size16 xs-font-size15 margin-10px-bottom width-100 text-theme-color font-weight-600">@lang('home.service.title.3')</h4>
+                                            @if (Session::get('locale') == 'es')
                                             <ul class="list-style-13 text-white">
                                                 <li>@lang('home.service.item.3.1')</li>
                                                 <li>@lang('home.service.item.3.2')</li>
-                                            </ul>
+                                            </ul>                                                
+                                            @endif
                                             <a href="{{ route('servicios', 'alimentos') }}" class="font-weight-700 text-theme-color margin-15px-top sm-margin-10px-top display-inline-block">@lang('home.read')...</a>
                                         </div>
                                     </div>

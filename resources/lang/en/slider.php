@@ -6,8 +6,8 @@ return [
     'slider_1_content' => '',
     'slider_1_link' => 'Know us',
 
-    'slider_2_title' => 'PRODUCTIVITY and TRACEABILITY',
-    'slider_2_subtitle' => 'We meet demands with',
+    'slider_2_title' => 'WHERE YOU NEED US',
+    'slider_2_subtitle' => 'We are at your disposal',
     'slider_2_content' => '',
     'slider_2_link' => 'Read more',
 
@@ -15,6 +15,11 @@ return [
     'slider_3_subtitle' => 'We provide all our',
     'slider_3_content' => 'in the market to advise you on your sales',
     'slider_3_link' => 'Know us',
+
+    'slider_5_title' => 'EXCLUSIVE ACCESS FOR CUSTOMERS',
+    'slider_5_subtitle' => 'Register now!',
+    'slider_5_content' => '',
+    'slider_5_link' => 'Login',
 
     'learn_more' => 'Learn More',
 ];
