@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b41e32e6a8a9eebeb6a503563a77134",
+    "content-hash": "2b0fb7b6062990acda3f35d917a46f6d",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1520,6 +1520,127 @@
                 }
             ],
             "time": "2021-10-03T14:17:12+00:00"
+        },
+        {
+            "name": "jorenvanhocht/laravel-share",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jorenvh/laravel-share.git",
+                "reference": "9ad09ee5f65a64cf993169636366d9fa0b6a993c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/9ad09ee5f65a64cf993169636366d9fa0b6a993c",
+                "reference": "9ad09ee5f65a64cf993169636366d9fa0b6a993c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~6.7",
+                "phpunit/phpunit": "9.4.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jorenvh\\Share\\Providers\\ShareServiceProvider"
+                    ],
+                    "aliases": {
+                        "Share": "Jorenvh\\Share\\ShareFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jorenvh\\Share\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joren Van Hocht",
+                    "email": "joren@codeswitch.be",
+                    "homepage": "https://codeswitch.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Optional package for Laravel to generate social share links.",
+            "homepage": "https://github.com/jorenvh/laravel-share",
+            "keywords": [
+                "laravel",
+                "share",
+                "social links",
+                "social share links"
+            ],
+            "support": {
+                "issues": "https://github.com/jorenvh/laravel-share/issues",
+                "source": "https://github.com/jorenvh/laravel-share/tree/4.1.0"
+            },
+            "time": "2021-08-09T18:48:08+00:00"
+        },
+        {
+            "name": "laracasts/flash",
+            "version": "3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracasts/flash.git",
+                "reference": "76c2e200498795bdbeda97b682536130316e8b97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracasts/flash/zipball/76c2e200498795bdbeda97b682536130316e8b97",
+                "reference": "76c2e200498795bdbeda97b682536130316e8b97",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0|^6.0|^7.0|^8.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laracasts\\Flash\\FlashServiceProvider"
+                    ],
+                    "aliases": {
+                        "Flash": "Laracasts\\Flash\\Flash"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Laracasts\\Flash": "src/"
+                },
+                "files": [
+                    "src/Laracasts/Flash/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                }
+            ],
+            "description": "Easy flash notifications",
+            "support": {
+                "issues": "https://github.com/laracasts/flash/issues",
+                "source": "https://github.com/laracasts/flash/tree/master"
+            },
+            "time": "2020-09-07T13:25:35+00:00"
         },
         {
             "name": "laravel/framework",
