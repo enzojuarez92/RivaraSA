@@ -36,14 +36,14 @@ class SliderContentController extends Controller
                 'visible' => !is_null($request->visible),
             ]);
 
-            flash(MSG_SUCCESS . "El elemento se guardó correctamente.")
+            flash("Perfecto. El elemento se guardó correctamente.")
                 ->success()
                 ->important();
 
             return back();
 
         } catch (\Exception $ex) {
-            flash(MSG_ERROR . $ex->getMessage())
+            flash("Error: ".$ex->getMessage())
                 ->error()
                 ->important();
 
@@ -83,7 +83,7 @@ class SliderContentController extends Controller
 
         } catch (\Exception $ex) {
 
-            flash(MSG_ERROR . $ex->getMessage())
+            flash("Error: ".$ex->getMessage())
                 ->error()
                 ->important();
 
@@ -100,7 +100,7 @@ class SliderContentController extends Controller
 
             $slidercontent->delete();
 
-            flash(MSG_SUCCESS . "El elemento se eliminó correctamente.")
+            flash("Perfecto. El elemento se eliminó correctamente.")
                 ->success()
                 ->important();
 
@@ -108,7 +108,7 @@ class SliderContentController extends Controller
 
         } catch (\Exception $ex) {
 
-            flash(MSG_ERROR . $ex->getMessage())
+            flash("Error: ".$ex->getMessage())
                 ->error()
                 ->important();
 

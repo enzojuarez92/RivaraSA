@@ -3,5 +3,5 @@
 return [
     'name' => 'Slider',
     'layout' => 'layouts.klorofil',
-    'image_path' => 'assets/img/sliders',
+    'image_path' => 'assets/img/slidersModules',
 ];

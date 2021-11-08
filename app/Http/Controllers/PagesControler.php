@@ -15,6 +15,7 @@ use App\Mail\testEmail;
 use Illuminate\Http\Request;
 use App\Events\ContactoEnviado;
 use Illuminate\Support\Facades\DB;
+use Modules\Slider\Entities\Slider;
 use Illuminate\Support\Facades\Mail;
 
 class PagesControler extends Controller
