@@ -50,6 +50,11 @@ class PagesControler extends Controller
          } //TODO: Ver si lo dejamos asi
     }
 
+    public function organico()
+    {
+        return view('frontend.organico');
+    }
+
     public function nosotros()
     {
         $partners = Partner::all();

@@ -27,6 +27,7 @@ Route::get('/testEmail', 'PagesControler@testEmail')
 
 Route::get('/feed', 'PagesControler@feedPosts')->name('feeds.posts');
 Route::get('/', 'PagesControler@home')->name('home');
+Route::get('/organico', 'PagesControler@organico')->name('organico');
 Route::get('/la-empresa', 'PagesControler@nosotros')->name('nosotros');
 Route::get('/servicios/{servicio?}', 'PagesControler@servicios')->name('servicios');
 Route::get('/contacto', 'PagesControler@contacto')->name('contacto');
