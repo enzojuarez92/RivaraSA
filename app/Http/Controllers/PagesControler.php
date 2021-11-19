@@ -22,19 +22,19 @@ class PagesControler extends Controller
     public function home()
     {
         try {
-            if (env('APP_ENV') == 'production') {
-                $api_response = file_get_contents('https://markets-api.herokuapp.com/plain');
-                $response = json_decode($api_response, true);
-                if ($response['code'] == 200) {
-                    $tables = $response['tables'];
-                    foreach ($tables as $name => $table)
-                        str_replace("fondo-blanco", "", $table);
-                } else {
-                    $tables = null;
-                }
-            }else {
-                $tables = null;
-            }
+            // if (env('APP_ENV') == 'production') {
+            //     $api_response = file_get_contents('https://markets-api.herokuapp.com/plain');
+            //     $response = json_decode($api_response, true);
+            //     if ($response['code'] == 200) {
+            //         $tables = $response['tables'];
+            //         foreach ($tables as $name => $table)
+            //             str_replace("fondo-blanco", "", $table);
+            //     } else {
+            //         $tables = null;
+            //     }
+            // }else {
+            // }
+            $tables = null;
 
             $posts = Post::publicados()->orderBy(DB::raw('RAND()'))->take(3)->get();
             $clients = Client::all();
