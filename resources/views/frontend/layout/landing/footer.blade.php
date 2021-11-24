@@ -7,28 +7,14 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
+                    <div class="col-lg-6 col-md-6 sm-margin-30px-bottom">
 
                         <img style="max-width:70%" alt="footer-logo" src="{{ asset(LOGO_ALTERNATIVO) }}">
                         <p class="margin-25px-top margin-20px-bottom"></p>
-                        <ul class="footer-list">
-                            <li>
-                                <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-map-marker-alt text-theme-color"></i></span>
-                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('direccion') ?? 'Sin datos' }}</span>
-                            </li>
-                            <li>
-                                <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-mobile-alt text-theme-color"></i></span>
-                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('telefono') ?? 'Sin datos' }}</span>
-                            </li>
-                            <li>
-                                <span class="d-inline-block vertical-align-top font-size18"><i class="far fa-envelope text-theme-color"></i></span>
-                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('correo') ?? 'Sin datos' }}</span>
-                            </li>
-                        </ul>
 
                     </div>
 
-                    {{-- <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
+                    {{-- <div class="col-lg-6 col-md-6 sm-margin-30px-bottom">
                         <h3 class="footer-title-style3">Sitio</h3>
                         <div class="row">
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
@@ -46,24 +32,21 @@
                         </div>
                     </div>
  --}}
-                    <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
-                        <h3 class="footer-title-style3">@lang('home.blog-follow')</h3>
-                        <div class="row">
-                            <div class="col-md-6 no-padding-right xs-padding-15px-right">
-                                <ul class="footer-list xs-margin-5px-bottom">
-                                    <li><a style="color:white;" target="_blank" href="{{FACEBOOK}}"> Facebook</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <hr>
-                        <h3 class="footer-title-style3">@lang('home.login')</h3>
-                        <div class="row">
-                            <div class="col-md-6 no-padding-right xs-padding-15px-right">
-                                <ul class="footer-list xs-margin-5px-bottom">
-                                    <li><a style="color:white;" target="_blank" href="https://clientes.rivara.com.ar/"> @lang('home.login_link')</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-lg-6 col-md-6 sm-margin-30px-bottom">
+                        <ul class="footer-list">
+                            <li>
+                                <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-map-marker-alt text-theme-color"></i></span>
+                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('direccion') ?? 'Sin datos' }}</span>
+                            </li>
+                            <li>
+                                <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-mobile-alt text-theme-color"></i></span>
+                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('telefono') ?? 'Sin datos' }}</span>
+                            </li>
+                            <li>
+                                <span class="d-inline-block vertical-align-top font-size18"><i class="far fa-envelope text-theme-color"></i></span>
+                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('correo') ?? 'Sin datos' }}</span>
+                            </li>
+                        </ul>
                     </div>
 
                 </div>

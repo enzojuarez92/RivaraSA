@@ -16,22 +16,11 @@
     </div>
     <!-- end top search -->
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-12">
-                <div class="menu_area alt-font">
-                    <nav class="navbar navbar-expand-lg navbar-light no-padding">
-
-                        <div class="navbar-header navbar-header-custom">
+        <div class="row text-center p-4">
+            <div class="col-12">
                             <!-- start logo -->
                             <a href="{{ route('home') }}" class="navbar-brand"><img id="logo" src="{{ asset(LOGO) }}" alt="logo"></a>
                             <!-- end logo -->
-                        </div>
-
-                        <div class="navbar-toggler"></div>
-
-
-                    </nav>
-                </div>
             </div>
         </div>
     </div>
