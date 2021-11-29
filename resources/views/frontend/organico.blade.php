@@ -11,7 +11,7 @@
         <div class="container-fluid full-screen">
             <div class="row slider-fade">
                 <div class="owl-carousel owl-theme width-100">
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/Slider5.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/1.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_5_subtitle')</h3>
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/alta/Slider1.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/2.jpeg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_1_subtitle')</h3>
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/alta/Slider2.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/3.jpeg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_2_subtitle')</h3>
@@ -47,7 +47,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center item bg-img" data-overlay-dark="1" data-background="{{ asset('img/rivara/sliders/alta/Slider4.jpg') }}">
+                    <div class="text-center item bg-img" data-overlay-dark="1" data-background="{{ asset('img/organico/slider/4.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
                                 <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_3_subtitle')</h3>
@@ -72,11 +72,11 @@
                     <h3 class="title-style2">NUESTROS PRODUCTOS ORGÁNICOS</h3>
                 </div>
         
-                    <div class="row mb-2">
+                    <div class="row mb-5">
                         <div class="col-md-12">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <div class="card-img bg-img cover-background h-100" data-overlay-dark="0" data-background="http://localhost:8000/img/rivara/fachadaoficina_baja.jpg" style="background-image: url(&quot;img/blog/blog-1.jpg&quot;);"></div>
+                                    <div class="card-img bg-img cover-background h-100" data-overlay-dark="0" data-background="{{ asset('img/organico/productos/polenta.jpg') }}" style="background-image: url({{ asset('img/organico/productos/polenta.jpg') }};);"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -101,11 +101,11 @@
                         </div>
                     </div>
 
-                    <div class="row mb-2">
+                    <div class="row mb-5">
                         <div class="col-md-12">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <div class="card-img bg-img cover-background h-100" data-overlay-dark="0" data-background="http://localhost:8000/img/rivara/fachadaoficina_baja.jpg" style="background-image: url(&quot;img/blog/blog-1.jpg&quot;);"></div>
+                                    <div class="card-img bg-img cover-background h-100" data-overlay-dark="0" data-background="{{ asset('img/organico/productos/pellets.jpg') }}" style="background-image: url({{ asset('img/organico/productos/pellets.jpg') }};);"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -128,11 +128,11 @@
                         </div>
                     </div>
 
-                    <div class="row mb-2">
+                    <div class="row mb-5">
                         <div class="col-md-12">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <div class="card-img bg-img cover-background h-100" data-overlay-dark="0" data-background="http://localhost:8000/img/rivara/fachadaoficina_baja.jpg" style="background-image: url(&quot;img/blog/blog-1.jpg&quot;);"></div>
+                                    <div class="card-img bg-img cover-background h-100" data-overlay-dark="0" data-background="{{ asset('img/organico/productos/barco.jpg') }}" style="background-image: url({{ asset('img/organico/productos/barco.jpg') }};);"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -152,33 +152,72 @@
                         </div>
                     </div>
 
-                    {{-- <div class="row">
+                    <div class="row">
                         <div class="col-md-12">
                             <div class="card-columns">
                                 <div class="card">
-                                    <img class="card-img-top" src="http://localhost:8000/img/rivara/fachadaoficina_baja.jpg" alt="">
+                                    <img class="card-img-top" src="{{ asset('img/organico/productos/polenta.jpg') }}" alt="">
                                     <div class="card-body">
-                                        <h4 class="card-title">Title</h4>
-                                        <p class="card-text">Text</p>
+                                        <h4 class="card-title" style="font-size:23px;">Polenta Del Campo Orgánico para consumo humano</h4>
+                                        <p class="card-text">
+                                            <p>
+                                                Nuestra polenta esta hecha en molino de última generación en donde procesamos
+                                                maíces colorados duros. La calidad de la materia prima y la tecnología de nuestros
+                                                molinos hacen de la polenta Del Campo la mejor polenta del mercado.
+                                                Además, está certificada como apta para consumo de celíacos.
+                                            </p>
+                                            <p>
+                                                Por Consultas: <br>
+                                                <i class="fas fa-user"></i> Verónica Beatrice
+                                                <br>
+                                                <i class="fas fa-phone"></i> 2346 – 470178
+                                                <br>
+                                                <i class="far fa-envelope"></i> veronica@rivara.com.ar
+                                            </p>
+                                            </p>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top" src="http://localhost:8000/img/rivara/fachadaoficina_baja.jpg" alt="">
+                                    <img class="card-img-top" src="{{ asset('img/organico/productos/pellets.jpg') }}" alt="">
                                     <div class="card-body">
-                                        <h4 class="card-title">Title</h4>
-                                        <p class="card-text">Text</p>
+                                        <h4 class="card-title" style="font-size:23px;">Alimentos Balanceados</h4>
+                                        <p class="card-text">
+                                            <p>
+                                                En 2019 inauguramos una moderna planta de alimentos balanceados exclusivamente
+                                                orgánicos. <br>
+                                                Proveemos a tambos y a criaderos de aves orgánicos con productos certificados de
+                                                excelente calidad.
+                                            </p>
+                                            <p>
+                                                Por Consultas: <br>
+                                                <i class="fas fa-phone"></i> 2346 – 472000
+                                                <br>
+                                                <i class="far fa-envelope"></i> fernando@rivara.com.ar
+                                            </p>
+    
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top" src="http://localhost:8000/img/rivara/fachadaoficina_baja.jpg" alt="">
+                                    <img class="card-img-top" src="{{ asset('img/organico/productos/barco.jpg') }}" alt="">
                                     <div class="card-body">
-                                        <h4 class="card-title">Title</h4>
-                                        <p class="card-text">Text</p>
+                                        <h4 class="card-title" style="font-size:23px;">Compra de granos orgánicos</h4>
+                                        <p class="card-text">
+                                            <p>
+                                                Estamos activos todo el año en la compra de granos orgánicos.
+                                            </p>
+                                            <p>
+                                                Por Consultas: <br>
+                                                <i class="fas fa-phone"></i> 2346 - 472000
+                                                <br>
+                                                <i class="far fa-envelope"></i> diego@rivara.com.ar
+                                            </p>
+                                            </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
             </div>
         </section>        
 
