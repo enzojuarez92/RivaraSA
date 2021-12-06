@@ -156,7 +156,7 @@
                         <div class="col-md-12">
                             <div class="card-columns">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{ asset('img/organico/productos/polenta.jpg') }}" alt="">
+                                    <img loading="lazy" class="card-img-top" src="{{ asset('img/organico/productos/polenta.jpg') }}" alt="">
                                     <div class="card-body">
                                         <h4 class="card-title" style="font-size:23px;">Polenta Del Campo Orgánico para consumo humano</h4>
                                         <p class="card-text">
@@ -178,7 +178,7 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top" src="{{ asset('img/organico/productos/pellets.jpg') }}" alt="">
+                                    <img loading="lazy" class="card-img-top" src="{{ asset('img/organico/productos/pellets.jpg') }}" alt="">
                                     <div class="card-body">
                                         <h4 class="card-title" style="font-size:23px;">Alimentos Balanceados</h4>
                                         <p class="card-text">
@@ -199,7 +199,7 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top" src="{{ asset('img/organico/productos/barco.jpg') }}" alt="">
+                                    <img loading="lazy" class="card-img-top" src="{{ asset('img/organico/productos/barco.jpg') }}" alt="">
                                     <div class="card-body">
                                         <h4 class="card-title" style="font-size:23px;">Compra de granos orgánicos</h4>
                                         <p class="card-text">
@@ -229,7 +229,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div>
-                                <img src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="sobre nosotros" />
+                                <img loading="lazy" src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="sobre nosotros" />
                             </div>
                         </div>
                         <div class="col-lg-6">
