@@ -1,0 +1,13 @@
+{
+    "name": "DvsAdmin",
+    "alias": "dvsadmin",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\DvsAdmin\\Providers\\DvsAdminServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

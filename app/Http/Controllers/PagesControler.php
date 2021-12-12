@@ -15,6 +15,7 @@ use App\Mail\testEmail;
 use Illuminate\Http\Request;
 use App\Events\ContactoEnviado;
 use Illuminate\Support\Facades\DB;
+use Modules\Slider\Entities\Slider;
 use Illuminate\Support\Facades\Mail;
 
 class PagesControler extends Controller
@@ -46,6 +47,11 @@ class PagesControler extends Controller
         } catch (\Exception $ex) { 
             
         } //TODO: Ver si lo dejamos asi
+    }
+
+    public function organico()
+    {
+        return view('frontend.organico');
     }
 
     public function nosotros()
