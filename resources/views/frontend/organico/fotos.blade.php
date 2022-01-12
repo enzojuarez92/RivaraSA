@@ -64,7 +64,7 @@
                         Por Consultas: <br>
                         <i class="fas fa-phone"></i> 2346 - 472000
                         <br>
-                        <i class="far fa-envelope"></i> diego@praderanatural.com.ar
+                        <i class="far fa-envelope"></i> diego.rivara@praderanatural.com.ar
                     </p>
                 </div>
             </div>
