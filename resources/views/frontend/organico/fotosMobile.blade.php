@@ -8,7 +8,7 @@
                 <div class="card-body" style="background-color: white">
                     <h3><a href="blog-post.html">Polenta Del Campo Orgánico para consumo humano</a></h3>
                     <p>
-                        Nuestra polenta está elaborada en molino de última generación Buhler, donde procesamos maices colorados duros. La calidad de la materia prima y la tecnologia aplicada en la molienda hacen de la Polenta Del Campo la mejor opción para llevar a tu mesa. Todos nuestros productos poseen certificaciones BPM y HCCP más la aprobación como apta para consumo de celíacos.
+                        Nuestra polenta está elaborada en maquinaria de última generación Buhler, donde procesamos maices colorados duros. La calidad de la materia prima y la tecnologia aplicada en la molienda hacen de la Polenta Del Campo la mejor opción para llevar a tu mesa. Todos nuestros productos poseen certificaciones BPM y HCCP más la aprobación como apta para consumo de celíacos.
                     </p>
                     <p>
                         Por Consultas: <br>
@@ -64,7 +64,7 @@
                         Por Consultas: <br>
                         <i class="fas fa-phone"></i> 2346 - 472000
                         <br>
-                        <i class="far fa-envelope"></i> diego@rivara.com.ar
+                        <i class="far fa-envelope"></i> diego@praderanatural.com.ar
                     </p>
                 </div>
             </div>

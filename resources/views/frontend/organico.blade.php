@@ -21,16 +21,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/2.jpeg') }}">
-                        <div class="absolute-middle-center caption">
-                            <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">
-                                    Entregamos tu alimento balanceado
-                                </h3>
-                                <h1 class="text-white">DONDE LO NECESITES</h1>
-                            </div>
-                        </div>
-                    </div>
                     <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/3.jpeg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
@@ -38,6 +28,16 @@
                                     Moderna planta de alimentos balanceados orgánicos
                                 </h3>
                                 <h1 class="text-white">PARA CUALQUIER NECESIDAD</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/2.jpeg') }}">
+                        <div class="absolute-middle-center caption">
+                            <div class="overflow-hidden">
+                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">
+                                    Entregamos tu alimento balanceado
+                                </h3>
+                                <h1 class="text-white">DONDE LO NECESITES</h1>
                             </div>
                         </div>
                     </div>
