@@ -14,48 +14,40 @@
                     <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/1.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_5_subtitle')</h3>
-                                <h1 class="text-white">@lang('slider.slider_5_title')</h1>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_5_content')</p>
-                                <a target="_blank" href="https://clientes.rivara.com.ar/" class="butn medium theme">
-                                    <span class="alt-font">@lang('slider.slider_5_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
-                                </a>
+                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">
+                                    Maices Flint + Tecnología Buhler:
+                                </h3>
+                                <h1 class="text-white">LA POLENTA MÁS SABROSA DEL MERCADO</h1>
                             </div>
                         </div>
                     </div>
                     <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/2.jpeg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_1_subtitle')</h3>
-                                <h1 class="text-white">@lang('slider.slider_1_title')</h1>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_1_content')</p>
-                                <a href="{{ route('nosotros') }}" class="butn medium theme">
-                                    <span class="alt-font">@lang('slider.slider_1_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
-                                </a>
+                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">
+                                    Entregamos tu alimento balanceado
+                                </h3>
+                                <h1 class="text-white">DONDE LO NECESITES</h1>
                             </div>
                         </div>
                     </div>
                     <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/organico/slider/3.jpeg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_2_subtitle')</h3>
-                                <h1 class="text-white">@lang('slider.slider_2_title')</h1>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_2_content')</p>
-                                <a href="{{ route('home', '#servicios') }}" class="butn medium theme">
-                                    <span class="alt-font">@lang('slider.slider_2_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
-                                </a>
+                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">
+                                    Moderna planta de alimentos balanceados orgánicos
+                                </h3>
+                                <h1 class="text-white">PARA CUALQUIER NECESIDAD</h1>
                             </div>
                         </div>
                     </div>
                     <div class="text-center item bg-img" data-overlay-dark="1" data-background="{{ asset('img/organico/slider/4.jpg') }}">
                         <div class="absolute-middle-center caption">
                             <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_3_subtitle')</h3>
-                                <h1 class="text-white">@lang('slider.slider_3_title')</h1>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_3_content')</p>
-                                <a href="{{ route('nosotros') }}" class="butn medium theme">
-                                    <span class="alt-font">@lang('slider.slider_3_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
-                                </a>
+                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">
+                                    Experiencia y conocimiento para ofrecerte
+                                </h3>
+                                <h1 class="text-white">LA MEJOR LOGISTICA Y EL MEJOR PRECIO</h1>
                             </div>
                         </div>
                     </div>

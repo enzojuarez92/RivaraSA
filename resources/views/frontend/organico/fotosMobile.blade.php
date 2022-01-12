@@ -8,10 +8,7 @@
                 <div class="card-body" style="background-color: white">
                     <h3><a href="blog-post.html">Polenta Del Campo Orgánico para consumo humano</a></h3>
                     <p>
-                        Nuestra polenta esta hecha en molino de última generación en donde procesamos
-                        maíces colorados duros. La calidad de la materia prima y la tecnología de nuestros
-                        molinos hacen de la polenta Del Campo la mejor polenta del mercado.
-                        Además, está certificada como apta para consumo de celíacos.
+                        Nuestra polenta está elaborada en molino de última generación Buhler, donde procesamos maices colorados duros. La calidad de la materia prima y la tecnologia aplicada en la molienda hacen de la Polenta Del Campo la mejor opción para llevar a tu mesa. Todos nuestros productos poseen certificaciones BPM y HCCP más la aprobación como apta para consumo de celíacos.
                     </p>
                     <p>
                         Por Consultas: <br>
@@ -37,10 +34,7 @@
                 <div class="card-body" style="background-color: white">
                     <h3><a href="blog-post.html">Alimentos balanceados</a></h3>
                     <p>
-                        En 2019 inauguramos una moderna planta de alimentos balanceados exclusivamente
-                        orgánicos. <br>
-                        Proveemos a tambos y a criaderos de aves orgánicos con productos certificados de
-                        excelente calidad.
+                        En 2019 inauguramos una moderna planta de alimentos balanceados exclusivamente orgánicos. Abastecemos a la red de tambos orgánicos de Nestlé y a criaderos de aves, tanto ponedoras como de carne con productos certificados.
                     </p>
                     <p>
                         Por Consultas: <br>
@@ -64,7 +58,7 @@
                 <div class="card-body" style="background-color: white">
                     <h3><a href="blog-post.html">Compra de granos orgánicos</a></h3>
                     <p>
-                        Estamos activos todo el año en la compra de granos orgánicos.
+                        Desde 1997 exportamos granos y subproductos orgánicos al mundo. Hoy exportamos buques completos de granos orgánicos desde el puerto de San Pedro, único puerto argentino orgánico certificado, donde no se permite cargar granos con OGM. Estamos activos todo el año en la compra de granos y subproductos.
                     </p>
                     <p>
                         Por Consultas: <br>
