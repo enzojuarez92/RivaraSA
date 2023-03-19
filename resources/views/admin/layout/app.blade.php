@@ -83,7 +83,9 @@ desired effect
               <!-- The user image in the navbar-->
               <img src="{{ isset(Auth::user()->avatar)? asset('img/'.Auth::user()->avatar) : asset('img/admin/avatarPerfil/default.png') }}" class="user-image" alt="">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
+              @auth
               <span class="hidden-xs">{{ Auth::user()->name }}</span>
+              @endauth
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -91,8 +93,10 @@ desired effect
                 <img src="{{ isset(Auth::user()->avatar)? asset('img/'.Auth::user()->avatar) : asset('img/admin/avatarPerfil/default.png') }}" class="img-circle" alt="">
 
                 <p>
-                  {{ Auth::user()->name }}
-                  <small>{{ Auth::user()->roles->first()->display_name }}</small>
+                  @auth
+                  {{ Auth::user()->name ?? '' }}
+                  <small>{{ Auth::user()->roles->first()->display_name }}</small>                      
+                  @endauth
                 </p>
               </li>
               <!-- Menu Body -->
@@ -113,7 +117,9 @@ desired effect
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
+                  @auth
                   <a href="{{ route('admin.users.edit', Auth::user() ) }}" class="btn btn-default btn-flat">Mi perfil</a>
+                  @endauth
                 </div>
                 <div class="pull-right">
                   <form id="logout-form" action="{{ url('logout') }}" method="POST">
@@ -145,7 +151,9 @@ desired effect
           <img src="{{ isset(Auth::user()->avatar)? asset('img/'.Auth::user()->avatar) : asset('img/admin/avatarPerfil/default.png') }}" class="img-circle" alt="">
         </div>
         <div class="pull-left info">
+          @auth
           <p>{{ Auth::user()->name }}</p>
+          @endauth
           <!-- Status -->
           <a href="{{ env('APP_URL') }}" target="_blank"><i class="fa fa-circle text-success"></i> Ir a WEB</a>
         </div>
@@ -201,13 +209,15 @@ desired effect
   <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
+            @auth
             <form id="form-support" target="_blank"action="{{ LINK_SOPORTE }}" method="post">
                 <input type="hidden" name="user_name" value="{{ Auth::user()->user_name }}">
                 <input type="hidden" name="name" value="{{ Auth::user()->name }}">
                 <input type="hidden" name="lastname" value="{{ Auth::user()->lastname }}">
                 <input type="hidden" name="email" value="{{ Auth::user()->email }}">
                 {{-- <input type="submit" value="Soporte"> --}}
-            </form>
+            </form>                
+            @endauth
             <i class="fa fa-question"></i> Ayuda:
             <a href="#" onclick="javascript:document.getElementById('form-support').submit();" class="breadcrumb-elements-item">
                 <i class="icon-comment-discussion mr-2"></i>

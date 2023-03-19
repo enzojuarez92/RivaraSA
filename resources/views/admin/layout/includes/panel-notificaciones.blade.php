@@ -40,24 +40,30 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
               
-              @if ($cont_noti= Auth::user()->unreadNotifications->count() > 0)
-              <span class="label label-warning">{{$cont_noti}}</span>
-                
+              @if (Auth::user())
+                @if (Auth::user()->unreadNotifications->count() > 0)
+                <span class="label label-warning">{{ Auth::user()->unreadNotifications->count() }}</span>
+                  
+                @endif                  
               @endif
               
             </a>
             <ul class="dropdown-menu">
-              <li class="header">Tenés {{$cont_noti}} notificaciones</li>
+              @auth
+              <li class="header">Tenés {{ Auth::user()->unreadNotifications->count() }} notificaciones</li>
+              @endauth
               <li>
                 <!-- Inner Menu: contains the notifications -->
                 <ul class="menu">
                   <li><!-- start notification -->
                     
+                    @auth
                     @foreach (Auth::user()->unreadNotifications as $notificacion)
                       <a href="{{url($notificacion['data']['link'].'/'.$notificacion->id)}}">
                         <i class="{{ $notificacion['data']['icon'] }} text-aqua"></i> {{ $notificacion['data']['texto'] }}
                       </a>                      
-                    @endforeach
+                    @endforeach                        
+                    @endauth
                     
                   </li>
                   <!-- end notification -->
