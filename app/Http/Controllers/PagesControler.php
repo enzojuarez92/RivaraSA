@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Goutte;
 use App\Tag;
 use App\Lead;
 use App\Post;
@@ -17,26 +18,18 @@ use App\Events\ContactoEnviado;
 use Illuminate\Support\Facades\DB;
 use Modules\Slider\Entities\Slider;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Cache;
 
 class PagesControler extends Controller
 {
     public function home()
     {
         try {
-            // if (env('APP_ENV') == 'production') {
-            //     $api_response = file_get_contents('https://markets-api.herokuapp.com/plain');
-            //     $response = json_decode($api_response, true);
-            //     if ($response['code'] == 200) {
-            //         $tables = $response['tables'];
-            //         foreach ($tables as $name => $table)
-            //             str_replace("fondo-blanco", "", $table);
-            //     } else {
-            //         $tables = null;
-            //     }
-            // }else {
-            // }
-            $tables = null;
-
+            
+            $tables['pizarra'] = $this->scrap('#pizarra', 5);
+            $tables['rofex'] = $this->scrap('#rofex', 3);
+            $tables['matba'] = $this->scrap('#matba', 3);
+            $tables['chicago'] = $this->scrap('#chicago', 3);
             $posts = Post::publicados()->orderBy(DB::raw('RAND()'))->take(3)->get();
             $clients = Client::all();
             return view('frontend.home', compact(
@@ -49,6 +42,29 @@ class PagesControler extends Controller
         } //TODO: Ver si lo dejamos asi
     }
 
+    public function scrap($id, $chunk = 4)
+    {
+        return Cache::remember('tablas', 1800, function () use ($id, $chunk) {
+            $crawler = Goutte::request('GET', 'http://eduardoberaza.com/');
+            $encabezado = [];
+            $salida = [];
+            $crawler->filter($id)->each(function ($node) use (&$encabezado, &$salida) {
+                $node->filter('table th')->each(function ($node) use (&$encabezado, &$salida) {
+                    $encabezado[] = $node->text();
+                });
+                $node->filter('table td')->each(function ($node) use (&$encabezado, &$salida) {
+                    $salida[] = $node->text();
+                });
+            });
+            $divArrayEncabeado = array_chunk($encabezado, $chunk);
+            $divArrayBody = array_chunk($salida, $chunk);
+            $salida = [
+                'encabezado' => $divArrayEncabeado,
+                'body' => $divArrayBody
+            ];
+            return $salida;            
+        });
+    }
     public function organico()
     {
         return view('frontend.organico');
