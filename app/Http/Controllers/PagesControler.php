@@ -85,7 +85,9 @@ class PagesControler extends Controller
 
     public function servicios($servicio = 'insumos')
     {
+        $contactoPorArea = [];
         return view('frontend.servicios', compact(
+            'contactoPorArea',
             'servicio'
         ));
     }
