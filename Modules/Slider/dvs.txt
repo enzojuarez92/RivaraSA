@@ -1,0 +1,19 @@
+::: CONSIDERACIONES:
+- modificar lo necesario en archivo config.php
+
+
+::: HELPERS:
+Instalar el siguiente helper para tener acceso al slider render 
+sliderRender('slider-home')
+
+dentro de composer.json autoload:
+"files": [
+    "Modules/Slider/Http/Helpers/SliderHelper.php"
+]
+
+
+
+
+::: PAQUETES UTILIZADOS:
+"laracasts/flash": "^3.1",
+"guzzlehttp/guzzle": "^6.5",

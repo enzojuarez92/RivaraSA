@@ -17,88 +17,47 @@
                         <li> CHICAGO</li>
                     </ul>
                     <div class="resp-tabs-container hor_1" id="markets-tables">
-                        @if($tables)
-                            @foreach ($tables as $table)
-                                <div>
-                                    {!! $table !!}
-                                </div>
-                            @endforeach
-                        @else
                         <div>
                             <table class="table table-striped">
                                 <thead>
+                                    @foreach ($tables['pizarra']['encabezado'] as $item)
                                     <tr>
-                                        <th>12/12/2000</th>
-                                        <th>ROSARIO</th>
-                                        <th>DÁRSENA</th>
-                                        <th>QUEQUÉN</th>
-                                        <th>B. BLANCA</th>
-                                    </tr>
+                                        @foreach ($item as $item2)
+                                        <th>{{ $item2 }}</th>
+                                        @endforeach
+                                    </tr>                                        
+                                    @endforeach
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Trigo</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Maíz</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Girasol</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Soja</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sorgo</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
+                                    @foreach ($tables['pizarra']['body'] as $item)
+                                        <tr>
+                                            @foreach ($item as $item2)
+                                                <td class="{{ ($item2 < 0) ? 'text-danger' : '' }}">{{ $item2 }}</td>
+                                            @endforeach
+                                        </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>
                         <div>
                             <table class="table table-bordered">
                                 <thead>
+                                    @foreach ($tables['rofex']['encabezado'] as $item)
                                     <tr>
-                                        <th>12/12/2000</th>
-                                        <th>U$S</th>
-                                        <th>DIF.</th>
-                                    </tr>
+                                        @foreach ($item as $item2)
+                                        <th>{{ $item2 }}</th>
+                                        @endforeach
+                                    </tr>                                        
+                                    @endforeach
                                 </thead>
                                 <tbody>
+                                    @foreach ($tables['rofex']['body'] as $item)
                                     <tr>
-                                        <td>DOLAR '08/19</td>
-                                        <td>-</td>
-                                        <td>-</td>
+                                        @foreach ($item as $item2)
+                                        <td class="{{ ($item2 < 0) ? 'text-danger' : '' }}">{{ $item2 }}</td>
+                                        @endforeach
                                     </tr>
-                                    <tr>
-                                        <td>DOLAR '07/19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>SOJA '06/19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
 
@@ -106,43 +65,22 @@
                         <div>
                             <table class="table table-bordered">
                                 <thead>
+                                    @foreach ($tables['matba']['encabezado'] as $item)
                                     <tr>
-                                        <th>12/12/2000</th>
-                                        <th>U$S</th>
-                                        <th>DIF.</th>
-                                    </tr>
+                                        @foreach ($item as $item2)
+                                        <th>{{ $item2 }}</th>
+                                        @endforeach
+                                    </tr>                                        
+                                    @endforeach
                                 </thead>
                                 <tbody>
+                                    @foreach ($tables['matba']['body'] as $item)
                                     <tr>
-                                        <td>SOJA AGO'19</td>
-                                        <td>-</td>
-                                        <td>-</td>
+                                        @foreach ($item as $item2)
+                                        <td class="{{ ($item2 < 0) ? 'text-danger' : '' }}">{{ $item2 }}</td>
+                                        @endforeach
                                     </tr>
-                                    <tr>
-                                        <td>SOJA JUL'19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>MAIZ SEP''19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>MAIZ JUL'19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>TRIGO SEP'19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>TRIGO JUL'19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
 
@@ -150,42 +88,25 @@
                         <div>
                             <table class="table table-bordered">
                                 <thead>
+                                    @foreach ($tables['chicago']['encabezado'] as $item)
                                     <tr>
-                                        <th>12/12/2000</th>
-                                        <th>U$S</th>
-                                        <th>DIF.</th>
-                                    </tr>
+                                        @foreach ($item as $item2)
+                                        <th>{{ $item2 }}</th>
+                                        @endforeach
+                                    </tr>                                        
+                                    @endforeach
                                 </thead>
                                 <tbody>
+                                    @foreach ($tables['chicago']['body'] as $item)
                                     <tr>
-                                        <td>ACE SOJA JUL 19</td>
-                                        <td>-</td>
-                                        <td>-</td>
+                                        @foreach ($item as $item2)
+                                        <td class="{{ ($item2 < 0) ? 'text-danger' : '' }}">{{ $item2 }}</td>
+                                        @endforeach
                                     </tr>
-                                    <tr>
-                                        <td>HAR SOJA JUL 19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>MAIZ JUL 19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>TRIGO JUL 19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>SOJA JUL 19</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>
-                        @endif
                     </div>
                 </div>
 
