@@ -44,7 +44,7 @@ class PagesControler extends Controller
 
     public function scrap($id, $chunk = 4)
     {
-        return Cache::remember('tablas', 1800, function () use ($id, $chunk) {
+        return Cache::remember('tablas.'.$id, 1800, function () use ($id, $chunk) {
             $crawler = Goutte::request('GET', 'http://eduardoberaza.com/');
             $encabezado = [];
             $salida = [];

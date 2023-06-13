@@ -37,13 +37,19 @@ class ImageHelper
         
         // generar un nombre aleatorio para la imagen
         $temp_name = $n .'.'. $imagenOriginal->getClientOriginalExtension();
-        
-        if ($ancho!=null || $alto!=null) {
-            $imagen->resize($ancho, $alto, function ($constraint) {
-                $constraint->aspectRatio();
-                $constraint->upsize();
-            });
+
+
+        $width = $imagen->width();
+        $height = $imagen->height();
+        if ($width != $height) {
+            $size = max($width, $height);
+            $imagen->resizeCanvas($size, $size, 'center', false, '#ffffff');
         }
+
+        $imagen->resize($ancho, $alto, function ($constraint) {
+            $constraint->aspectRatio();
+            $constraint->upsize();
+        });
         
         // guardar imagen
         // save( [ruta], [calidad])
