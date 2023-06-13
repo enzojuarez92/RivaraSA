@@ -31,17 +31,21 @@ return [
         'titulo' => 'Granos',
 
         'item_1_titulo' => 'Acopio, logística y comercialización',
-        'item_1_texto' => 'Actualmente contamos con 5 plantas estratégicamente ubicadas, para la recepción y acopio de granos, que totalizan una capacidad de almacenaje de 70.000 toneladas, divididas en más de 25 silos y celdas que permiten una alta rotación de mercadería y la clasificación eficiente de los diferentes tipos y calidades de granos.<br>
-        Las plantas cuentan con volquetes de descarga, norias de 200 tt/h, sensores termométricos de temperatura, secadoras y balanzas de última tecnología, necesarios para cuidar y resguardar los granos que el hombre de campo nos confía.<br>
-        Con el respaldo y la experiencia de Fernando Rivara y su equipo, se analizan diariamente las distintas opciones de negocios, como contratos futuros, a fijar, mercado de opciones o distintos canjes por agroquímicos o combustibles, buscando el resultado más rentable, cuidando la seguridad del producto.',
+        'item_1_texto' => 'Actualmente contamos con cinco plantas de acopio estratégicamente ubicadas en las localidades de Alberti, Plá y Baradero, para la recepción y acopio de granos, con una capacidad de almacenaje superior a las 110.000 toneladas. Nuestras plantas de silos, dotadas con modernas tecnologías, caladores automáticos, volquetes, sensores termométricos de temperatura, aireación computarizada, etc., nos permite descargar hasta 1.000 toneladas/hora y bajar 3 puntos de humedad cada hora a 360 toneladas de granos.
+        <br><br>
+        Disponer de 79 silos y modernos equipos de limpieza nos permite una clasificación eficiente de los diferentes tipos y calidades de granos.
+        <br><br>
+        Colaboradores calificados, con vasta experiencia en el mercado de granos, asesoran a los productores, analizando diariamente el mercado local e internacional, ofreciendo las mejores opciones de negocios, tanto en el mercado disponible como negocios a futuro,  canjes por agroquímicos o combustibles, siempre buscando el resultado mas rentable.
+        <br><br>
+        La logística, en estos tiempos, adquiere una importancia fundamental en el precio final que recibe el productor. Nuestra flota propia de camiones asegura cumplimiento en los plazos, transparencia y la mayor eficiencia para alcanzar el precio final óptimo que recibe el productor.',
         'item_2_titulo' => 'Arrendamientos y asociaciones',
-        'item_2_texto' => 'Rivara SA participa activamente en este sector desde la década del noventa, formando sociedades productivas con los dueños de campos y logrando una suma positiva para todas las partes intervinientes en el proceso.
-        El mantenimiento de estas relaciones desde hace más de 20 años es lo que nos diferencia. Relaciones perdurables y de mutua confianza nos han permitido consolidarnos en el tiempo, en donde aportamos conocimiento, tecnología, maquinaria y logística para alcanzar los mejores resultados.
-        <br>
-        Hoy en día sumamos una extensión cultivada 30.000 hectáreas, que se distribuyen en diversas áreas de la provincia de Buenos Aires y cultivamos, entre otros, maíz, trigo, soja, maíz flint, girasol, cebada, maíz pisingallo y canola.
-        Rivara cumple con las más estrictas normas de calidad, conservación del medio ambiente y sustentabilidad.
-        <br>
-        Todo el proceso de generación de granos es vigilado por un equipo de 11 ingenieros agrónomos liderados por el Ing. Fernando Gabriel Rivara, a cargo del área.',
+        'item_2_texto' => 'PRODUCCIÓN AGRÍCOLA<br><br>Nuestra empresa, La Tranquera Verde, siembra sobre campos arrendados desde la década del noventa, lo que nos permite tener una relación extendida en el tiempo con los titulares de la tierra. El mantenimiento de estas relaciones desde hace más de veinte años es lo que nos diferencia.
+        <br><br>
+        Relaciones perdurables y de mutua confianza nos han permitido consolidarnos en el tiempo, aportando profesionalismo, conocimiento, tecnología, maquinaria y logística para alcanzar los mejores resultados. Un equipo de colaboradores, con 10 ingenieros agrónomos, controlan diariamente la sanidad y evolución de los cultivos.
+        <br><br>
+        Sembramos más de 30.000 hectáreas cada año, con un manejo responsable del suelo,  con rotaciones de cultivos que generan buen aporte de materia orgánica, realizando un buen manejo de malezas y un adecuado esquema de fertilización, porque, para nosotros, la sustentabilidad  de los suelos que trabajamos es un compromiso permanente.
+        <br><br>
+        Queremos estar por muchos años más y cuidar la sustentabilidad del suelo es cuidar la sustentabilidad de nosotros mismos.',
     ],
     'alimentos' => [
         'titulo' => 'Alimentos',

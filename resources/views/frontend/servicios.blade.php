@@ -29,7 +29,7 @@
                     <div class="col-lg-4 col-md-12 padding-50px-right md-padding-30px-right sm-padding-15px-right order-2 order-lg-1">
 
                         <!-- start services -->
-                        <div class="services-single-left-box">
+                        {{-- <div class="services-single-left-box">
                             <h6 class="font-weight-700 font-size16 sm-font-size14 text-uppercase left-title margin-20px-bottom">@lang('services.cuadro-1')</h6>
                             <div class="services-single-menu bg-light-gray margin-30px-bottom sm-margin-25px-bottom">
                                 <ul class="no-margin">
@@ -40,7 +40,7 @@
                                     <li><a href="{{ route('servicios', 'alimentos') }}">@lang('services.cuadro-4')</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- end services -->
 
                         <!-- start testimonial -->
