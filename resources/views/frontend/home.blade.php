@@ -134,7 +134,7 @@
         <!-- end counter section -->
 
         <!-- start blog section -->
-        <section class="bg-light-gray">
+        {{-- <section class="bg-light-gray">
             <div class="container">
 
                 <div class="section-heading"><span>NUESTRAS</span>
@@ -169,7 +169,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- end blog section -->
 
 
