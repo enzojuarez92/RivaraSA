@@ -38,15 +38,6 @@
                                         <li>
                                             <a href="{{ route('nosotros') }}">@lang('home.about_us')</a>
                                         </li>
-                                        {{-- <li>
-                                            <a href="#">@lang('home.granos')</a>
-                                            <ul>
-                                                <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-1')</a></li>
-                                                <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-2')</a></li>
-                                                <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-3')</a></li>
-                                                <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-4')</a></li>
-                                            </ul>
-                                        </li> --}}
                                         <li>
                                             <a href="#">@lang('home.granos')</a>
                                             <ul>
@@ -58,9 +49,8 @@
                                         <li>
                                             <a href="#">@lang('home.insumos')</a>
                                             <ul>
-                                                <li><a href="{{ route('servicios', 'insumos') }}">@lang('home.insumos-1')</a></li>
-                                                <li><a href="{{ route('servicios', 'insumos') }}">@lang('home.insumos-2')</a></li>
-                                                <li><a href="{{ route('servicios', 'insumos') }}">@lang('home.insumos-3')</a></li>
+                                                <li><a href="{{ route('servicios.subservicios', ['servicio' => 'insumos', 'subservicio' => 'agroquimicos-fertilizantes']) }}">@lang('home.insumos-1')</a></li>
+                                                <li><a href="{{ route('servicios.subservicios', ['servicio' => 'insumos', 'subservicio' => 'combustibles']) }}">@lang('home.insumos-2')</a></li>
                                             </ul>
                                         </li>                                                                                        
                                         @endif

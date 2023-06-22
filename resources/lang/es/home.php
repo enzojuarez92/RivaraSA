@@ -14,8 +14,9 @@ return [
 
     'insumos' => 'Insumos',
     'insumos-1' => 'Agroquímicos y fertilizantes',
-    'insumos-2' => 'Agroservice Axion',
-    'insumos-3' => 'Estación de Servicio Axion',
+    'insumos-2' => 'Combustibles',
+    // 'insumos-2' => 'Agroservice Axion',
+    // 'insumos-3' => 'Estación de Servicio Axion',
 
     'alimentos' => 'Alimentos',
     'alimentos-1' => 'Molienda de maíz NO GMO',

@@ -100,6 +100,10 @@ class PagesControler extends Controller
                 return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
             } elseif ($servicio === 'granos' && $subservicio === 'arrendamientos-asociaciones') {
                 return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
+            } elseif ($servicio === 'insumos' && $subservicio === 'agroquimicos-fertilizantes') {
+                return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
+            } elseif ($servicio === 'insumos' && $subservicio === 'combustibles') {
+                return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
             }
         }
 

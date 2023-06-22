@@ -14,18 +14,19 @@ return [
         'titulo' => 'Insumos',
 
         'item_1_titulo' => 'Agroquímicos y fertilizantes',
-        'item_1_texto' => 'Disponemos con asesores agronómicos quiénes se encuentran a su servicio para evacuar dudas, brindar asesoramiento y cotizar los productos que el cliente necesita.
-        <br>
-        Además contamos con una planta de fertilizantes sólidos a granel y líquidos e incorporamos camiones especialmente adaptados para entregar ambos fertilizantes, donde lo necesite, en tiempo y forma.',
-
-        'item_2_titulo' => 'Agroservice Axion',
-        'item_2_texto' => 'Nuestro agroservicio tiene un almacenamiento de 300.000 litros lo que permite que con nuestros dos camiones equipados con medidores volumétricos y emisión de remitos podamos estar en tiempo y forma donde el productor lo solicite.
-        <br>
-        Nuestra empresa tiene a su disposición a un vendedor especializado, dispuesto a asesorarlo',
-        'item_3_titulo' => 'Estación de Servicio Axion',
-        'item_3_texto' => 'Tecnología, calidad y seguridad, tres pilares que sintetizan nuestra amplia gama de productos y servicios que ofrecemos dentro de nuestra Estación de Servicio Axion. Disfrute de nuestro excepcional servicio de comidas rápidas con un toque gourmet único.
-        <br>
-        Responsable: <b>Nahuel Ramazzotti. Teléfono: 2346 – 471303<b>',
+        'item_1_texto' => 'Una herramienta vertebral en la producción de granos es la protección de los cultivos;  las enfermedades, las plagas, destruyen nuestros rindes y tornan inviable el negocio, por eso nuestro empeño en tener la mejor variedad de agroquímicos que, unidos al asesoramiento profesional de excelencia, permite afrontar la problemática de producción con una adecuada estrategia.
+        <br><br>
+        Para eso contamos con un equipo de trabajo y el acompañamiento de empresas como Syngenta y Bunge que nos brindan la mejor línea de fertilizantes líquidos y sólidos, con la paleta más amplia del mercado en protección de cultivos.
+        <br><br>
+        Nuestro depósito de agroquímicos, clasificado en categoría A, respeta las más exigentes normas del cuidado ambiental, lo mismo que nuestros equipos de traslado, protegemos a los cultivos y también al medio ambiente en el que vivimos
+        <br><br>
+        Nuestro semillero “Don Adolfo” ofrece semillas de trigo, soja y arveja de óptima calidad pues realizamos un tratamiento profesional a cada grano, con clasificadoras, mesas densimétricas, detectores de metales y, en especial personal calificado que nos asegura una excelente calidad en el producto entregado.',
+        'item_2_titulo' => 'Combustibles',
+        'item_2_texto' => 'Rivara ha sido pionero en la entrega de combustibles al campo con camiones provistos de medidores volumétricos y remitos automáticos. Desde 1980 estamos entregando la cantidad exacta de combustible en el campo. Sumamos la calidad de los combustibles Axion, que nos ha convertido en la mejor opción para el productor agropecuario, entregando calidad y transparencia. Nuestro personal se actualiza permanentemente acerca de la cualidades y propiedades que poseen los distintos combustibles y lubricantes. Y como la calidad de los aceites es tan importante como la calidad del combustible para la vida útil de la maquinaria tenemos especialistas que aconsejan la mejor opción de lubricantes de la línea Castrol.
+        <br><br>
+        Nuestros clientes están actualizados y así eligen la mejor opción.
+        <br><br>
+        También ofrecemos combustibles al automovilista y transportista en nuestra estación de servicio Axion, ubicada en Ruta Nacional Nº 5 km 190. Al mejor combustible del país le sumamos una cafetería y un salón de comidas de calidad excepcional, con sanitarios siempre limpios y relucientes.',
     ],
     'granos' => [
         'titulo' => 'Granos',

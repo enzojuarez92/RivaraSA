@@ -93,6 +93,10 @@
                         @include('frontend.servicios.acopio-logistica-comercializacion')
                     @elseif ($subservicio !== null && $servicio === 'granos' && $subservicio === 'arrendamientos-asociaciones')
                         @include('frontend.servicios.arrendamientos-asociaciones')
+                    @elseif ($subservicio !== null && $servicio === 'insumos' && $subservicio === 'agroquimicos-fertilizantes')
+                        @include('frontend.servicios.agroquimicos-fertilizantes')
+                    @elseif ($subservicio !== null && $servicio === 'insumos' && $subservicio === 'combustibles')
+                        @include('frontend.servicios.combustibles')
                     @else
                         @include('frontend.servicios.'.$servicio)
                     @endif
