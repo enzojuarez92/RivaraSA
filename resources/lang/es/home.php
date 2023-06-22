@@ -5,10 +5,12 @@ return [
     'about_us' => 'La Empresa',
 
     'granos' => 'Granos',
-    'granos-1' => 'Comercialización',
-    'granos-2' => 'Acopio',
-    'granos-3' => 'Logística',
-    'granos-4' => 'Arrendamientos',
+    // 'granos-1' => 'Comercialización',
+    // 'granos-2' => 'Acopio',
+    // 'granos-3' => 'Logística',
+    // 'granos-4' => 'Arrendamientos',
+    'granos-1' => 'Acopio, logística y comercialización',
+    'granos-2' => 'Arrendamientos y asociaciones',
 
     'insumos' => 'Insumos',
     'insumos-1' => 'Agroquímicos y fertilizantes',

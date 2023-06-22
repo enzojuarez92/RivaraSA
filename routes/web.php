@@ -33,6 +33,7 @@ Route::get('/feed', 'PagesControler@feedPosts')->name('feeds.posts');
 Route::get('/organico', 'PagesControler@organico')->name('organico');
 Route::get('/la-empresa', 'PagesControler@nosotros')->name('nosotros');
 Route::get('/servicios/{servicio?}', 'PagesControler@servicios')->name('servicios');
+Route::get('/servicios/{servicio?}/{subservicio?}', 'PagesControler@servicios')->name('servicios.subservicios');
 Route::get('/contacto', 'PagesControler@contacto')->name('contacto');
 Route::post('/enviarMensaje', 'PagesControler@enviarMensaje')->name('enviarMensaje');
 Route::post('/registraNews', 'PagesControler@registrarNews')->name('contacto.registro');

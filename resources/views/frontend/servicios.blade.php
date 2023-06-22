@@ -87,8 +87,18 @@
                     </div>
                     <!-- end left side section -->
 
-                    @include('frontend.servicios.'.$servicio)
+                    {{-- @include('frontend.servicios.'.$servicio) --}}
 
+                    @if ($subservicio !== null && $servicio === 'granos' && $subservicio === 'acopio-logistica-comercializacion')
+                        @include('frontend.servicios.acopio-logistica-comercializacion')
+                    @elseif ($subservicio !== null && $servicio === 'granos' && $subservicio === 'arrendamientos-asociaciones')
+                        @include('frontend.servicios.arrendamientos-asociaciones')
+                    @else
+                        @include('frontend.servicios.'.$servicio)
+                    @endif
+
+
+                    
                 </div>
             </div>
         </section>
@@ -110,3 +120,4 @@
 @push('scripts')
   <script src="/z-theme/assets/js/page/page.about-us-option-2.js"></script>
 @endpush
+

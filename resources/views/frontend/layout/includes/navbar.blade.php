@@ -38,7 +38,7 @@
                                         <li>
                                             <a href="{{ route('nosotros') }}">@lang('home.about_us')</a>
                                         </li>
-                                        <li>
+                                        {{-- <li>
                                             <a href="#">@lang('home.granos')</a>
                                             <ul>
                                                 <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-1')</a></li>
@@ -46,7 +46,14 @@
                                                 <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-3')</a></li>
                                                 <li><a href="{{ route('servicios', 'granos') }}">@lang('home.granos-4')</a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
+                                        <li>
+                                            <a href="#">@lang('home.granos')</a>
+                                            <ul>
+                                                <li><a href="{{ route('servicios.subservicios', ['servicio' => 'granos', 'subservicio' => 'acopio-logistica-comercializacion']) }}">@lang('home.granos-1')</a></li>
+                                                <li><a href="{{ route('servicios.subservicios', ['servicio' => 'granos', 'subservicio' => 'arrendamientos-asociaciones']) }}">@lang('home.granos-2')</a></li>
+                                            </ul>
+                                        </li>                                        
                                         @if (Session::get('locale') == 'es')
                                         <li>
                                             <a href="#">@lang('home.insumos')</a>
