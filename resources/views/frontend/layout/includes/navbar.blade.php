@@ -55,11 +55,11 @@
                                         </li>                                                                                        
                                         @endif
                                         <li>
-                                            <a href="#">@lang('home.alimentos')</a>
-                                            <ul>
+                                            <a href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos')</a></li>
+                                            {{-- <ul>
                                                 <li><a href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos-1')</a></li>
                                                 <li><a href="{{ route('servicios', 'alimentos') }}">@lang('home.alimentos-2')</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         {{--  <li>
                                             <a href="{{ route('blog.index') }}">Blog</a>
@@ -70,12 +70,14 @@
                                         <li>
                                             <a href="{{ route('contacto') }}">@lang('home.contact')</a>
                                         </li>
-                                        <li><a href="javascript:void(0)">@lang('home.lenguage')</a>
+
+                                        {{-- oculto momentaneamente --}}
+                                        {{-- <li><a href="javascript:void(0)">@lang('home.lenguage')</a>
                                             <ul>
                                                 <li><a href="{{ route('locale', 'es') }}">@lang('home.lang_es') <img style="width:20px;" src="{{ asset('img/esp.png') }}" alt="bandera_españa"></a></li>
                                                 <li><a href="{{ route('locale', 'en') }}">@lang('home.lang_en') <img style="width:20px;" src="{{ asset('img/eeuu.png') }}" alt="bandera_estados_unidos"></a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a target="_blank" href="https://clientes.rivara.com.ar/">
                                                 <img style="width: 25px;" src="{{ asset('/img/profile-user.svg') }}" alt="login">

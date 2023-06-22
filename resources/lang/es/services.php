@@ -52,19 +52,20 @@ return [
         'titulo' => 'Alimentos',
 
         'item_1_titulo' => 'Molienda de Maíz NO GMO',
-        'item_1_texto' => 'En 1995, iniciamos la producción de alimentos saludables y que cumplieran con los más altos estándares de calidad internacionales. A tal fin inauguramos nuestro Molino de Maíz en la ciudad de Alberti (Pcia. de Bs.As.).<br>
-        Así fue como decidimos utilizar exclusivamente maíz "no modificado genéticamente" (MAÍZ NO-GMO) para todos nuestros productos. Nuestra calidad y confiabilidad nos permitió conquistar mercados internacionales.
-        Manejamos la misma calidad tanto en lo que se exporta como en la producción de nuestra Polenta del Campo; un verdadero producto premium, libre de transgénicos, aptos para celíacos con altos controles de sanidad. Los análisis de pesticidas y micotoxinas hacen de nuestras polentas un producto de calidad garantizada. Esto, nos posiciona como el único molino de la República Argentina cuyos productos son Libres de Organismos Genéticamente Modificados (OGM). <br>
+        'item_1_texto' => 'En 1995 iniciamos una etapa de industrialización de granos, siendo el primer paso la inauguración de un molino de maíz, que por su capacidad de molienda se ubica en el 2º lugar de Argentina. Como valor fundacional buscamos producir alimentos saludables y que cumplieran con los más altos estandartes de calidad internacional. Molemos granos de maíz Flint libres de modificaciones genéticas. La calidad de nuestros productos fue reconocida por los consumidores y hoy, prácticamente, todas las grandes tiendas tienen sus marcas propias de polenta abastecidas exclusivamente por nuestra empresa. Calidad también reconocida internacionalmente que nos permitió ser proveedores de grits para cereales de desayuno a Dinamarca, Japón, Suiza y EEUU.
+        <br><br>
+        Nuestros productos de la molienda son libres de transgénicos, aptos para celíacos, con análisis exhaustivos de pesticidas y micotoxinas que convierten nuestras polentas y grits en productos de calidad premium. La certificación de BPM y HCCP asegura la misma calidad para el mercado interno que para el externo, con un sistema de trazabilidad que nos permite el seguimiento desde la semilla hasta el producto en góndola.
         <br>
-        Nuestro sistema de trazabilidad documentado nos permite la identidad preservada desde la semilla hasta el paquete de polenta que se encuentra en la góndola.',
+        <br>
+        En nuestro compromiso permanente de cuidar el medio ambiente y reducir la emisión de gases contaminantes, en 2019 incorporamos una fuente de energía limpia y renovable con un sistema solar fotovoltaico de 315 paneles que generan una potencia de 203.000 Kwp anuales, con una captura de CO2 de 177,3 toneladas/año',
         'item_2_titulo' => 'Aceites y harinas',
-        'item_2_texto' => 'Los deseos alimentarios que se relacionan a la creciente tendencia mundial de promoción de Alimentos Naturales, con menos refinamiento, menos contaminación y pautas de etiquetado nutricional, están creciendo y se vuelcan a alimentos libres de modificación genética y/u orgánica. Todo este movimiento constituye un nuevo desafío para nosotros, que debemos adaptar los métodos de procesamiento y control para evitar o disminuir químicos y contaminantes. Por añadidura, también, nos debemos al mundo en el que vivimos y la protección y cuidado del medio ambiente que debe ser prioridad fundamental en la elaboración de alimentos. Por eso, en RIVARA S.A. hemos desarrollado procesos tecnológicos que utilizan medios mecánicos de extracción de aceites, sin la utilización de solventes. <br>
-        <br>
-        RIVARA S.A. tenemos una unidad de procesamiento de oleaginosas que opera en base a los procesos de extrusión y prensado, para obtener aceites que mantienen sus cualidades vegetales intactas y harinas desactivadas cuyo valor nutricional es muy superior a las harinas de procesos con solventes.
-        <br>
-        <br>
-        Mediante este proceso agregamos valor a diversas oleaginosas, como la soja, girasol, colza/canola y otras, para la obtención de aceites de alta calidad y obtención de harinas de alto valor nutritivo y digestibilidad. Estos productos, retienen en los aceites el porcentaje de ácidos grasos omega3, tocoferoles (antioxidantes naturales), vitamina E y esteroles. En las harinas debido a las características del procesamiento se mantienen intactos los aminoácidos de las proteínas.',
-
+        'item_2_texto' => 'Nuestro siguiente emprendimiento, en 2003, fue una unidad de procesamiento de granos oleaginosos por extrusión y prensado, que nos permitió generar harinas libres de solventes, porque apoyamos la tendencia mundial de promover alimentos naturales, con menos refinamiento, menos contaminación y mayor cuidado en preservar las virtudes contenidas en los granos con los que nos alimentamos.
+        <br><br>
+        Este proceso de extrusión-prensado nos permite obtener, por un lado,  harinas de excelente digestibilidad y alto valor nutricional al tener intactos los aminoácidos de las proteínas y por otro lado aceites que retienen sus porcentajes de ácidos grasos, omega3, tocoferoles, vitamina E y esteroles.',
+        'item_3_titulo' => 'Alimentos Balanceados',
+        'item_3_texto' => 'En 2020 inauguramos una planta modelo de alimentos balanceados con calidad orgánica certificada. Procesamos granos orgánicos y garantizamos la trazabilidad de todos nuestros alimentos. Esto nos permitió ser los proveedores exclusivos de la red de tambos orgánicos de Nestlé Argentina. También proveemos a distintos criaderos de aves dentro del país y exportamos a emprendimientos orgánicos de países vecinos
+        <br><br>
+        En 2023 finalizamos la construcción de una moderna planta de clasificación de maíz pop corn ( o pisingallo) con silos de fondo plano y aireación inferior que protegen el volumen de expansión , norias de baja velocidad, detectores de metal, prelimpiezas, zarandas y mesas densimétricas Cimbria, clasificadora óptica Buhler para exportar un producto de calidad inmejorable',
         'points' => '',
 
     ],

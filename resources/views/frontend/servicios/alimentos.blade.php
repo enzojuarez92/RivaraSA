@@ -91,6 +91,17 @@
         </div>
         @endif
 
+        <div class="row" style="margin-top:30px;">
+            <div class="col-12">
+                <div class="inner-title">
+                    <h6>@lang('services.alimentos.item_3_titulo')</h6>
+                </div>
+            </div>
+            <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
+                @lang('services.alimentos.item_3_texto')
+            </p>
+        </div>
+
 
 
     </div>
