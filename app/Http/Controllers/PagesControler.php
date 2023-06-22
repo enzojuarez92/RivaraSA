@@ -95,18 +95,6 @@ class PagesControler extends Controller
     public function servicios($servicio = 'insumos', $subservicio = null){
         $contactoPorArea = [];
 
-        if ($subservicio !== null) {
-            if ($servicio === 'granos' && $subservicio === 'acopio-logistica-comercializacion') {
-                return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
-            } elseif ($servicio === 'granos' && $subservicio === 'arrendamientos-asociaciones') {
-                return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
-            } elseif ($servicio === 'insumos' && $subservicio === 'agroquimicos-fertilizantes') {
-                return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
-            } elseif ($servicio === 'insumos' && $subservicio === 'combustibles') {
-                return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
-            }
-        }
-
         return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
     }
 
