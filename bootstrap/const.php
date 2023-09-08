@@ -10,3 +10,7 @@ define("LINK_SOPORTE", "https://soporte.dvs360.com/auth/iiXZuWMKuyO67jzhmNhO/log
 define("LAYOUT_ADMIN", "admin.layout");
 // determina la ruta en la que tiene que buscar los includes para los breadcrumb y los titulos en la seccion FRONT
 define("LAYOUT_FRONT", "frontend.layout.");
+
+define("HOME_ANOS", "87");
+define("HOME_EMPLEADOS", "200");
+define("HOME_USD", "75,000,000");

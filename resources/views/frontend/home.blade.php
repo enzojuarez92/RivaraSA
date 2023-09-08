@@ -107,7 +107,7 @@
                     <div class="col-6 col-lg-4 col-md-6 sm-margin-30px-bottom">
                         <div class="counter-box">
                             <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-calendar"></i></span>
-                            <h4 class="countup text-white display-block xs-text-center">84</h4>
+                            <h4 class="countup text-white display-block xs-text-center">{{ HOME_ANOS }}</h4>
                             <div class="separator-line-horrizontal-medium-light3 bg-white margin-15px-tb xs-margin-10px-tb opacity5 center-col"></div>
                             <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin text-center">@lang('home.counter.1')</p>
                         </div>
@@ -115,7 +115,7 @@
                     <div class="col-6 col-lg-4 col-md-6 sm-margin-30px-bottom">
                         <div class="counter-box">
                             <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-profile-male"></i></span>
-                            <h4 class="countup text-white display-block xs-text-center">150</h4>
+                            <h4 class="countup text-white display-block xs-text-center">{{ HOME_EMPLEADOS }}</h4>
                             <div class="separator-line-horrizontal-medium-light3 bg-white margin-15px-tb xs-margin-10px-tb opacity5 center-col"></div>
                             <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin text-center">@lang('home.counter.2')</p>
                         </div>
@@ -123,7 +123,7 @@
                     <div class="col-6 col-lg-4 col-md-6">
                         <div class="counter-box">
                             <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-linegraph"></i></span>
-                            <h4 class="countup text-white display-block xs-text-center">70,000,000</h4>
+                            <h4 class="countup text-white display-block xs-text-center">{{ HOME_USD }}</h4>
                             <div class="separator-line-horrizontal-medium-light3 bg-white margin-15px-tb xs-margin-10px-tb opacity5 center-col"></div>
                             <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin text-center">@lang('home.counter.3')</p>
                         </div>
