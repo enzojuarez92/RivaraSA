@@ -14,8 +14,8 @@
         </div>
 
         <div class="col-lg-4">
-            <label for="">Apellido</label> {!! $errors->first('lastName','<span class=error>:message</<span>') !!}
-            <input type="text" name="lastName" id="" class="form-control" value="{{ $team->lastName ?? old('lastName')}}">
+            <label for="">Apellido</label> {!! $errors->first('lastname','<span class=error>:message</<span>') !!}
+            <input type="text" name="lastname" id="" class="form-control" value="{{ $team->lastname ?? old('lastname')}}">
         </div>
 
         <div class="col-lg-4">
