@@ -67,7 +67,6 @@
 
         @include('frontend._mercados')
 
-        @include('frontend._servicios')
         <!-- start about section -->
         <section>
             <div class="container">
@@ -99,6 +98,7 @@
             </div>
         </section>
         <!-- end about section -->
+
 
         <!-- start counter section -->
         <section class="parallax" data-overlay-dark="6" data-background="{{ asset('img/rivara/atras_contador.jpg') }}">
@@ -132,6 +132,10 @@
             </div>
         </section>
         <!-- end counter section -->
+
+
+        @include('frontend._servicios')
+
 
         <!-- start blog section -->
         {{-- <section class="bg-light-gray">

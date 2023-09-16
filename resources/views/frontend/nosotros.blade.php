@@ -33,7 +33,31 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <img class="img-responsive" src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="oficina" height="100%" width="100%">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                            </ul>
+                    
+                            <!-- Slides -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{ asset('img/rivara/2023/directorio.jpg') }}" alt="oficina" style="width:100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/Rivara SAIMG_9962159.jpg') }}" alt="oficina" style="width:100%;">
+                                </div>
+                            </div>
+                    
+                            <!-- Controles de navegación -->
+                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
