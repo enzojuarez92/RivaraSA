@@ -93,9 +93,16 @@ class PagesControler extends Controller
     // }
 
     public function servicios($servicio = 'insumos', $subservicio = null){
-        $contactoPorArea = [];
+        if(is_null($subservicio)){
+            $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
+                ->orWhere('servicios', 'like', '%aceites%')
+                ->orWhere('servicios', 'like', '%balanceados%')
+                ->get();
+        }else{
+            $contactosPorArea = Team::where('servicios', 'like', '%' . $subservicio . '%')->get();
+        }
 
-        return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
+        return view('frontend.servicios', compact('contactosPorArea', 'servicio', 'subservicio'));
     }
 
 

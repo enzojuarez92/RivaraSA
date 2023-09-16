@@ -74,7 +74,17 @@
                         </div> --}}
                         <!-- start testimonial -->
 
-                        @include('frontend.servicios.contacto')
+                        @forelse ($contactosPorArea as $item)
+                            @include('frontend.servicios.contacto', [
+                                'nombre' => $item->name . ' ' . $item->lastname,
+                                'role' => $item->role ?? '',
+                                'telefono' => $item->phone ?? 'Sin Información',
+                                'email' => $item->email,
+                                'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                            ])
+                        @empty
+                            <p>No hay contactos para mostrar</p>                        
+                        @endforelse
 
                         <!-- start download -->
                         {{-- <h6 class="font-weight-700 font-size16 sm-font-size14 text-uppercase left-title margin-20px-bottom">Downloads</h6>

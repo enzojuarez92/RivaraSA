@@ -5,7 +5,7 @@
             <th>Foto</th>
             <th>Nombre</th>
             <th>Apellido</th>
-            <th>Descripción</th>
+            <th>Servicios</th>
             <th>Email</th>
             <th>Cargo</th>
             <th>Acciones</th>
@@ -17,8 +17,12 @@
             <td>{{ $r->id }}</td>
             <td><img style="width:25px;" class="img-circle" src="/{{ $r->image ?? 'assets/img/default-avatar.png' }}" alt="imagen"></td>
             <td>{{ $r->name }}</td>
-            <td>{{ $r->lastName }}</td>
-            <td>{{ $r->description }}</td>
+            <td>{{ $r->lastname }}</td>
+            <td>
+                @foreach($r->servicios as $s)
+                    <span class="label label-primary">{{ $s }}</span>
+                @endforeach    
+            </td>
             <td>{{ $r->email }}</td>
             <td>{{ $r->role }}</td>
             <td class="col-lg-2">

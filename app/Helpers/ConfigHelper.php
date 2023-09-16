@@ -27,4 +27,41 @@ class ConfigHelper
         return $config->$clave;
     }
 
+    public static function getServicios()
+    {
+        // array servicios con las claves, sigla, titulo.
+        $servicios = [
+            'acopio-logistica-comercializacion' => [
+                'sigla' => 'acopio',
+                'titulo' => 'Acopio, logística y comercialización',
+            ],
+            'arrendamientos-asociaciones' => [
+                'sigla' => 'arrendamiento',
+                'titulo' => 'Arrendamientos y asociaciones',
+            ],
+            'agroquimicos-fertilizantes' => [
+                'sigla' => 'agroquimicos',
+                'titulo' => 'Agroquímicos y fertilizantes',
+            ],
+            'combustibles' => [
+                'sigla' => 'combustibles',
+                'titulo' => 'Combustibles',
+            ],
+            'molienda' => [
+                'sigla' => 'Molienda de Maiz no GMO',
+                'titulo' => 'Proyectos',
+            ],
+            'aceites' => [
+                'sigla' => 'aceites',
+                'titulo' => 'Aceites y Harinas',
+            ],
+            'balanceados' => [
+                'sigla' => 'balanceados',
+                'titulo' => 'Alimentos Balanceados',
+            ]
+        ];
+
+        return $servicios;
+    }
+
 }
