@@ -8,14 +8,19 @@
             <input type="file" name="image">
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-4">
             <label for="">Nombre</label> {!! $errors->first('name','<span class=error>:message</<span>') !!}
             <input type="text" name="name" id="" class="form-control" value="{{ $team->name ?? old('name')}}">
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-4">
             <label for="">Apellido</label> {!! $errors->first('lastName','<span class=error>:message</<span>') !!}
             <input type="text" name="lastName" id="" class="form-control" value="{{ $team->lastName ?? old('lastName')}}">
+        </div>
+
+        <div class="col-lg-4">
+            <label for="">Teléfono</label> {!! $errors->first('phone','<span class=error>:message</<span>') !!}
+            <input type="text" name="phone" id="" class="form-control" value="{{ $team->phone ?? old('phone')}}">
         </div>
 
         <div class="col-lg-12">
