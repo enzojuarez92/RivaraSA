@@ -43,11 +43,12 @@
                                                         </button>
                                                     </h5>
                                                 </div>
+                                                {{-- planta de silos plá --}}
                                                 <div id="tab2" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> 2346 – 538422 / 538423
+                                                            @lang('contact.celular') <br> 2346 – 538422 / 538423
                                                         </p>
                                                     </div>
                                                 </div>
@@ -66,11 +67,12 @@
                                                         </button>
                                                     </h5>
                                                 </div>
+                                                {{-- agroquimicos y fertilizantes --}}
                                                 <div id="tab3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> 2346 – 538368
+                                                            @lang('contact.celular') <br> 2346 – 538368
                                                         </p>
                                                     </div>
                                                 </div>
@@ -179,11 +181,12 @@
                                                         </button>
                                                     </h5>
                                                 </div>
+                                                {{-- agroservice axion --}}
                                                 <div id="tab8" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> 2346 – 538428
+                                                            @lang('contact.celular') <br> 2346 – 538428
                                                         </p>
                                                     </div>
                                                 </div>

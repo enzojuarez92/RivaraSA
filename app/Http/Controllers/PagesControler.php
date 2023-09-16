@@ -83,14 +83,23 @@ class PagesControler extends Controller
         ));
     }
 
-    public function servicios($servicio = 'insumos')
-    {
+    // public function servicios($servicio = 'insumos')
+    // {
+    //     $contactoPorArea = [];
+    //     return view('frontend.servicios', compact(
+    //         'contactoPorArea',
+    //         'servicio'
+    //     ));
+    // }
+
+    public function servicios($servicio = 'insumos', $subservicio = null){
         $contactoPorArea = [];
-        return view('frontend.servicios', compact(
-            'contactoPorArea',
-            'servicio'
-        ));
+
+        return view('frontend.servicios', compact('contactoPorArea', 'servicio', 'subservicio'));
     }
+
+
+
 
     public function verPost(Post $post)
     {

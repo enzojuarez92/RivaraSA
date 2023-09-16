@@ -4,6 +4,7 @@ return [
     'title' => 'Contacto',
     'nosotros' => 'Nuestra Información',
     'telefono' => 'Teléfono',
+    'celular' => 'Celular',
     'direccion' => 'Dirección',
     'email' => 'Email',
     'seguinos' => 'Seguinos',
@@ -16,4 +17,5 @@ return [
     'nuestrosTelefonos-6' => 'Aceitera',
     'nuestrosTelefonos-7' => 'EE SS Axion',
     'nuestrosTelefonos-8' => 'Agroservice Axion',
+    'trabajaConNosotros' => 'Si querés trabajar con nosotros escribinos a:',
 ];

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
 use App\Team;
+use App\Helpers\ImageHelper;
 use Illuminate\Http\Request;
-use ImageHelper;
+use App\Http\Controllers\Controller;
 
 class TeamController extends Controller
 {
@@ -27,7 +27,7 @@ class TeamController extends Controller
         $this->authorize('view', new Team);
         $modelo = $this->modelo;
         $miembros = $modelo::all();
-        return view($this->vista . '.index', compact('miembros'));
+        return view('admin.team.index', compact('miembros'));
     }
 
     /**
