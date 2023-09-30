@@ -129,7 +129,7 @@
         </div>
         <div class="col-lg-12">
           <!-- DONUT CHART -->
-          <div class="box box-success">
+          {{-- <div class="box box-success">
             <div class="box-header with-border">
               <h3 class="box-title">Páginas más visitadas</h3>
               <div class="box-tools pull-right">
@@ -161,7 +161,7 @@
               </div>
             </div>
             <!-- /.box-body -->
-          </div>
+          </div> --}}
           <!-- /.box -->
         </div>
       </div>

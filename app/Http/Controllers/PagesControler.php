@@ -44,7 +44,7 @@ class PagesControler extends Controller
 
     public function scrap($id, $chunk = 4)
     {
-        return Cache::remember('tablas', 1800, function () use ($id, $chunk) {
+        return Cache::remember('tablas.'.$id, 1800, function () use ($id, $chunk) {
             $crawler = Goutte::request('GET', 'http://eduardoberaza.com/');
             $encabezado = [];
             $salida = [];
@@ -83,12 +83,30 @@ class PagesControler extends Controller
         ));
     }
 
-    public function servicios($servicio = 'insumos')
-    {
-        return view('frontend.servicios', compact(
-            'servicio'
-        ));
+    // public function servicios($servicio = 'insumos')
+    // {
+    //     $contactoPorArea = [];
+    //     return view('frontend.servicios', compact(
+    //         'contactoPorArea',
+    //         'servicio'
+    //     ));
+    // }
+
+    public function servicios($servicio = 'insumos', $subservicio = null){
+        if(is_null($subservicio)){
+            $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
+                ->orWhere('servicios', 'like', '%aceites%')
+                ->orWhere('servicios', 'like', '%balanceados%')
+                ->get();
+        }else{
+            $contactosPorArea = Team::where('servicios', 'like', '%' . $subservicio . '%')->get();
+        }
+
+        return view('frontend.servicios', compact('contactosPorArea', 'servicio', 'subservicio'));
     }
+
+
+
 
     public function verPost(Post $post)
     {

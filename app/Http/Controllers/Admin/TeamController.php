@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
 use App\Team;
+use App\Helpers\ImageHelper;
 use Illuminate\Http\Request;
-use ImageHelper;
+use App\Http\Controllers\Controller;
 
 class TeamController extends Controller
 {
@@ -27,7 +27,7 @@ class TeamController extends Controller
         $this->authorize('view', new Team);
         $modelo = $this->modelo;
         $miembros = $modelo::all();
-        return view($this->vista . '.index', compact('miembros'));
+        return view('admin.team.index', compact('miembros'));
     }
 
     /**
@@ -51,7 +51,7 @@ class TeamController extends Controller
         $this->authorize('update', new Team);
         $this->validate($request, [
             'name' => 'required|max:180',
-            'lastName' => 'required|max:180',
+            'lastname' => 'required|max:180',
             'description' => 'max:2000',
             'email' => 'email',
             'role' => 'max:180',
@@ -65,7 +65,7 @@ class TeamController extends Controller
             $modelo = $this->modelo;
             $team = new $modelo;
             $team->name = $request->name;
-            $team->lastName = $request->lastName;
+            $team->lastname = $request->lastname;
             $team->description = $request->description;
             $team->email = $request->email;
             $team->role = $request->role;
@@ -73,6 +73,10 @@ class TeamController extends Controller
             $team->twitter = $request->twitter;
             $team->instagram = $request->instagram;
             $team->linkedin = $request->linkedin;
+
+            // json save
+            $team->servicios = json_encode($request->servicios);
+
 
             if (!is_null($request->image)) {
                 $path = $this->rutaIMG;
@@ -128,8 +132,9 @@ class TeamController extends Controller
         $this->authorize('update', new Team);
         $this->validate($request, [
             'name' => 'required|max:180',
-            'lastName' => 'required|max:180',
+            'lastname' => 'required|max:180',
             'description' => 'max:2000',
+            'phone' => 'required|max:180',
             'email' => 'email',
             'role' => 'max:180',
             'facebook' => 'max:180',
@@ -140,7 +145,8 @@ class TeamController extends Controller
 
         try {
             $team->name = $request->name;
-            $team->lastName = $request->lastName;
+            $team->lastname = $request->lastname;
+            $team->phone = $request->phone;
             $team->description = $request->description;
             $team->email = $request->email;
             $team->role = $request->role;
@@ -148,6 +154,9 @@ class TeamController extends Controller
             $team->twitter = $request->twitter;
             $team->instagram = $request->instagram;
             $team->linkedin = $request->linkedin;
+
+            // json save
+            $team->servicios = json_encode($request->servicios);
 
             if (!is_null($request->image)) {
                 $path = $this->rutaIMG;

@@ -2,15 +2,15 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Analytics;
-use App\Http\Controllers\Controller;
 use App\Lead;
 use App\Post;
-use App\Project;
 use App\User;
-use DB;
+use Analytics;
+use App\Project;
 use Illuminate\Http\Request;
 use Spatie\Analytics\Period;
+use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\Controller;
 
 class AdminController extends Controller
 {
@@ -23,7 +23,7 @@ class AdminController extends Controller
     public function index()
     {
         // $analyticsData = Analytics::fetchVisitorsAndPageViews(Period::days(7));
-        $analyticsData = Analytics::fetchMostVisitedPages(Period::days(7), 20);
+        // $analyticsData = Analytics::fetchMostVisitedPages(Period::days(7), 20);
         $contactos = Lead::all()->count();
         $posteos = Post::all()->count();
         $proyectos = Project::all()->count();
@@ -44,7 +44,7 @@ class AdminController extends Controller
             'posteos',
             'proyectos',
             'usuarios',
-            'analyticsData',
+            // 'analyticsData',
             'contactos',
             'leadsFont',
             'leads'

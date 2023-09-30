@@ -218,11 +218,11 @@ desired effect
                 {{-- <input type="submit" value="Soporte"> --}}
             </form>                
             @endauth
-            <i class="fa fa-question"></i> Ayuda:
-            <a href="#" onclick="javascript:document.getElementById('form-support').submit();" class="breadcrumb-elements-item">
+            {{-- <i class="fa fa-question"></i> Ayuda: --}}
+            {{-- <a href="#" onclick="javascript:document.getElementById('form-support').submit();" class="breadcrumb-elements-item">
                 <i class="icon-comment-discussion mr-2"></i>
                 Soporte
-            </a>
+            </a> --}}
     </div>
     <!-- Default to the left -->
     <strong>Copyright &copy; 2018 by <a target="_blank" href="http://dvs360.com/?utm_source=PA&utm_medium={{env('APP_NAME')}}">DVS360</a> Version: {{ VERSION_SISTEMA }}.</strong>

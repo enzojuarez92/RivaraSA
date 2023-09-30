@@ -1,98 +1,237 @@
-<!-- start right side section -->
 <div class="col-lg-8 col-md-12 order-1 order-lg-2 sm-margin-30px-bottom">
     <div class="services-single-right">
-        <h5 class="font-weight-600">@lang('services.alimentos.titulo')</h5>
-        <div class="margin-40px-bottom sm-margin-30px-bottom">
-            <div class="owl-carousel owl-theme text-center">
-                <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos8.jpg') }}" alt="slider insumos" /></div>
-                <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos2.jpg') }}" alt="slider insumos" /></div>
-                <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos3.jpg') }}" alt="slider insumos" /></div>
-                <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos4.jpg') }}" alt="slider insumos" /></div>
-                <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos9.jpg') }}" alt="slider insumos" /></div>
-                <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos6.jpg') }}" alt="slider insumos" /></div>
-                <div class="item"><img src="{{ asset('img/rivara/servicios/alimentos7.jpg') }}" alt="slider insumos" /></div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="inner-title">
-                    <h6>@lang('services.alimentos.item_1_titulo')</h6>
+
+        <div id="accordion" class="accordion-style">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Molienda de Maíz no GMO
+                </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" style="">
+                    <div class="card-body">
+
+                        <div id="myCarousel" class="carousel slide margin-40px-bottom" data-ride="carousel" style="margin-bottom: 20px">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                                <li data-target="#myCarousel" data-slide-to="5"></li>
+                                <li data-target="#myCarousel" data-slide-to="6"></li>
+                                <li data-target="#myCarousel" data-slide-to="7"></li>
+                                <li data-target="#myCarousel" data-slide-to="8"></li>
+                                <li data-target="#myCarousel" data-slide-to="9"></li>
+                                <li data-target="#myCarousel" data-slide-to="10"></li>
+                                <li data-target="#myCarousel" data-slide-to="11"></li>
+                                <li data-target="#myCarousel" data-slide-to="12"></li>
+                                <li data-target="#myCarousel" data-slide-to="13"></li>
+                                <li data-target="#myCarousel" data-slide-to="14"></li>
+                            </ul>
+                    
+                            
+                            <!-- Slides -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0348_2.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0373_retocada.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9416057.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9434062.jpg') }}" alt="slider insumos" />
+                                </div>
+                                {{-- <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9457067.jpg') }}" alt="slider insumos" />
+                                </div> --}}
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9481071.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9514073.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9549081.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9623090.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9719105.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0418_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0437_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0437_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0440_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0443_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                            </div>
+                    
+                            <!-- Controles de navegación -->
+                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                
+
+                        En 1995 iniciamos una etapa de industrialización de granos, siendo el primer paso la inauguración de un molino de maíz, que por su capacidad de molienda se ubica en el 2º lugar de Argentina. Como valor fundacional buscamos producir alimentos saludables y que cumplieran con los más altos estándares de calidad internacional. Molemos granos de maíz Flint libres de modificaciones genéticas. La calidad de nuestros productos fue reconocida por los consumidores y hoy, prácticamente, todas las grandes tiendas tienen sus marcas propias de polenta abastecidas exclusivamente por nuestra empresa. Calidad también reconocida internacionalmente que nos permitió ser proveedores de grits para cereales de desayuno a Dinamarca, Japón, Suiza y EEUU.
+                        <br>
+                        Nuestros productos de la molienda son libres de transgénicos, aptos para celíacos, con análisis exhaustivos de pesticidas y micotoxinas que convierten nuestras polentas y grits en productos de calidad premium. La certificación de BPM y HCCP asegura la misma calidad para el mercado interno que para el externo, con un sistema de trazabilidad que nos permite el seguimiento desde la semilla hasta el producto en góndola.
+                        <br>
+                        En nuestro compromiso permanente de cuidar el medio ambiente y reducir la emisión de gases contaminantes, en 2019 incorporamos una fuente de energía limpia y renovable con un sistema solar fotovoltaico de 315 paneles que generan una potencia de 203.000 Kwp anuales, con una captura de CO2 de 177,3 toneladas/año 
+                    </div>
                 </div>
             </div>
-            <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                @lang('services.alimentos.item_1_texto')
-            </p>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Aceites y Harinas
+                </button>
+                </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style="">
+                    <div class="card-body">
 
-            @lang('services.alimentos.points')
-        </div>
 
-        @if (Session::get('locale') == 'en')        
-        <div class="row" style="margin-top:30px;">
-            <div class="col-lg-12">
-                <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                    We deeply believe that quality of the raw material is the fundamental piece to achieve a great final product, and this is the reason why we behave towards the grains with great delicacy. We dry them carefully to avoid cracks and we keep them in material silos with low temperatures, which prevents the use of pesticides to control infestations.
-                    <br>
-                    Next step is the grain Milling, which is carried on with the most advanced technology in the Milling industry, necessary to obtain products that clearly excel because of his quality, color and healthy safeness.
-                    <br>
-                    Our milling consist in split the husk and germ from the grain, previously sieved and cleaned, and then we mill the vitreous part of the grain to achieve exactly the size desired by the customer.
-                    <br>
-                    Our Corn Mill Products can be classified as follows:
-                </p>
-                <ol>
-                    <li>Industrial Products:</li>
-                    <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos1/1.pdf">Corn Grits</a> <br> 
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos1/2.pdf">Semolina</a> <br>
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos1/3.pdf">Flour</a> <br>
-                    </p>
-                    <li>Retail Products:</li>
-                    <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos1/4.pdf">Traditional Polenta</a> <br>
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos1/5.pdf">Instant Polenta</a> <br>
-                    </p>
-                    <li>Feed Product:</li>
-                    <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos1/6.pdf">Hominy feed flour</a> <br>
-                    </p>
-                </ol>
-            </div>
-        </div>
-        @endif
+                        <div id="myCarousel2" class="carousel slide margin-40px-bottom" data-ride="carousel" style="margin-bottom: 20px">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                                <li data-target="#myCarousel2" data-slide-to="2"></li>
+                            </ul>
+                            <!-- Slides -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{ asset('img/rivara/2023/SAIMG_9130015.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/SAIMG_9132016.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/SAIMG_9138018.jpg') }}" alt="slider insumos" />
+                                </div>
+                            </div>
+                            <!-- Controles de navegación -->
+                            <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
 
-        <div class="row" style="margin-top:30px;">
-            <div class="col-12">
-                <div class="inner-title">
-                    <h6>@lang('services.alimentos.item_2_titulo')</h6>
+                        Nuestro siguiente emprendimiento, en 2003, fue una unidad de procesamiento de granos oleaginosos por extrusión y prensado, que nos permitió generar harinas libres de solventes, porque apoyamos la tendencia mundial de promover alimentos naturales, con menos refinamiento, menos contaminación y mayor cuidado en preservar las virtudes contenidas en los granos con los que nos alimentamos.
+                        <br>
+                        Este proceso de extrusión-prensado nos permite obtener, por un lado,  harinas de excelente digestibilidad y alto valor nutricional al tener intactos los aminoácidos de las proteínas y por otro lado aceites que retienen sus porcentajes de ácidos grasos, omega3, tocoferoles, vitamina E y esteroles.
+                    </div>
                 </div>
             </div>
-            <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                @lang('services.alimentos.item_2_texto')
-            </p>
-        </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Alimentos Balanceados
+                </button>
+                </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="">
+                    <div class="card-body">
+
+                        En 2020 inauguramos una planta modelo de alimentos balanceados con calidad orgánica certificada. Procesamos granos orgánicos y garantizamos la trazabilidad de todos nuestros alimentos. Esto nos permitió ser los proveedores exclusivos de la red de tambos orgánicos de Nestlé Argentina. También proveemos a distintos criaderos de aves dentro del país y exportamos a emprendimientos orgánicos de países vecinos 
+
+                        <div id="myCarousel3" class="carousel slide margin-40px-bottom margin-40px-top" data-ride="carousel" style="margin-bottom: 20px">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel3" data-slide-to="1"></li>
+                                <li data-target="#myCarousel3" data-slide-to="2"></li>
+                            </ul>
+                            <!-- Slides -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0284 copia.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0301 copia.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0293 copia.jpg') }}" alt="slider insumos" />
+                                </div>
+                            </div>
+                            <!-- Controles de navegación -->
+                            <a class="carousel-control-prev" href="#myCarousel3" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel3" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
 
 
-        @if (Session::get('locale') == 'en')        
-        <div class="row" style="margin-top:30px;">
-            <div class="col-lg-12">
-                <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                    We process exclusively Organic and non-GMO grains to obtain the following products:
-                </p>
-                <ul>
-                    <li>Our products:</li>
-                    <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos2/1.pdf">Soybean Meal</a> <br> 
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos2/2.pdf">Soybean Oil</a> <br>
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos2/3.pdf">Sunflower Meal</a> <br>
-                        <i class="fa fa-file-pdf"></i> <a target="_blank" href="{{ env('APP_URL') }}/pdf/alimentos2/3.pdf">Sunflower High Oleic Oil</a> <br>
-                    </p>
-                </ul>
+
+                        En 2023 finalizamos la construcción de una moderna planta de clasificación de maíz pop corn ( o pisingallo) con silos de fondo plano y aireación inferior que protegen el volumen de expansión , norias de baja velocidad, detectores de metal, prelimpiezas, zarandas y mesas densimétricas Cimbria, clasificadora óptica Buhler para exportar un producto de calidad inmejorable 
+
+
+                        <div id="myCarousel4" class="carousel slide margin-40px-bottom margin-40px-top" data-ride="carousel" style="margin-bottom: 20px">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel4" data-slide-to="1"></li>
+                                <li data-target="#myCarousel4" data-slide-to="2"></li>
+                                <li data-target="#myCarousel4" data-slide-to="2"></li>
+                            </ul>
+                            <!-- Slides -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0319 copia.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0414 copia.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0411 copia.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/IMG_0341 copia.jpg') }}" alt="slider insumos" />
+                                </div>
+                            </div>
+                            <!-- Controles de navegación -->
+                            <a class="carousel-control-prev" href="#myCarousel4" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel4" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+
+
+                    </div>
+                </div>
             </div>
         </div>
-        @endif
-
-
 
     </div>
 </div>
-<!-- end right side section -->

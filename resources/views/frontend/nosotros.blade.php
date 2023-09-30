@@ -33,7 +33,31 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <img class="img-responsive" src="{{ asset('img/rivara/fachadaoficina_baja.jpg') }}" alt="oficina" height="100%" width="100%">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                            </ul>
+                    
+                            <!-- Slides -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{ asset('img/rivara/2023/directorio.jpg') }}" alt="oficina" style="width:100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/2023/Rivara SAIMG_9962159.jpg') }}" alt="oficina" style="width:100%;">
+                                </div>
+                            </div>
+                    
+                            <!-- Controles de navegación -->
+                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
@@ -57,21 +81,21 @@
                             <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                                 <div class="counter-box text-left xs-text-center">
 
-                                    <h4 class="countup text-white display-block">84</h4>
+                                    <h4 class="countup text-white display-block">{{ HOME_ANOS }}</h4>
                                     <div class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col"></div>
                                     <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin">@lang('home.counter.1')</p>
                                 </div>
                             </div>
                             <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                                 <div class="counter-box text-left xs-text-center">
-                                    <h4 class="countup text-white display-block xs-text-center">150</h4>
+                                    <h4 class="countup text-white display-block xs-text-center">{{ HOME_EMPLEADOS }}</h4>
                                     <div class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col"></div>
                                     <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin">@lang('home.counter.2')</p>
                                 </div>
                             </div>
                             <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                                 <div class="counter-box text-left xs-text-center">
-                                    <h4 class="countup text-white display-block xs-text-center">70,000,000</h4>
+                                    <h4 class="countup text-white display-block xs-text-center">{{ HOME_USD }}</h4>
                                     <div class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col"></div>
                                     <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin">@lang('home.counter.3')</p>
                                 </div>
