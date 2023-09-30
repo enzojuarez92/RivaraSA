@@ -19,6 +19,19 @@
                             <ul class="carousel-indicators">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                                <li data-target="#myCarousel" data-slide-to="5"></li>
+                                <li data-target="#myCarousel" data-slide-to="6"></li>
+                                <li data-target="#myCarousel" data-slide-to="7"></li>
+                                <li data-target="#myCarousel" data-slide-to="8"></li>
+                                <li data-target="#myCarousel" data-slide-to="9"></li>
+                                <li data-target="#myCarousel" data-slide-to="10"></li>
+                                <li data-target="#myCarousel" data-slide-to="11"></li>
+                                <li data-target="#myCarousel" data-slide-to="12"></li>
+                                <li data-target="#myCarousel" data-slide-to="13"></li>
+                                <li data-target="#myCarousel" data-slide-to="14"></li>
                             </ul>
                     
                             
@@ -29,6 +42,45 @@
                                 </div>
                                 <div class="carousel-item">
                                     <img src="{{ asset('img/rivara/2023/IMG_0373_retocada.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9416057.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9434062.jpg') }}" alt="slider insumos" />
+                                </div>
+                                {{-- <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9457067.jpg') }}" alt="slider insumos" />
+                                </div> --}}
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9481071.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9514073.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9549081.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9623090.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9719105.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0418_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0437_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0437_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0440_baja.jpg') }}" alt="slider insumos" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('img/rivara/new/IMG_0443_baja.jpg') }}" alt="slider insumos" />
                                 </div>
                             </div>
                     
