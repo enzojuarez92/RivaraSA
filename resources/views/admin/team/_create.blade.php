@@ -8,7 +8,7 @@
             <form action="{{ route('team.store') }}" method="post" enctype="multipart/form-data" autocomplete="off">
             @csrf
             <div class="modal-body">
-                    @include('admin.team._form')
+                    @include('admin.team._form', ['team' => null])
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i> Cerrar</button>
