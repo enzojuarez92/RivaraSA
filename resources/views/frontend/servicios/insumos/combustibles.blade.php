@@ -1,7 +1,7 @@
 <!-- start right side section -->
 <div class="col-lg-8 col-md-12 order-1 order-lg-2 sm-margin-30px-bottom">
     <div class="services-single-right">
-        <h5 class="font-weight-600">@lang('services.insumos.titulo')</h5>
+        <h5 class="font-weight-600">@lang('services.insumos.item_2_titulo')</h5>
         {{-- <div class="margin-40px-bottom sm-margin-30px-bottom">
             <div class="owl-carousel owl-theme text-center">
                 <div class="item">
@@ -29,11 +29,11 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
+                {{-- <li data-target="#myCarousel" data-slide-to="4"></li>
                 <li data-target="#myCarousel" data-slide-to="5"></li>
                 <li data-target="#myCarousel" data-slide-to="6"></li>
                 <li data-target="#myCarousel" data-slide-to="7"></li>
-                <li data-target="#myCarousel" data-slide-to="8"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li> --}}
             </ul>
     
             
@@ -51,7 +51,7 @@
                 <div class="carousel-item">
                     <img src="{{ asset('img/rivara/servicios/insumos5.jpg') }}" alt="slider insumos" />
                 </div>
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <img src="{{ asset('img/rivara/servicios/insumos6.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/rivara/2023/Rivara SAIMG_9912147-baja.jpg') }}" alt="slider insumos" />
-                </div>
+                </div> --}}
             </div>
     
             <!-- Controles de navegación -->
@@ -80,13 +80,13 @@
 
         <div class="row">
             <div class="col-12">
-                <div class="inner-title">
+                {{-- <div class="inner-title">
                     <h6>@lang('services.insumos.item_2_titulo')</h6>
-                </div>
+                </div> --}}
+                <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
+                    @lang('services.insumos.item_2_texto')
+                </p>
             </div>
-            <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                @lang('services.insumos.item_2_texto')
-            </p>
         </div>
     </div>
 </div>
