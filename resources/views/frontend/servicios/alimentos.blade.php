@@ -29,21 +29,21 @@
                                 <li data-target="#myCarousel" data-slide-to="9"></li>
                                 <li data-target="#myCarousel" data-slide-to="10"></li>
                                 <li data-target="#myCarousel" data-slide-to="11"></li>
-                                <li data-target="#myCarousel" data-slide-to="12"></li>
+                                {{-- <li data-target="#myCarousel" data-slide-to="12"></li>
                                 <li data-target="#myCarousel" data-slide-to="13"></li>
-                                <li data-target="#myCarousel" data-slide-to="14"></li>
+                                <li data-target="#myCarousel" data-slide-to="14"></li> --}}
                             </ul>
                     
                             
                             <!-- Slides -->
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+                                {{-- <div class="carousel-item active">
                                     <img src="{{ asset('img/rivara/2023/IMG_0348_2.jpg') }}" alt="slider insumos" />
                                 </div>
                                 <div class="carousel-item">
                                     <img src="{{ asset('img/rivara/2023/IMG_0373_retocada.jpg') }}" alt="slider insumos" />
-                                </div>
-                                <div class="carousel-item">
+                                </div> --}}
+                                <div class="carousel-item active">
                                     <img src="{{ asset('img/rivara/new/Rivara_SAIMG_9416057.jpg') }}" alt="slider insumos" />
                                 </div>
                                 <div class="carousel-item">
