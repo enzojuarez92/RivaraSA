@@ -25,9 +25,8 @@
                     <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
                         <div class="padding-30px-right">
 
-                            <h4 class="font-weight-600">@lang('about.title')</h4>
 
-                            <p class="margin-10px-bottom">
+                            <p class="margin-10px-bottom" style="text-align: justify">
                               @lang('about.content')
                             </p>
                         </div>

@@ -45,7 +45,7 @@ return [
         <img src="/img/rivara/2023/camion.jpg" alt="transporte" class="img-fluid">
         ',
         'item_2_titulo' => 'Arrendamientos y asociaciones',
-        'item_2_texto' => 'PRODUCCIÓN AGRÍCOLA<br><br>Nuestra empresa, La Tranquera Verde, siembra sobre campos arrendados desde la década del noventa, lo que nos permite tener una relación extendida en el tiempo con los titulares de la tierra. El mantenimiento de estas relaciones desde hace más de veinte años es lo que nos diferencia.
+        'item_2_texto' => '<b>PRODUCCIÓN AGRÍCOLA</b><br><br>Nuestra empresa, La Tranquera Verde, siembra sobre campos arrendados desde la década del noventa, lo que nos permite tener una relación extendida en el tiempo con los titulares de la tierra. El mantenimiento de estas relaciones desde hace más de veinte años es lo que nos diferencia.
         <br><br>
         Relaciones perdurables y de mutua confianza nos han permitido consolidarnos en el tiempo, aportando profesionalismo, conocimiento, tecnología, maquinaria y logística para alcanzar los mejores resultados. Un equipo de colaboradores, con 10 ingenieros agrónomos, controlan diariamente la sanidad y evolución de los cultivos.
         <br><br>

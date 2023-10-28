@@ -40,16 +40,16 @@
             <!-- Slides -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('img/rivara/servicios/insumos1.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/combustibles/comb_1.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/servicios/insumos3.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/combustibles/comb_2.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/servicios/insumos4.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/combustibles/comb_3.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/servicios/insumos5.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/combustibles/comb_4.jpg') }}" alt="slider insumos" />
                 </div>
                 {{-- <div class="carousel-item">
                     <img src="{{ asset('img/rivara/servicios/insumos6.jpg') }}" alt="slider insumos" />

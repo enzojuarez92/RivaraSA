@@ -22,6 +22,7 @@
             </div>
         </div> --}}
 
+        <div class="col-12">
         <div id="myCarousel" class="carousel slide margin-40px-bottom" data-ride="carousel" style="margin-bottom: 20px">
             <!-- Indicadores -->
             <ul class="carousel-indicators">
@@ -29,34 +30,22 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-                <li data-target="#myCarousel" data-slide-to="5"></li>
-                <li data-target="#myCarousel" data-slide-to="6"></li>
             </ul>
     
             
             <!-- Slides -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('img/rivara/2023/IMG_0348_2.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_1.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/2023/IMG_0373_retocada.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_2.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/servicios/insumos6.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_3.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/2023/Rivara SAIMG_9773125-baja.jpg') }}" alt="slider insumos" />
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/2023/Rivara SAIMG_9838136-baja.jpg') }}" alt="slider insumos" />
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/2023/Rivara SAIMG_9894144-baja.jpg') }}" alt="slider insumos" />
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/2023/Rivara SAIMG_9912147-baja.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_4.jpg') }}" alt="slider insumos" />
                 </div>
             </div>
     
@@ -68,7 +57,7 @@
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
-
+        </div>
         {{-- <div class="row"> --}}
             <div class="col-12">
                 {{-- <div class="inner-title">

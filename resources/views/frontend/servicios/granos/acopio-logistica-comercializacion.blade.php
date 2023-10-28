@@ -22,18 +22,46 @@
                                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                                     <li data-target="#myCarousel" data-slide-to="1"></li>
                                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                                    <li data-target="#myCarousel" data-slide-to="9"></li>
                                 </ul>
                         
                                 <!-- Slides -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('img/rivara/servicios/acopio4.jpg') }}" alt="slider insumos" />
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_1.jpg') }}" alt="slider insumos" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('img/rivara/servicios/acopio5.jpg') }}" alt="slider insumos" />
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_2.jpg') }}" alt="slider insumos" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('img/rivara/servicios/acopio3.jpg') }}" alt="slider insumos" />
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_3.jpg') }}" alt="slider insumos" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_4.jpg') }}" alt="slider insumos" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_5.jpg') }}" alt="slider insumos" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_6.jpg') }}" alt="slider insumos" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_7.jpg') }}" alt="slider insumos" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_8.jpg') }}" alt="slider insumos" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_9.jpg') }}" alt="slider insumos" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('img/rivara/sliders/granos/granos_10.jpg') }}" alt="slider insumos" />
                                     </div>
                                 </div>
                         
