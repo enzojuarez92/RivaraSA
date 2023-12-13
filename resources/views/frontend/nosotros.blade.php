@@ -25,15 +25,14 @@
                     <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
                         <div class="padding-30px-right">
 
-                            <h4 class="font-weight-600">@lang('about.title')</h4>
 
-                            <p class="margin-10px-bottom text-justify">
+                            <p class="margin-10px-bottom" style="text-align: justify">
                               @lang('about.content')
                             </p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        {{-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicadores -->
                             <ul class="carousel-indicators">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -57,7 +56,9 @@
                             <a class="carousel-control-next" href="#myCarousel" data-slide="next">
                                 <span class="carousel-control-next-icon"></span>
                             </a>
-                        </div>
+                        </div> --}}
+                        <img class="mb-2" src="{{ asset('img/rivara/2023/directorio.jpg') }}" alt="oficina" style="width:100%;">
+                        <img class="mb-2" src="{{ asset('img/rivara/2023/Rivara SAIMG_9962159.jpg') }}" alt="oficina" style="width:100%;">
                     </div>
 
                 </div>

@@ -45,42 +45,13 @@ return [
         <img src="/img/rivara/2023/camion.jpg" alt="transporte" class="img-fluid">
         ',
         'item_2_titulo' => 'Arrendamientos y asociaciones',
-        'item_2_texto' => 'PRODUCCIÓN AGRÍCOLA<br><br>Nuestra empresa, La Tranquera Verde, siembra sobre campos arrendados desde la década del noventa, lo que nos permite tener una relación extendida en el tiempo con los titulares de la tierra. El mantenimiento de estas relaciones desde hace más de veinte años es lo que nos diferencia.
+        'item_2_texto' => '<b>PRODUCCIÓN AGRÍCOLA</b><br><br>Nuestra empresa, La Tranquera Verde, siembra sobre campos arrendados desde la década del noventa, lo que nos permite tener una relación extendida en el tiempo con los titulares de la tierra. El mantenimiento de estas relaciones desde hace más de veinte años es lo que nos diferencia.
         <br><br>
         Relaciones perdurables y de mutua confianza nos han permitido consolidarnos en el tiempo, aportando profesionalismo, conocimiento, tecnología, maquinaria y logística para alcanzar los mejores resultados. Un equipo de colaboradores, con 10 ingenieros agrónomos, controlan diariamente la sanidad y evolución de los cultivos.
         <br><br>
         Sembramos más de 30.000 hectáreas cada año, con un manejo responsable del suelo,  con rotaciones de cultivos que generan buen aporte de materia orgánica, realizando un buen manejo de malezas y un adecuado esquema de fertilización, porque, para nosotros, la sustentabilidad  de los suelos que trabajamos es un compromiso permanente.
         Queremos estar por muchos años más y cuidar la sustentabilidad del suelo es cuidar la sustentabilidad de nosotros mismos.
         
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 20px">
-                                <!-- Indicadores -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                                </ul>
-                        
-                                <!-- Slides -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="/img/rivara/servicios/acopio4.jpg" alt="slider insumos" />
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="/img/rivara/servicios/acopio5.jpg" alt="slider insumos" />
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="/img/rivara/servicios/acopio3.jpg" alt="slider insumos" />
-                                    </div>
-                                </div>
-                        
-                                <!-- Controles de navegación -->
-                                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
-                            </div>
         
         ',
     ],

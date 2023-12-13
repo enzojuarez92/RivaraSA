@@ -1,7 +1,7 @@
 <!-- start right side section -->
 <div class="col-lg-8 col-md-12 order-1 order-lg-2 sm-margin-30px-bottom">
     <div class="services-single-right">
-        <h5 class="font-weight-600">@lang('services.insumos.titulo')</h5>
+        <h5 class="font-weight-600">@lang('services.insumos.item_1_titulo')</h5>
         {{-- <div class="margin-40px-bottom sm-margin-30px-bottom">
             <div class="owl-carousel owl-theme text-center">
                 <div class="item">
@@ -22,21 +22,30 @@
             </div>
         </div> --}}
 
+        <div class="col-12">
         <div id="myCarousel" class="carousel slide margin-40px-bottom" data-ride="carousel" style="margin-bottom: 20px">
             <!-- Indicadores -->
             <ul class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
             </ul>
     
             
             <!-- Slides -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('img/rivara/2023/IMG_0348_2.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_1.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/2023/IMG_0373_retocada.jpg') }}" alt="slider insumos" />
+                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_2.jpg') }}" alt="slider insumos" />
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_3.jpg') }}" alt="slider insumos" />
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_4.jpg') }}" alt="slider insumos" />
                 </div>
             </div>
     
@@ -48,18 +57,18 @@
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div class="inner-title">
-                    <h6>@lang('services.insumos.item_1_titulo')</h6>
-                </div>
-            </div>
-            <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
-                @lang('services.insumos.item_1_texto')
-            </p>
-
         </div>
+        {{-- <div class="row"> --}}
+            <div class="col-12">
+                {{-- <div class="inner-title">
+                    <h6>@lang('services.insumos.item_1_titulo')</h6>
+                </div> --}}
+                <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
+                    @lang('services.insumos.item_1_texto')
+                </p>
+            </div>
+
+        {{-- </div> --}}
         
     </div>
 </div>

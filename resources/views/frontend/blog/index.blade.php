@@ -1,6 +1,6 @@
 @extends(LAYOUT_FRONT.'app')
 
-@section('title', 'Noticias | '.APP_DISPLAY)
+@section('title', 'Recetas | '.APP_DISPLAY)
 @section('description', 'Portal de Novedades y Noticias de '.APP_DISPLAY)
 @section('author', APP_DISPLAY)
 @section('keywords', '')
@@ -8,11 +8,11 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => 'Blog', 
-                'subtitle' => 'Blog Noticias',
+                'title' => 'Recetas', 
+                'subtitle' => 'Recetas',
                 'links' => array(
                     ['icon' => 'icon-copy', 'name' => __("home.home"), 'url' => route('home')],
-                    ['icon' => 'icon-add', 'name' => 'Blog', 'url' => route('blog.index')],
+                    ['icon' => 'icon-add', 'name' => 'Recetas', 'url' => route('blog.index')],
                 )
             ])
 @endsection

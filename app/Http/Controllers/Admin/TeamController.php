@@ -53,6 +53,7 @@ class TeamController extends Controller
             'name' => 'required|max:180',
             'lastname' => 'required|max:180',
             'description' => 'max:2000',
+            'phone' => 'max:180',
             'email' => 'email',
             'role' => 'max:180',
             'facebook' => 'max:180',
@@ -66,6 +67,7 @@ class TeamController extends Controller
             $team = new $modelo;
             $team->name = $request->name;
             $team->lastname = $request->lastname;
+            $team->phone = $request->phone;
             $team->description = $request->description;
             $team->email = $request->email;
             $team->role = $request->role;

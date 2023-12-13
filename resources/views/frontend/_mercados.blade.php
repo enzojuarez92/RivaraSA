@@ -18,7 +18,7 @@
                     </ul>
                     <div class="resp-tabs-container hor_1" id="markets-tables">
                         <div>
-                            <table class="table table-striped">
+                            <table class="table table-striped table-responsive">
                                 <thead>
                                     @foreach ($tables['pizarra']['encabezado'] as $item)
                                     <tr>
