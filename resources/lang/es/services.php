@@ -38,11 +38,8 @@ return [
         <br><br>
         Colaboradores calificados, con vasta experiencia en el mercado de granos, asesoran a los productores, analizando diariamente el mercado local e internacional, ofreciendo las mejores opciones de negocios, tanto en el mercado disponible como negocios a futuro,  canjes por agroquímicos o combustibles, siempre buscando el resultado mas rentable.
         <br><br>
-        <img src="/img/rivara/2023/negocios1_2.jpg" alt="transporte" class="img-fluid">
-        <br><br>
         La logística, en estos tiempos, adquiere una importancia fundamental en el precio final que recibe el productor. Nuestra flota propia de camiones asegura cumplimiento en los plazos, transparencia y la mayor eficiencia para alcanzar el precio final óptimo que recibe el productor.
         <br><br>
-        <img src="/img/rivara/2023/camion.jpg" alt="transporte" class="img-fluid">
         ',
         'item_2_titulo' => 'Arrendamientos y asociaciones',
         'item_2_texto' => '<b>PRODUCCIÓN AGRÍCOLA</b><br><br>Nuestra empresa, La Tranquera Verde, siembra sobre campos arrendados desde la década del noventa, lo que nos permite tener una relación extendida en el tiempo con los titulares de la tierra. El mantenimiento de estas relaciones desde hace más de veinte años es lo que nos diferencia.

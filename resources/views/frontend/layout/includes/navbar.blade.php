@@ -1,5 +1,4 @@
             <div class="navbar-default">
-
                 <!-- start top search -->
                 <div class="top-search bg-theme">
                     <div class="container">

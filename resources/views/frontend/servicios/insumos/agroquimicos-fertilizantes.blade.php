@@ -1,26 +1,7 @@
 <!-- start right side section -->
-<div class="col-lg-8 col-md-12 order-1 order-lg-2 sm-margin-30px-bottom">
+<div class="col-12 sm-margin-30px-bottom">
     <div class="services-single-right">
         <h5 class="font-weight-600">@lang('services.insumos.item_1_titulo')</h5>
-        {{-- <div class="margin-40px-bottom sm-margin-30px-bottom">
-            <div class="owl-carousel owl-theme text-center">
-                <div class="item">
-                    <img src="{{ asset('img/rivara/servicios/insumos1.jpg') }}" alt="slider insumos" />
-                </div>
-                <div class="item">
-                    <img src="{{ asset('img/rivara/servicios/insumos3.jpg') }}" alt="slider insumos" />
-                </div>
-                <div class="item">
-                    <img src="{{ asset('img/rivara/servicios/insumos4.jpg') }}" alt="slider insumos" />
-                </div>
-                <div class="item">
-                    <img src="{{ asset('img/rivara/servicios/insumos5.jpg') }}" alt="slider insumos" />
-                </div>
-                <div class="item">
-                    <img src="{{ asset('img/rivara/servicios/insumos6.jpg') }}" alt="slider insumos" />
-                </div>
-            </div>
-        </div> --}}
 
         <div class="col-12">
         <div id="myCarousel" class="carousel slide margin-40px-bottom" data-ride="carousel" style="margin-bottom: 20px">
@@ -36,16 +17,16 @@
             <!-- Slides -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_1.jpg') }}" alt="slider insumos" />
+                    <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_1.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_2.jpg') }}" alt="slider insumos" />
+                    <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_2.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_3.jpg') }}" alt="slider insumos" />
+                    <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_3.jpg') }}" alt="slider insumos" />
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_4.jpg') }}" alt="slider insumos" />
+                    <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/agroquimicos/agroquimicos_4.jpg') }}" alt="slider insumos" />
                 </div>
             </div>
     
@@ -58,18 +39,10 @@
             </a>
         </div>
         </div>
-        {{-- <div class="row"> --}}
             <div class="col-12">
-                {{-- <div class="inner-title">
-                    <h6>@lang('services.insumos.item_1_titulo')</h6>
-                </div> --}}
                 <p class="margin-30px-bottom sm-margin-20px-bottom width-95 text-justify">
                     @lang('services.insumos.item_1_texto')
                 </p>
             </div>
-
-        {{-- </div> --}}
-        
-    </div>
 </div>
 <!-- end right side section -->

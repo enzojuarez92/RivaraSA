@@ -48,21 +48,12 @@
                                             <h5>{{ $post->title }}</h5>
                                         </div>
                                         <ul class="meta">
-                                            {{-- <li>
-                                                <a href="javascript:void(0);">
-                                                    <i aria-hidden="true" class="fa fa-user"></i> {{ $post->escritor() }}
-                                                </a>
-                                            </li> --}}
                                             <li>
                                                 <a href="javascript:void(0);">
                                                     <i aria-hidden="true" class="fa fa-folder-open"></i> {{ $post->category->name }}
                                                 </a>
                                             </li>
-                                            {{-- <li>
-                                                <a href="javascript:void(0);">
-                                                    <i aria-hidden="true" class="fas fa-calendar-alt"></i> {{ $post->published_at }} 
-                                                </a>
-                                            </li> --}}
+                                            
                                         </ul>
                                     </div>
                                     <div class="post-cont">
