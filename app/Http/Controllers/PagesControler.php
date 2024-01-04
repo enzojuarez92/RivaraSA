@@ -105,8 +105,15 @@ class PagesControler extends Controller
         return view('frontend.servicios', compact('contactosPorArea', 'servicio', 'subservicio'));
     }
 
+    public function alimentos()
+    {
+        $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
+                ->orWhere('servicios', 'like', '%aceites%')
+                ->orWhere('servicios', 'like', '%balanceados%')
+                ->get();
 
-
+        return view('frontend.servicios.alimentos', compact('contactosPorArea'));
+    }
 
     public function verPost(Post $post)
     {

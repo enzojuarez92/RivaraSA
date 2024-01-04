@@ -1,4 +1,4 @@
-<section class="page-title-section bg-extra-dark-gray p-1 mb-0">
+<section class="page-title-section bg-extra-dark-gray py-2 m-0">
     <div class="container">
         <div class="row d-flex justify-content-between align-items-end">
             <div>
@@ -12,6 +12,5 @@
                 </ul>
             </div>
         </div>
-
     </div>
 </section>

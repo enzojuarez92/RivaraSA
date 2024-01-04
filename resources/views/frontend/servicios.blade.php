@@ -34,8 +34,8 @@
                         @include('frontend.servicios.insumos.agroquimicos-fertilizantes')
                     @elseif ($subservicio !== null && $servicio === 'insumos' && $subservicio === 'combustibles')
                         @include('frontend.servicios.insumos.combustibles')
-                    @else
-                        @include('frontend.servicios.'.$servicio)
+                    {{-- @else
+                        @include('frontend.servicios.'.$servicio) --}}
                     @endif
 
 

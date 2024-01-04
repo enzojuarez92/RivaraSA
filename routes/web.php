@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
+use App\Http\Controllers\PagesControler;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,7 @@ Route::get('/', 'PagesControler@home')->name('home');
 Route::get('/feed', 'PagesControler@feedPosts')->name('feeds.posts');
 Route::get('/organico', 'PagesControler@organico')->name('organico');
 Route::get('/la-empresa', 'PagesControler@nosotros')->name('nosotros');
+Route::get('/servicios/alimentos', [PagesControler::class, 'alimentos'])->name('servicios.alimentos');
 Route::get('/servicios/{servicio?}', 'PagesControler@servicios')->name('servicios');
 Route::get('/servicios/{servicio?}/{subservicio?}', 'PagesControler@servicios')->name('servicios.subservicios');
 Route::get('/contacto', 'PagesControler@contacto')->name('contacto');

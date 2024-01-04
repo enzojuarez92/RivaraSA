@@ -39,6 +39,7 @@ header,
 nav,
 section {
   display: block;
+  padding-top: 20px;
 }
 
 /**
