@@ -15,11 +15,15 @@
                                     <li data-target="#myCarousel" data-slide-to="7"></li>
                                     <li data-target="#myCarousel" data-slide-to="8"></li>
                                     <li data-target="#myCarousel" data-slide-to="9"></li>
+                                    <li data-target="#myCarousel" data-slide-to="10"></li>
                                 </ul>
                         
                                 <!-- Slides -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
+                                        <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/granos/foto-nene.jpg') }}" alt="slider insumos" />
+                                    </div>
+                                    <div class="carousel-item">
                                         <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/granos/granos_1.jpg') }}" alt="slider insumos" />
                                     </div>
                                     <div class="carousel-item">
