@@ -65,10 +65,10 @@
                             </div>
 
 
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <p class="margin-30px-bottom sm-margin-20px-bottom width-100 text-justify">
                                         @lang('services.granos.item_2_texto')
                                     </p>
-                                </div>
+                                </div> --}}
                     </div>
                     <!-- end right side section -->
