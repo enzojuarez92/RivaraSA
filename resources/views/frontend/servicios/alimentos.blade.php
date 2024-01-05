@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row">
                 <div
-                    class="col-lg-4 col-md-12 padding-50px-right md-padding-30px-right sm-padding-15px-right order-2 order-lg-1">
+                    class="col-lg-4 col-md-12 md-padding-30px-right sm-padding-15px-right order-2 order-lg-1">
 
                     @forelse ($contactosPorArea as $item)
                         @include('frontend.servicios.contacto', [

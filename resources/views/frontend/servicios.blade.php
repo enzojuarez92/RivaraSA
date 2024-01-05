@@ -31,28 +31,43 @@
                     @elseif ($subservicio !== null && $servicio === 'granos' && $subservicio === 'arrendamientos-asociaciones')
                         @include('frontend.servicios.granos.arrendamientos-asociaciones')
                         <div class="col-4">
-                            <div class="col-lg-12 col-md-12 padding-50px-right md-padding-30px-right sm-padding-15px-right order-2 order-lg-1">
-
-                                @forelse ($contactosPorArea as $item)
-                                    @include('frontend.servicios.contacto', [
-                                        'nombre' => $item->name . ' ' . $item->lastname,
-                                        'role' => $item->role ?? '',
-                                        'telefono' => $item->phone ?? 'Sin Información',
-                                        'email' => $item->email,
-                                        'foto' => $item->foto ?? 'assets/img/default-avatar.png',
-                                    ])
-                                @empty
-                                    <p>No hay contactos para mostrar</p>                        
-                                @endforelse
-        
-                            </div>
+                            @forelse ($contactosPorArea as $item)
+                                @include('frontend.servicios.contacto', [
+                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                    'role' => $item->role ?? '',
+                                    'telefono' => $item->phone ?? 'Sin Información',
+                                    'email' => $item->email,
+                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                ])
+                            @empty
+                                <p>No hay contactos para mostrar</p>                        
+                            @endforelse
                         </div>
                         <div class="col-8">
-                            <div class="col-12">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                        <p class="margin-10px-bottom text-justify">
+                                            @php
+                                                $content = Lang::get('services.granos.item_2_texto');
+                                                $halfLength = ceil(strlen($content) / 2);
+                                                $firstHalf = substr($content, 0, $halfLength);
+                                                $secondHalf = substr($content, $halfLength);
+                                            @endphp
+                                            {!! $firstHalf !!}
+                                        </p>
+                                </div>
+                
+                                <div class="col-lg-6 col-md-12">
+                                        <p class="text-justify">
+                                            {!! $secondHalf !!}
+                                        </p>
+                                </div>
+                            </div>
+                            {{-- <div class="col-12">
                                 <p class="margin-30px-bottom sm-margin-20px-bottom width-100 text-justify">
                                     @lang('services.granos.item_2_texto')
                                 </p>
-                            </div>
+                            </div> --}}
                         </div>
                     @elseif ($subservicio !== null && $servicio === 'insumos' && $subservicio === 'agroquimicos-fertilizantes')
                         @include('frontend.servicios.insumos.agroquimicos-fertilizantes')
@@ -67,7 +82,7 @@
                 </div>
                 <div class="row">
                     <!-- start left side section -->
-                    {{-- <div class="col-lg-12 col-md-12 padding-50px-right md-padding-30px-right sm-padding-15px-right order-2 order-lg-1">
+                    <div class="col-lg-12 col-md-12 padding-50px-right md-padding-30px-right sm-padding-15px-right order-2 order-lg-1">
 
                         @forelse ($contactosPorArea as $item)
                             @include('frontend.servicios.contacto', [
@@ -81,7 +96,7 @@
                             <p>No hay contactos para mostrar</p>                        
                         @endforelse
 
-                    </div> --}}
+                    </div>
                     <!-- end left side section -->
                 </div>
             </div>
