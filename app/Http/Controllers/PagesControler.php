@@ -110,6 +110,7 @@ class PagesControler extends Controller
         $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
                 ->orWhere('servicios', 'like', '%aceites%')
                 ->orWhere('servicios', 'like', '%balanceados%')
+                ->orWhere('servicios', 'like', '%pop corn%')
                 ->get();
 
         return view('frontend.servicios.alimentos', compact('contactosPorArea'));

@@ -58,6 +58,10 @@ class ConfigHelper
             'balanceados' => [
                 'sigla' => 'balanceados',
                 'titulo' => 'Alimentos Balanceados',
+            ],
+            'pop-corn' => [
+                'sigla' => 'pop corn',
+                'titulo' => 'pop corn',
             ]
         ];
 

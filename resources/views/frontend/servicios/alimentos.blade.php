@@ -137,13 +137,22 @@
                                 <div class="row">
                                     <div class="col-12 col-md-4">
                                         @forelse ($contactosPorArea as $item)
-                                            @include('frontend.servicios.contacto', [
-                                                'nombre' => $item->name . ' ' . $item->lastname,
-                                                'role' => $item->role ?? '',
-                                                'telefono' => $item->phone ?? 'Sin Información',
-                                                'email' => $item->email,
-                                                'foto' => $item->foto ?? 'assets/img/default-avatar.png',
-                                            ])
+                                        {{-- @dd($item) --}}
+                                            @forelse($item["servicios"] as $servicio)
+                                                @if($servicio === "molienda")
+                                                @include('frontend.servicios.contacto', [
+                                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                                    'role' => $item->role ?? '',
+                                                    'telefono' => $item->phone ?? 'Sin Información',
+                                                    'email' => $item->email,
+                                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                                ])
+                                                @else
+                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
+                                                @endif
+                                            @empty
+                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
+                                            @endforelse
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
@@ -212,13 +221,22 @@
                                 <div class="row">
                                     <div class="col-12 col-md-4">
                                         @forelse ($contactosPorArea as $item)
-                                            @include('frontend.servicios.contacto', [
-                                                'nombre' => $item->name . ' ' . $item->lastname,
-                                                'role' => $item->role ?? '',
-                                                'telefono' => $item->phone ?? 'Sin Información',
-                                                'email' => $item->email,
-                                                'foto' => $item->foto ?? 'assets/img/default-avatar.png',
-                                            ])
+                                        {{-- @dd($item) --}}
+                                            @forelse($item["servicios"] as $servicio)
+                                                @if($servicio === "aceites")
+                                                @include('frontend.servicios.contacto', [
+                                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                                    'role' => $item->role ?? '',
+                                                    'telefono' => $item->phone ?? 'Sin Información',
+                                                    'email' => $item->email,
+                                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                                ])
+                                                @else
+                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
+                                                @endif
+                                            @empty
+                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
+                                            @endforelse
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
@@ -279,13 +297,22 @@
                                 <div class="row">
                                     <div class="col-12 col-md-4">
                                         @forelse ($contactosPorArea as $item)
-                                            @include('frontend.servicios.contacto', [
-                                                'nombre' => $item->name . ' ' . $item->lastname,
-                                                'role' => $item->role ?? '',
-                                                'telefono' => $item->phone ?? 'Sin Información',
-                                                'email' => $item->email,
-                                                'foto' => $item->foto ?? 'assets/img/default-avatar.png',
-                                            ])
+                                        {{-- @dd($item) --}}
+                                            @forelse($item["servicios"] as $servicio)
+                                                @if($servicio === "balanceados")
+                                                @include('frontend.servicios.contacto', [
+                                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                                    'role' => $item->role ?? '',
+                                                    'telefono' => $item->phone ?? 'Sin Información',
+                                                    'email' => $item->email,
+                                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                                ])
+                                                @else
+                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
+                                                @endif
+                                            @empty
+                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
+                                            @endforelse
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
@@ -326,7 +353,7 @@
                                         <li data-target="#myCarousel4" data-slide-to="2"></li>
                                         <li data-target="#myCarousel4" data-slide-to="3"></li>
                                         <li data-target="#myCarousel4" data-slide-to="4"></li>
-                                        <li data-target="#myCarousel4" data-slide-to="5"></li>
+                                        {{-- <li data-target="#myCarousel4" data-slide-to="5"></li> --}}
                                     </ul>
                                     <!-- Slides -->
                                     <div class="carousel-inner">
@@ -350,10 +377,10 @@
                                             <img src="{{ asset('img/rivara/sliders/Pop Corn/popcorn5.jpg') }}"
                                                 alt="slider popcorn" />
                                         </div>
-                                        <div class="carousel-item">
+                                        {{-- <div class="carousel-item">
                                             <img src="{{ asset('img/rivara/sliders/Pop Corn/popcorn6.jpg') }}"
                                                 alt="slider popcorn" />
-                                        </div>
+                                        </div> --}}
                                     </div>
                                     <!-- Controles de navegación -->
                                     <a class="carousel-control-prev" href="#myCarousel4" data-slide="prev">
@@ -367,13 +394,22 @@
                                 <div class="row">
                                     <div class="col-12 col-md-4">
                                         @forelse ($contactosPorArea as $item)
-                                            @include('frontend.servicios.contacto', [
-                                                'nombre' => $item->name . ' ' . $item->lastname,
-                                                'role' => $item->role ?? '',
-                                                'telefono' => $item->phone ?? 'Sin Información',
-                                                'email' => $item->email,
-                                                'foto' => $item->foto ?? 'assets/img/default-avatar.png',
-                                            ])
+                                        {{-- @dd($item) --}}
+                                            @forelse($item["servicios"] as $servicio)
+                                                @if($servicio === "pop-corn")
+                                                @include('frontend.servicios.contacto', [
+                                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                                    'role' => $item->role ?? '',
+                                                    'telefono' => $item->phone ?? 'Sin Información',
+                                                    'email' => $item->email,
+                                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                                ])
+                                                @else
+                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
+                                                @endif
+                                            @empty
+                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
+                                            @endforelse
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
