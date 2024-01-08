@@ -36,10 +36,10 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 {{-- <img src="{{ asset('img/rivara/sliders/granos/granos_1.jpg') }}" alt="slider insumos" /> --}}
-                                <img src="{{ asset('img/rivara/2023/directorio.jpg') }}" alt="oficina">
+                                <img src="{{ asset('img/rivara/2023/laempresa1.jpg') }}" alt="oficina">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/rivara/2023/Rivara SAIMG_9962159.jpg') }}" alt="oficina">
+                                <img src="{{ asset('img/rivara/2023/laempresa2.jpg') }}" alt="oficina">
                             </div>
                         </div>
                 
@@ -55,11 +55,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <div class="padding-30px-right">
+                    <div class="">
                         <p class="margin-10px-bottom text-justify">
                             @php
                                 $content = Lang::get('about.content');
-                                $halfLength = ceil(strlen($content) / 2);
+                                $halfLength = ceil(strlen($content) / 2) + 31;
                                 $firstHalf = substr($content, 0, $halfLength);
                                 $secondHalf = substr($content, $halfLength);
                             @endphp
@@ -69,7 +69,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12">
-                    <div class="padding-30px-left">
+                    <div class="">
                         <p class="margin-10px-bottom text-justify">
                             {{ $secondHalf }}
                         </p>

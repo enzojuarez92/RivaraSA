@@ -6,7 +6,7 @@
                                 <!-- Indicadores -->
                                 <ul class="carousel-indicators">
                                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    {{-- <li data-target="#myCarousel" data-slide-to="1"></li>
                                     <li data-target="#myCarousel" data-slide-to="2"></li>
                                     <li data-target="#myCarousel" data-slide-to="3"></li>
                                     <li data-target="#myCarousel" data-slide-to="4"></li>
@@ -15,15 +15,15 @@
                                     <li data-target="#myCarousel" data-slide-to="7"></li>
                                     <li data-target="#myCarousel" data-slide-to="8"></li>
                                     <li data-target="#myCarousel" data-slide-to="9"></li>
-                                    <li data-target="#myCarousel" data-slide-to="10"></li>
+                                    <li data-target="#myCarousel" data-slide-to="10"></li> --}}
                                 </ul>
                         
                                 <!-- Slides -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/granos/foto-nene.jpg') }}" alt="slider insumos" />
+                                        <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/granos/arrendamientos 1.jpg') }}" alt="slider insumos" />
                                     </div>
-                                    <div class="carousel-item">
+                                    {{-- <div class="carousel-item">
                                         <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/granos/granos_1.jpg') }}" alt="slider insumos" />
                                     </div>
                                     <div class="carousel-item">
@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/granos/granos_10.jpg') }}" alt="slider insumos" />
-                                    </div>
+                                    </div> --}}
                                 </div>
                         
                                 <!-- Controles de navegación -->

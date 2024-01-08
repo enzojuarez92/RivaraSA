@@ -27,7 +27,41 @@
                     {{-- @include('frontend.servicios.'.$servicio) --}}
 
                     @if ($subservicio !== null && $servicio === 'granos' && $subservicio === 'acopio-logistica-comercializacion')
-                        @include('frontend.servicios.granos.acopio-logistica-comercializacion')
+                    @include('frontend.servicios.granos.acopio-logistica-comercializacion')
+                        <div class="col-12 col-md-4">
+                            @forelse ($contactosPorArea as $item)
+                                @include('frontend.servicios.contacto', [
+                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                    'role' => $item->role ?? '',
+                                    'telefono' => $item->phone ?? 'Sin Información',
+                                    'email' => $item->email,
+                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                ])
+                            @empty
+                                <p>No hay contactos para mostrar</p>                        
+                            @endforelse
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                        <p class="margin-10px-bottom text-justify">
+                                            @php
+                                                $content = Lang::get('services.granos.item_1_texto');
+                                                $halfLength = ceil(strlen($content) / 2);
+                                                $firstHalf = substr($content, 0, $halfLength);
+                                                $secondHalf = substr($content, $halfLength);
+                                            @endphp
+                                            {!! $firstHalf !!}
+                                        </p>
+                                </div>
+                
+                                <div class="col-lg-6 col-md-12">
+                                        <p class="text-justify">
+                                            {!! $secondHalf !!}
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
                     @elseif ($subservicio !== null && $servicio === 'granos' && $subservicio === 'arrendamientos-asociaciones')
                         @include('frontend.servicios.granos.arrendamientos-asociaciones')
                         <div class="col-4">
@@ -71,8 +105,76 @@
                         </div>
                     @elseif ($subservicio !== null && $servicio === 'insumos' && $subservicio === 'agroquimicos-fertilizantes')
                         @include('frontend.servicios.insumos.agroquimicos-fertilizantes')
+                        <div class="col-12 col-md-4">
+                            @forelse ($contactosPorArea as $item)
+                                @include('frontend.servicios.contacto', [
+                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                    'role' => $item->role ?? '',
+                                    'telefono' => $item->phone ?? 'Sin Información',
+                                    'email' => $item->email,
+                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                ])
+                            @empty
+                                <p>No hay contactos para mostrar</p>                        
+                            @endforelse
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                        <p class="margin-10px-bottom text-justify">
+                                            @php
+                                                $content = Lang::get('services.insumos.item_1_texto');
+                                                $halfLength = ceil(strlen($content) / 2);
+                                                $firstHalf = substr($content, 0, $halfLength);
+                                                $secondHalf = substr($content, $halfLength);
+                                            @endphp
+                                            {!! $firstHalf !!}
+                                        </p>
+                                </div>
+                
+                                <div class="col-lg-6 col-md-12">
+                                        <p class="text-justify">
+                                            {!! $secondHalf !!}
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
                     @elseif ($subservicio !== null && $servicio === 'insumos' && $subservicio === 'combustibles')
                         @include('frontend.servicios.insumos.combustibles')
+                        <div class="col-12 col-md-4">
+                            @forelse ($contactosPorArea as $item)
+                                @include('frontend.servicios.contacto', [
+                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                    'role' => $item->role ?? '',
+                                    'telefono' => $item->phone ?? 'Sin Información',
+                                    'email' => $item->email,
+                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                ])
+                            @empty
+                                <p>No hay contactos para mostrar</p>                        
+                            @endforelse
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                        <p class="margin-10px-bottom text-justify">
+                                            @php
+                                                $content = Lang::get('services.insumos.item_2_texto');
+                                                $halfLength = ceil(strlen($content) / 2);
+                                                $firstHalf = substr($content, 0, $halfLength);
+                                                $secondHalf = substr($content, $halfLength);
+                                            @endphp
+                                            {!! $firstHalf !!}
+                                        </p>
+                                </div>
+                
+                                <div class="col-lg-6 col-md-12">
+                                        <p class="text-justify">
+                                            {!! $secondHalf !!}
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
                     {{-- @else
                         @include('frontend.servicios.'.$servicio) --}}
                     @endif
@@ -80,8 +182,7 @@
 
                     
                 </div>
-                <div class="row">
-                    <!-- start left side section -->
+                {{-- <div class="row">
                     <div class="col-lg-12 col-md-12 padding-50px-right md-padding-30px-right sm-padding-15px-right order-2 order-lg-1">
 
                         @forelse ($contactosPorArea as $item)
@@ -97,8 +198,7 @@
                         @endforelse
 
                     </div>
-                    <!-- end left side section -->
-                </div>
+                </div> --}}
             </div>
         </section>
         <!-- end service detail section -->
