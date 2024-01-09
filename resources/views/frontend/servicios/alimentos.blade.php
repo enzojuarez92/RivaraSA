@@ -10,7 +10,7 @@
 
 @section('breadcrumb')
     @include('frontend.layout.includes.breadcrumb', [
-        'title' => __('services.title'),
+        'title' => __('Alimentos'),
         'subtitle' => 'Conozca nuestros servicios',
         'img' => 'img/rivara/fachadaoficina_baja2.jpg',
         'links' => [
@@ -153,31 +153,16 @@
                                         @endforelse
                                     </div>
                                     <div class="col-12 col-md-8 order-1 order-md-2">
-                                        <p style="text-align: justify">
-                                            En 1995 iniciamos una etapa de industrialización de granos, siendo el primer
-                                            paso la inauguración de un molino de maíz, que por su capacidad de molienda se
-                                            ubica en el 2º lugar de Argentina. Como valor fundacional buscamos producir
-                                            alimentos saludables y que cumplieran con los más altos estándares de calidad
-                                            internacional. Molemos granos de maíz Flint libres de modificaciones genéticas.
-                                            La calidad de nuestros productos fue reconocida por los consumidores y hoy,
-                                            prácticamente, todas las grandes tiendas tienen sus marcas propias de polenta
-                                            abastecidas exclusivamente por nuestra empresa. Calidad también reconocida
-                                            internacionalmente que nos permitió ser proveedores de grits para cereales de
-                                            desayuno a Dinamarca, Japón, Suiza y EEUU.
-                                            <br>
-                                            Nuestros productos de la molienda son libres de transgénicos, aptos para
-                                            celíacos, con análisis exhaustivos de pesticidas y micotoxinas que convierten
-                                            nuestras polentas y grits en productos de calidad premium. La certificación de
-                                            BPM y HCCP asegura la misma calidad para el mercado interno que para el externo,
-                                            con un sistema de trazabilidad que nos permite el seguimiento desde la semilla
-                                            hasta el producto en góndola.
-                                            <br>
-                                            En nuestro compromiso permanente de cuidar el medio ambiente y reducir la
-                                            emisión de gases contaminantes, en 2019 incorporamos una fuente de energía
-                                            limpia y renovable con un sistema solar fotovoltaico de 315 paneles que generan
-                                            una potencia de 203.000 Kwp anuales, con una captura de CO2 de 177,3
-                                            toneladas/año
-                                        </p>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <p class="text-justify">
+                                                    @php
+                                                        $content = Lang::get('services.alimentos.item_1_texto');
+                                                    @endphp
+                                                    {!! $content !!}
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -233,20 +218,10 @@
                                     </div>
                                     <div class="col-12 col-md-8 order-1 order-md-2">
                                         <p style="text-align: justify">
-                                            Nuestro siguiente emprendimiento, en 2003, fue una unidad de procesamiento de
-                                            granos
-                                            oleaginosos por extrusión y prensado, que nos permitió generar harinas libres de
-                                            solventes, porque apoyamos la tendencia mundial de promover alimentos naturales,
-                                            con
-                                            menos refinamiento, menos contaminación y mayor cuidado en preservar las
-                                            virtudes
-                                            contenidas en los granos con los que nos alimentamos.
-                                            <br>
-                                            Este proceso de extrusión-prensado nos permite obtener, por un lado, harinas de
-                                            excelente digestibilidad y alto valor nutricional al tener intactos los
-                                            aminoácidos
-                                            de las proteínas y por otro lado aceites que retienen sus porcentajes de ácidos
-                                            grasos, omega3, tocoferoles, vitamina E y esteroles.
+                                            @php
+                                                $content = Lang::get('services.alimentos.item_2_texto');
+                                            @endphp
+                                            {!! $content !!}
                                         </p>
                                     </div>
                                 </div>
