@@ -25,7 +25,7 @@ class PagesControler extends Controller
     public function home()
     {
         try {
-            
+
             $tables['pizarra'] = $this->scrap('#pizarra', 5);
             $tables['rofex'] = $this->scrap('#rofex', 3);
             $tables['matba'] = $this->scrap('#matba', 3);
@@ -37,14 +37,13 @@ class PagesControler extends Controller
                 'clients',
                 'tables'
             ));
-        } catch (\Exception $ex) { 
-            
+        } catch (\Exception $ex) {
         } //TODO: Ver si lo dejamos asi
     }
 
     public function scrap($id, $chunk = 4)
     {
-        return Cache::remember('tablas.'.$id, 1800, function () use ($id, $chunk) {
+        return Cache::remember('tablas.' . $id, 1800, function () use ($id, $chunk) {
             $crawler = Goutte::request('GET', 'http://eduardoberaza.com/');
             $encabezado = [];
             $salida = [];
@@ -62,7 +61,7 @@ class PagesControler extends Controller
                 'encabezado' => $divArrayEncabeado,
                 'body' => $divArrayBody
             ];
-            return $salida;            
+            return $salida;
         });
     }
     public function organico()
@@ -92,15 +91,9 @@ class PagesControler extends Controller
     //     ));
     // }
 
-    public function servicios($servicio = 'insumos', $subservicio = null){
-        if(is_null($subservicio)){
-            $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
-                ->orWhere('servicios', 'like', '%aceites%')
-                ->orWhere('servicios', 'like', '%balanceados%')
-                ->get();
-        }else{
-            $contactosPorArea = Team::where('servicios', 'like', '%' . $subservicio . '%')->get();
-        }
+    public function servicios($servicio = 'insumos', $subservicio = null)
+    {
+        $contactosPorArea = Team::where('servicios', 'like', '%' . $subservicio . '%')->get();
 
         return view('frontend.servicios', compact('contactosPorArea', 'servicio', 'subservicio'));
     }
@@ -108,10 +101,12 @@ class PagesControler extends Controller
     public function alimentos()
     {
         $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
-                ->orWhere('servicios', 'like', '%aceites%')
-                ->orWhere('servicios', 'like', '%balanceados%')
-                ->orWhere('servicios', 'like', '%pop corn%')
-                ->get();
+            ->orWhere('servicios', 'like', '%aceites%')
+            ->orWhere('servicios', 'like', '%balanceados%')
+            ->orWhere('servicios', 'like', '%pop-corn%')
+            ->get();
+
+            //dd($contactosPorArea);
 
         return view('frontend.servicios.alimentos', compact('contactosPorArea'));
     }
