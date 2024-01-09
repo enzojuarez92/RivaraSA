@@ -137,7 +137,7 @@
                                 <div class="row">
                                     <div class="col-12 col-md-4">
                                         @forelse ($contactosPorArea as $item)
-                                            @if (isset($item->servicios) && is_array($item->servicios) && in_array('molienda', $item->servicios))
+                                            @if (isset($item->servicios) && in_array('molienda', $item->servicios))
                                                 @include('frontend.servicios.contacto', [
                                                     'nombre' => $item->name . ' ' . $item->lastname,
                                                     'role' => $item->role ?? '',
@@ -214,7 +214,7 @@
                                 <div class="row">
                                     <div class="col-12 col-md-4">
                                         @forelse ($contactosPorArea as $item)
-                                            @if (isset($item->servicios) && is_array($item->servicios) && in_array('aceites', $item->servicios))
+                                            @if (isset($item->servicios) && in_array('aceites', $item->servicios))
                                                 @include('frontend.servicios.contacto', [
                                                     'nombre' => $item->name . ' ' . $item->lastname,
                                                     'role' => $item->role ?? '',
@@ -222,8 +222,6 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
-                                            @else
-                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
@@ -285,22 +283,15 @@
                                 <div class="row">
                                     <div class="col-12 col-md-4">
                                         @forelse ($contactosPorArea as $item)
-                                            {{-- @dd($item) --}}
-                                            @forelse($item["servicios"] as $servicio)
-                                                @if ($servicio === 'balanceados')
-                                                    @include('frontend.servicios.contacto', [
-                                                        'nombre' => $item->name . ' ' . $item->lastname,
-                                                        'role' => $item->role ?? '',
-                                                        'telefono' => $item->phone ?? 'Sin Información',
-                                                        'email' => $item->email,
-                                                        'foto' => $item->foto ?? 'assets/img/default-avatar.png',
-                                                    ])
-                                                @else
-                                                    <p class="text-center text-dark">No hay contactos para mostrar</p>
-                                                @endif
-                                            @empty
-                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
-                                            @endforelse
+                                            @if (isset($item->servicios) && in_array('balanceados', $item->servicios))
+                                                @include('frontend.servicios.contacto', [
+                                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                                    'role' => $item->role ?? '',
+                                                    'telefono' => $item->phone ?? 'Sin Información',
+                                                    'email' => $item->email,
+                                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                                ])
+                                            @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
@@ -382,22 +373,15 @@
                                 <div class="row">
                                     <div class="col-12 col-md-4">
                                         @forelse ($contactosPorArea as $item)
-                                            {{-- @dd($item) --}}
-                                            @forelse($item["servicios"] as $servicio)
-                                                @if ($servicio === 'pop-corn')
-                                                    @include('frontend.servicios.contacto', [
-                                                        'nombre' => $item->name . ' ' . $item->lastname,
-                                                        'role' => $item->role ?? '',
-                                                        'telefono' => $item->phone ?? 'Sin Información',
-                                                        'email' => $item->email,
-                                                        'foto' => $item->foto ?? 'assets/img/default-avatar.png',
-                                                    ])
-                                                @else
-                                                    <p class="text-center text-dark">No hay contactos para mostrar</p>
-                                                @endif
-                                            @empty
-                                                <p class="text-center text-dark">No hay contactos para mostrar</p>
-                                            @endforelse
+                                            @if (isset($item->servicios) && in_array('pop-corn', $item->servicios))
+                                                @include('frontend.servicios.contacto', [
+                                                    'nombre' => $item->name . ' ' . $item->lastname,
+                                                    'role' => $item->role ?? '',
+                                                    'telefono' => $item->phone ?? 'Sin Información',
+                                                    'email' => $item->email,
+                                                    'foto' => $item->foto ?? 'assets/img/default-avatar.png',
+                                                ])
+                                            @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse

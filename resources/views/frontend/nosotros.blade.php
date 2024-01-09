@@ -21,7 +21,7 @@
 @endsection
 
 @section('content')
-    <section>
+    <section class="sm-padding-15px-lr">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -88,13 +88,13 @@
                 <div class="col-md-12 col-sm-12 col-12">
                     <h4 class="text-white font-weight-600 text-center">@lang('about.counter_title')</h4>
                     <p
-                        class="font-size16 sm-font-size14 text-white line-height-30 sm-line-height-28 width-90 no-margin text-center">
+                        class="font-size16 sm-font-size14 text-white line-height-30 sm-line-height-28 no-margin text-center">
                         @lang('about.counter_content')</p>
                     <div
                         class="separator-line-horrizontal-full bg-white opacity2 margin-50px-tb md-margin-40px-tb sm-margin-30px-tb xs-margin-25px-tb">
                     </div>
                     <div class="row">
-                        <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                        <div class="col-12 col-lg-4 col-md-4">
                             <div class="counter-box text-left xs-text-center">
 
                                 <h4 class="countup text-white display-block">{{ HOME_ANOS }}</h4>
@@ -105,7 +105,7 @@
                                     @lang('home.counter.1')</p>
                             </div>
                         </div>
-                        <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                        <div class="col-12 col-lg-4 col-md-4">
                             <div class="counter-box text-left xs-text-center">
                                 <h4 class="countup text-white display-block xs-text-center">{{ HOME_EMPLEADOS }}</h4>
                                 <div
@@ -115,7 +115,7 @@
                                     @lang('home.counter.2')</p>
                             </div>
                         </div>
-                        <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                        <div class="col-12 col-lg-4 col-md-4">
                             <div class="counter-box text-left xs-text-center">
                                 <h4 class="countup text-white display-block xs-text-center">{{ HOME_USD }}</h4>
                                 <div
