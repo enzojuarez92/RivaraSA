@@ -105,7 +105,6 @@ class PagesControler extends Controller
             ->orWhere('servicios', 'like', '%balanceados%')
             ->orWhere('servicios', 'like', '%pop-corn%')
             ->get();
-
             //dd($contactosPorArea);
 
         return view('frontend.servicios.alimentos', compact('contactosPorArea'));

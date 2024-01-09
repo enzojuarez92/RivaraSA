@@ -32,24 +32,17 @@ return [
         'titulo' => 'Granos',
 
         'item_1_titulo' => 'Acopio, logística y comercialización',
-        'item_1_texto' => 'Actualmente contamos con cinco plantas de acopio estratégicamente ubicadas en las localidades de Alberti, Plá y Baradero, para la recepción y acopio de granos, con una capacidad de almacenaje superior a las 110.000 toneladas. Nuestras plantas de silos, dotadas con modernas tecnologías, caladores automáticos, volquetes, sensores termométricos de temperatura, aireación computarizada, etc., nos permite descargar hasta 1.000 toneladas/hora y bajar 3 puntos de humedad cada hora a 360 toneladas de granos.
+        'item_1_texto' => 'Actualmente <b>contamos con cinco plantas de acopio</b> estratégicamente ubicadas en las localidades de Alberti, Plá y Baradero, para la recepción y acopio de granos, con una capacidad de almacenaje superior a las 110.000 toneladas. Nuestras plantas de silos, dotadas con modernas tecnologías, caladores automáticos, volquetes, sensores termométricos de temperatura, aireación computarizada, etc., nos permite descargar hasta 1.000 toneladas/hora y bajar 3 puntos de humedad cada hora a 360 toneladas de granos.
+        Disponer de 79 silos y modernos equipos de limpieza nos permite una clasificación eficiente de los diferentes tipos y calidades de granos.<br>
         
-        Disponer de 79 silos y modernos equipos de limpieza nos permite una clasificación eficiente de los diferentes tipos y calidades de granos.
-        
-        Colaboradores calificados, con vasta experiencia en el mercado de granos, asesoran a los productores, analizando diariamente el mercado local e internacional, ofreciendo las mejores opciones de negocios, tanto en el mercado disponible como negocios a futuro,  canjes por agroquímicos o combustibles, siempre buscando el resultado mas rentable.
+        Colaboradores calificados, con vasta experiencia en el mercado de granos, asesoran a los productores, analizando diariamente el mercado local e internacional, ofreciendo las mejores opciones de negocios, tanto en el mercado disponible como negocios a futuro, canjes por agroquímicos o combustibles, siempre buscando el resultado más rentable.<br>
         
         La logística, en estos tiempos, adquiere una importancia fundamental en el precio final que recibe el productor. Nuestra flota propia de camiones asegura cumplimiento en los plazos, transparencia y la mayor eficiencia para alcanzar el precio final óptimo que recibe el productor.
-        
         ',
         'item_2_titulo' => 'Arrendamientos y asociaciones',
-        'item_2_texto' => '<b>PRODUCCIÓN AGRÍCOLA</b> Nuestra empresa, La Tranquera Verde, siembra sobre campos arrendados desde la década del noventa, lo que nos permite tener una relación extendida en el tiempo con los titulares de la tierra. El mantenimiento de estas relaciones desde hace más de veinte años es lo que nos diferencia.
-        
-        Relaciones perdurables y de mutua confianza nos han permitido consolidarnos en el tiempo, aportando profesionalismo, conocimiento, tecnología, maquinaria y logística para alcanzar los mejores resultados. Un equipo de colaboradores, con 10 ingenieros agrónomos, controlan diariamente la sanidad y evolución de los cultivos.
-        
-        Sembramos más de 30.000 hectáreas cada año, con un manejo responsable del suelo,  con rotaciones de cultivos que generan buen aporte de materia orgánica, realizando un buen manejo de malezas y un adecuado esquema de fertilización, porque, para nosotros, la sustentabilidad  de los suelos que trabajamos es un compromiso permanente.
-        Queremos estar por muchos años más y cuidar la sustentabilidad del suelo es cuidar la sustentabilidad de nosotros mismos.
-        
-        
+        'item_2_texto' => '
+        Nuestra empresa, La Tranquera Verde, siembra sobre campos arrendados desde la década del noventa, lo que nos permite tener una relación extendida en el tiempo con los titulares de la tierra. El mantenimiento de estas relaciones desde hace más de veinte años es lo que nos diferencia. Relaciones perdurables y de mutua confianza nos han permitido consolidarnos en el tiempo, aportando profesionalismo, conocimiento, tecnología, maquinaria y logística para alcanzar los mejores resultados. Un equipo de colaboradores, con 10 ingenieros agrónomos, controlan diariamente la sanidad y evolución de los cultivos.<br>
+        Sembramos más de 30.000 hectáreas cada año, con un manejo responsable del suelo, con rotaciones de cultivos que generan buen aporte de materia orgánica, realizando un buen manejo de malezas y un adecuado esquema de fertilización, porque, para nosotros, la sustentabilidad de los suelos que trabajamos es un compromiso permanente. Queremos estar por muchos años más y cuidar la sustentabilidad del suelo es cuidar la sustentabilidad de nosotros mismos.
         ',
     ],
     'alimentos' => [

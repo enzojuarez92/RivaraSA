@@ -30,19 +30,19 @@
                     <div class="horizontaltab" style="display: block; width: 100%; margin: 0px;">
                         <ul class="resp-tabs-list hor_1">
                             <li class="resp-tab-item hor_1 resp-tab-active" aria-controls="molienda_de_maiz" role="tab"
-                                style="background-color: white; border-color: rgb(193, 193, 193);">
+                                style="background-color: white; border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
                                 <i class="fas fa-corn"></i> Molienda de Maíz no GMO
                             </li>
                             <li class="resp-tab-item hor_1" aria-controls="aceite_harinas" role="tab"
-                                style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);">
+                                style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
                                 <i class="fas fa-solid fa-jar-wheat"></i> Aceites y Harinas
                             </li>
                             <li class="resp-tab-item hor_1" aria-controls="alimentos_balanceados" role="tab"
-                                style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);">
+                                style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
                                 <i class="fas fa-solid fa-jar-wheat"></i> Alimentos Balanceados
                             </li>
                             <li class="resp-tab-item hor_1" aria-controls="pop_corn" role="tab"
-                                style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);">
+                                style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
                                 <i class="fas fa-solid fa-jar-wheat"></i> Pop Corn
                             </li>
                         </ul>
@@ -135,7 +135,7 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-12 col-md-4">
+                                    <div class="col-12 col-md-4 order-2 order-md-1">
                                         @forelse ($contactosPorArea as $item)
                                             @if (isset($item->servicios) && in_array('molienda', $item->servicios))
                                                 @include('frontend.servicios.contacto', [
@@ -145,12 +145,14 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
+                                            @else
+                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
                                     </div>
-                                    <div class="col-12 col-md-8">
+                                    <div class="col-12 col-md-8 order-1 order-md-2">
                                         <p style="text-align: justify">
                                             En 1995 iniciamos una etapa de industrialización de granos, siendo el primer
                                             paso la inauguración de un molino de maíz, que por su capacidad de molienda se
@@ -212,7 +214,7 @@
                                     </a>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 col-md-4">
+                                    <div class="col-12 col-md-4 order-2 order-md-1">
                                         @forelse ($contactosPorArea as $item)
                                             @if (isset($item->servicios) && in_array('aceites', $item->servicios))
                                                 @include('frontend.servicios.contacto', [
@@ -222,12 +224,14 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
+                                            @else
+                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
                                     </div>
-                                    <div class="col-12 col-md-8">
+                                    <div class="col-12 col-md-8 order-1 order-md-2">
                                         <p style="text-align: justify">
                                             Nuestro siguiente emprendimiento, en 2003, fue una unidad de procesamiento de
                                             granos
@@ -281,7 +285,7 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-12 col-md-4">
+                                    <div class="col-12 col-md-4 order-2 order-md-1">
                                         @forelse ($contactosPorArea as $item)
                                             @if (isset($item->servicios) && in_array('balanceados', $item->servicios))
                                                 @include('frontend.servicios.contacto', [
@@ -291,12 +295,14 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
+                                            @else
+                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
                                     </div>
-                                    <div class="col-12 col-md-8">
+                                    <div class="col-12 col-md-8 order-1 order-md-2">
                                         <p style="text-align: justify">
                                             En 2020 inauguramos una planta modelo de alimentos balanceados con calidad
                                             orgánica
@@ -371,7 +377,7 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-12 col-md-4">
+                                    <div class="col-12 col-md-4 order-2 order-md-1">
                                         @forelse ($contactosPorArea as $item)
                                             @if (isset($item->servicios) && in_array('pop-corn', $item->servicios))
                                                 @include('frontend.servicios.contacto', [
@@ -381,12 +387,14 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
+                                            @else
+                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
                                         @endforelse
                                     </div>
-                                    <div class="col-12 col-md-8">
+                                    <div class="col-12 col-md-8 order-1 order-md-">
                                         <p style="text-align: justify">
                                             En 2023 finalizamos la construcción de una moderna planta de clasificación de
                                             maíz pop corn (o pisingallo) con silos de fondo plano y aireación inferior que

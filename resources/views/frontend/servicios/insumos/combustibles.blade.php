@@ -1,8 +1,8 @@
 <!-- start right side section -->
-<div class="col-12 sm-margin-30px-bottom">
+<div class="col-12 sm-margin-15px-bottom margin-30px-bottom">
     <h5 class="font-weight-600">@lang('services.insumos.item_2_titulo')</h5>
 
-    <div id="myCarousel" class="carousel slide margin-40px-bottom" data-ride="carousel" style="margin-bottom: 20px">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <ul class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

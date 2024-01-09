@@ -1,7 +1,7 @@
 <section class="page-title-section bg-extra-dark-gray py-4 m-0">
     <div class="container">
         <div class="row d-flex justify-content-between align-items-end">
-            <div class="col-12 col-md-4">
+            <div class="col-12 d-none col-md-4 d-md-block">
                 <h4 class="font-weight-bold mb-0 text-white">{{ $title }}</h4>
             </div>
             <div class="col-12 col-md-8">

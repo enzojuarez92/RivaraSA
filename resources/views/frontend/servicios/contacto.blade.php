@@ -36,15 +36,16 @@
     </div>
 </div> --}}
 <!-- end help -->
+{{-- NUEVA TARJETA --}}
 <div class="bg-img cover-background theme-overlay border-radius-5 sm-margin-30px-bottom mb-3" data-overlay-dark="8"
     data-background="img/bg/bg2.jpg">
-    <div class="card sm-text-center mb-3 position-relative z-index-9">
-        <div class="row no-gutters">
-            <div class="col-12 col-md-3 my-auto sm-margin-15px-top">
-                <img src="{{ asset($foto) }}" width="80" height="80" alt="profile" class="border-radius-100 m-2" />
+    <div class="card mb-3 position-relative z-index-9">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-3 my-auto mx-sm-auto sm-margin-10px-top text-center">
+                <img src="{{ asset($foto) }}" width="80" height="80" alt="profile" class="border-radius-100 mx-md-4" />
             </div>
-            <div class="col-12 col-md-9 ml-0">
-                <div class="card-body">
+            <div class="col-12 col-md-9">
+                <div class="card-body ml-2 text-center text-md-left">
                     <span class="text-dark font-size18 my-0 sm-margin-15px-bottom">
                         <b class="mb-0">{{ $nombre }}</b> <br> 
                         {{ $role }}
@@ -55,21 +56,17 @@
                             {{ $telefono }}
                         </a>
                     </p>
-                    {{-- <p class="text-muted my-0">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card-footer p-0 mt-0 text-center">
+                    <small class="text-muted font-weight-500 my-0 text-center font-size16">
                         <i class="fas fa-envelope-open"></i>
                         <a href="mailto:{{ $email }}" class="text-muted">
                             {{ $email }}
                         </a>
-                    </p> --}}
+                    </small>
                 </div>
-            </div>
-            <div class="card-footer w-100 d-flex justify-content-center p-0 mt-0">
-                <small class="text-muted font-weight-600 my-0">
-                    <i class="fas fa-envelope-open"></i>
-                    <a href="mailto:{{ $email }}" class="text-muted">
-                        {{ $email }}
-                    </a>
-                </small>
             </div>
         </div>
     </div>

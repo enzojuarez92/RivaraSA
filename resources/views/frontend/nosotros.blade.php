@@ -31,7 +31,7 @@
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
                         </ul>
-                
+
                         <!-- Slides -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -42,7 +42,7 @@
                                 <img src="{{ asset('img/rivara/2023/laempresa2.jpg') }}" alt="oficina">
                             </div>
                         </div>
-                
+
                         <!-- Controles de navegación -->
                         <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
                             <span class="carousel-control-prev-icon"></span>
@@ -55,25 +55,21 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <div class="">
-                        <p class="margin-10px-bottom text-justify">
-                            @php
-                                $content = Lang::get('about.content');
-                                $halfLength = ceil(strlen($content) / 2) + 31;
-                                $firstHalf = substr($content, 0, $halfLength);
-                                $secondHalf = substr($content, $halfLength);
-                            @endphp
-                            {{ $firstHalf }}
-                        </p>
-                    </div>
+                    <p class="margin-10px-bottom text-justify text-md-left">
+                        @php
+                            $content = Lang::get('about.content');
+                            $halfLength = ceil(strlen($content) / 2) + 33;
+                            $firstHalf = substr($content, 0, $halfLength);
+                            $secondHalf = substr($content, $halfLength);
+                        @endphp
+                        {!! $firstHalf !!}
+                    </p>
                 </div>
 
                 <div class="col-lg-6 col-md-12">
-                    <div class="">
-                        <p class="margin-10px-bottom text-justify">
-                            {{ $secondHalf }}
-                        </p>
-                    </div>
+                    <p class="margin-10px-bottom text-justify text-md-left">
+                        {!! $secondHalf !!}
+                    </p>
                 </div>
             </div>
 
@@ -87,15 +83,14 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-12">
                     <h4 class="text-white font-weight-600 text-center">@lang('about.counter_title')</h4>
-                    <p
-                        class="font-size16 sm-font-size14 text-white line-height-30 sm-line-height-28 no-margin text-center">
+                    <p class="font-size16 sm-font-size14 text-white line-height-30 sm-line-height-20 no-margin text-center">
                         @lang('about.counter_content')</p>
                     <div
                         class="separator-line-horrizontal-full bg-white opacity2 margin-50px-tb md-margin-40px-tb sm-margin-30px-tb xs-margin-25px-tb">
                     </div>
                     <div class="row">
-                        <div class="col-12 col-lg-4 col-md-4">
-                            <div class="counter-box text-left xs-text-center">
+                        <div class="col-12 col-lg-4 col-md-4 sm-margin-40px-bottom">
+                            <div class="counter-box text-justify xs-text-center">
 
                                 <h4 class="countup text-white display-block">{{ HOME_ANOS }}</h4>
                                 <div
@@ -105,8 +100,8 @@
                                     @lang('home.counter.1')</p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 col-md-4">
-                            <div class="counter-box text-left xs-text-center">
+                        <div class="col-12 col-lg-4 col-md-4 sm-margin-40px-bottom">
+                            <div class="counter-box text-justify xs-text-center">
                                 <h4 class="countup text-white display-block xs-text-center">{{ HOME_EMPLEADOS }}</h4>
                                 <div
                                     class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col">
@@ -115,8 +110,8 @@
                                     @lang('home.counter.2')</p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 col-md-4">
-                            <div class="counter-box text-left xs-text-center">
+                        <div class="col-12 col-lg-4 col-md-4 sm-margin-40px-bottom">
+                            <div class="counter-box text-justify xs-text-center">
                                 <h4 class="countup text-white display-block xs-text-center">{{ HOME_USD }}</h4>
                                 <div
                                     class="separator-line-horrizontal-medium-light3 bg-theme margin-15px-tb sm-margin-10px-tb xs-margin-10px-tb opacity5 xs-center-col">

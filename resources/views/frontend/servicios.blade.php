@@ -8,7 +8,7 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => __("services.title"), 
+                'title' => $servicio === 'granos' ? 'Granos' : 'Insumos', 
                 'subtitle' => 'Conozca nuestros servicios',
                 'img' => 'img/rivara/fachadaoficina_baja2.jpg',
                 'links' => array(
@@ -21,14 +21,14 @@
 @section('content')
 
         <!-- start service detail section -->
-        <section>
+        <section class="sm-padding-15px-lr sm-padding-30px-top">
             <div class="container">
                 <div class="row">
                     {{-- @include('frontend.servicios.'.$servicio) --}}
 
                     @if ($subservicio !== null && $servicio === 'granos' && $subservicio === 'acopio-logistica-comercializacion')
                     @include('frontend.servicios.granos.acopio-logistica-comercializacion')
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 order-2 order-md-1">
                             @forelse ($contactosPorArea as $item)
                                 @include('frontend.servicios.contacto', [
                                     'nombre' => $item->name . ' ' . $item->lastname,
@@ -41,7 +41,7 @@
                                 <p>No hay contactos para mostrar</p>                        
                             @endforelse
                         </div>
-                        <div class="col-12 col-md-8">
+                        <div class="col-12 col-md-8 order-1 order-md-2 sm-margin-10px-top">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12">
                                         <p class="margin-10px-bottom text-justify">
@@ -64,7 +64,7 @@
                         </div>
                     @elseif ($subservicio !== null && $servicio === 'granos' && $subservicio === 'arrendamientos-asociaciones')
                         @include('frontend.servicios.granos.arrendamientos-asociaciones')
-                        <div class="col-4">
+                        <div class="col-12 col-md-4 order-2 order-md-1">
                             @forelse ($contactosPorArea as $item)
                                 @include('frontend.servicios.contacto', [
                                     'nombre' => $item->name . ' ' . $item->lastname,
@@ -77,7 +77,8 @@
                                 <p>No hay contactos para mostrar</p>                        
                             @endforelse
                         </div>
-                        <div class="col-8">
+                        <div class="col-12 col-md-8 order-1 order-md-2 sm-margin-10px-top">
+                            <h6>PRODUCCIÓN AGRÍCOLA</h6>
                             <div class="row">
                                 <div class="col-lg-6 col-md-12">
                                         <p class="margin-10px-bottom text-justify">
@@ -105,7 +106,7 @@
                         </div>
                     @elseif ($subservicio !== null && $servicio === 'insumos' && $subservicio === 'agroquimicos-fertilizantes')
                         @include('frontend.servicios.insumos.agroquimicos-fertilizantes')
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 order-2 order-md-1">
                             @forelse ($contactosPorArea as $item)
                                 @include('frontend.servicios.contacto', [
                                     'nombre' => $item->name . ' ' . $item->lastname,
@@ -118,7 +119,7 @@
                                 <p>No hay contactos para mostrar</p>                        
                             @endforelse
                         </div>
-                        <div class="col-12 col-md-8">
+                        <div class="col-12 col-md-8 order-1 order-md-2 sm-margin-10px-top">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12">
                                         <p class="margin-10px-bottom text-justify">
@@ -141,7 +142,7 @@
                         </div>
                     @elseif ($subservicio !== null && $servicio === 'insumos' && $subservicio === 'combustibles')
                         @include('frontend.servicios.insumos.combustibles')
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 order-2 order-md-1">
                             @forelse ($contactosPorArea as $item)
                                 @include('frontend.servicios.contacto', [
                                     'nombre' => $item->name . ' ' . $item->lastname,
@@ -154,7 +155,7 @@
                                 <p>No hay contactos para mostrar</p>                        
                             @endforelse
                         </div>
-                        <div class="col-12 col-md-8">
+                        <div class="col-12 col-md-8 order-1 order-md-2 sm-margin-10px-top">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12">
                                         <p class="margin-10px-bottom text-justify">
