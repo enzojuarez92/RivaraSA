@@ -145,8 +145,6 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
-                                            @else
-                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
@@ -209,8 +207,6 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
-                                            @else
-                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
@@ -270,8 +266,6 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
-                                            @else
-                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
@@ -279,23 +273,10 @@
                                     </div>
                                     <div class="col-12 col-md-8 order-1 order-md-2">
                                         <p style="text-align: justify">
-                                            En 2020 inauguramos una planta modelo de alimentos balanceados con calidad
-                                            orgánica
-                                            certificada. Procesamos granos orgánicos y garantizamos la trazabilidad de todos
-                                            nuestros alimentos. Esto nos permitió ser los proveedores exclusivos de la red
-                                            de
-                                            tambos orgánicos de Nestlé Argentina. También proveemos a distintos criaderos de
-                                            aves dentro del país y exportamos a emprendimientos orgánicos de países vecinos.
-                                            <br>
-
-                                            En 2023 finalizamos la construcción de una moderna planta de clasificación de
-                                            maíz
-                                            pop corn ( o pisingallo) con silos de fondo plano y aireación inferior que
-                                            protegen
-                                            el volumen de expansión , norias de baja velocidad, detectores de metal,
-                                            prelimpiezas, zarandas y mesas densimétricas Cimbria, clasificadora óptica
-                                            Buhler
-                                            para exportar un producto de calidad inmejorable
+                                            @php
+                                                $content = Lang::get('services.alimentos.item_3_texto');
+                                            @endphp
+                                            {!! $content !!}
                                         </p>
                                     </div>
                                 </div>
@@ -362,8 +343,6 @@
                                                     'email' => $item->email,
                                                     'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                                                 ])
-                                            @else
-                                                <p>No hay contactos para mostrar</p>
                                             @endif
                                         @empty
                                             <p>No hay contactos para mostrar</p>
@@ -371,11 +350,10 @@
                                     </div>
                                     <div class="col-12 col-md-8 order-1 order-md-">
                                         <p style="text-align: justify">
-                                            En 2023 finalizamos la construcción de una moderna planta de clasificación de
-                                            maíz pop corn (o pisingallo) con silos de fondo plano y aireación inferior que
-                                            protegen el volumen de expansión, norias de baja velocidad, detectores de metal,
-                                            pre-limpiezas, zarandas y mesas densimétricas Cimbria, clasificadora óptica
-                                            Buhler para exportar un producto de calidad inmejorable.
+                                            @php
+                                            $content = Lang::get('services.alimentos.item_4_texto');
+                                        @endphp
+                                        {!! $content !!}
                                         </p>
                                     </div>
                                 </div>

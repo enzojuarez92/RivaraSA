@@ -58,6 +58,8 @@ return [
         'item_3_titulo' => 'Alimentos Balanceados',
         'item_3_texto' => 'En 2020 inauguramos una planta modelo de alimentos balanceados con calidad orgánica certificada. Procesamos granos orgánicos y garantizamos la trazabilidad de todos nuestros alimentos. Esto nos permitió ser los proveedores exclusivos de la red de tambos orgánicos de Nestlé Argentina. También proveemos a distintos criaderos de aves dentro del país y exportamos a emprendimientos orgánicos de países vecinos.',
         'points' => '',
+        'item_4_titulo' => 'Pop Corn',
+        'item_4_texto' => 'En 2023 finalizamos la construcción de una moderna planta de clasificación de maíz pop corn (o pisingallo) con silos de fondo plano y aireación inferior que protegen el volumen de expan-sión, norias de baja velocidad, detectores de metal, prelimpiezas, zarandas y mesas densimé-tricas Cimbria, clasificadora óptica Buhler para exportar un producto de calidad inmejorable.',
 
     ],
 ];
