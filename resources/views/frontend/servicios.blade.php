@@ -40,7 +40,9 @@
                                 'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                             ])
                         @empty
-                            <p>No hay contactos para mostrar</p>
+                            <div class="alert alert-success text-center" role="alert">
+                                No se registraron contactos
+                            </div>
                         @endforelse
                     </div>
                     <div class="col-12 col-md-8 order-1 order-md-2 sm-margin-10px-top">
@@ -76,7 +78,9 @@
                                 'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                             ])
                         @empty
-                            <p>No hay contactos para mostrar</p>
+                            <div class="alert alert-success text-center" role="alert">
+                                No se registraron contactos
+                            </div>
                         @endforelse
                     </div>
                     <div class="col-12 col-md-8 order-1 order-md-2 sm-margin-10px-top">
@@ -113,7 +117,9 @@
                                 'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                             ])
                         @empty
-                            <p>No hay contactos para mostrar</p>
+                            <div class="alert alert-success text-center" role="alert">
+                                No se registraron contactos
+                            </div>
                         @endforelse
                     </div>
                     <div class="col-12 col-md-8 order-1 order-md-2 sm-margin-10px-top">
@@ -149,7 +155,9 @@
                                 'foto' => $item->foto ?? 'assets/img/default-avatar.png',
                             ])
                         @empty
-                            <p>No hay contactos para mostrar</p>
+                            <div class="alert alert-success text-center" role="alert">
+                                No se registraron contactos
+                            </div>
                         @endforelse
                     </div>
                     <div class="col-12 col-md-8 order-1 order-md-2 sm-margin-10px-top">

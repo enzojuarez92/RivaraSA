@@ -100,14 +100,18 @@ class PagesControler extends Controller
 
     public function alimentos()
     {
-        $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
-            ->orWhere('servicios', 'like', '%aceites%')
-            ->orWhere('servicios', 'like', '%balanceados%')
-            ->orWhere('servicios', 'like', '%pop-corn%')
-            ->get();
-            //dd($contactosPorArea);
+        $molienda = Team::where('servicios', 'like', '%molienda%')->get();
+        $aceites = Team::where('servicios', 'like', '%aceite%')->get();
+        $balanceados = Team::where('servicios', 'like', '%balanceados%')->get();
+        $popCorn = Team::where('servicios', 'like', '%pop-corn%')->get();
+        // $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
+        //     ->orWhere('servicios', 'like', '%aceites%')
+        //     ->orWhere('servicios', 'like', '%balanceados%')
+        //     ->orWhere('servicios', 'like', '%pop-corn%')
+        //     ->get();
+            // dd($molienda);
 
-        return view('frontend.servicios.alimentos', compact('contactosPorArea'));
+        return view('frontend.servicios.alimentos', compact('molienda', 'aceites', 'balanceados', 'popCorn'));
     }
 
     public function verPost(Post $post)
