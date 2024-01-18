@@ -8,7 +8,7 @@
 
 @section('content')
         <!-- start slideshow-->
-        <div class="container-fluid full-screen">
+        {{-- <div class="container-fluid full-screen">
             <div class="row slider-fade">
                 <div class="owl-carousel owl-theme width-100">
                     <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/Slider5.jpg') }}">
@@ -62,9 +62,19 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- end slideshow-->
-
+        <section class="mt-none">
+            <div class="row text-center">
+                <div class="col-12 mx-2">
+                    <video width="90%" height="auto" autoplay muted loop>
+                        <source src="{{ asset('video/Video Home Rivara.mp4') }}" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </div>
+            </div>
+        </section>
+    
         @include('frontend._mercados')
 
         <!-- start about section -->
@@ -104,7 +114,7 @@
         <section class="parallax" data-overlay-dark="6" data-background="{{ asset('img/rivara/atras_contador.jpg') }}">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 col-lg-4 col-md-6 sm-margin-30px-bottom">
+                    <div class="col-12 col-md-6 col-lg-4 sm-margin-30px-bottom">
                         <div class="counter-box">
                             <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-calendar"></i></span>
                             <h4 class="countup text-white display-block xs-text-center">{{ HOME_ANOS }}</h4>
@@ -112,7 +122,7 @@
                             <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin text-center">@lang('home.counter.1')</p>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4 col-md-6 sm-margin-30px-bottom">
+                    <div class="col-12 col-md-6 col-lg-4 sm-margin-30px-bottom">
                         <div class="counter-box">
                             <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-profile-male"></i></span>
                             <h4 class="countup text-white display-block xs-text-center">{{ HOME_EMPLEADOS }}</h4>
@@ -120,7 +130,7 @@
                             <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin text-center">@lang('home.counter.2')</p>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="counter-box">
                             <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-linegraph"></i></span>
                             <h4 class="countup text-white display-block xs-text-center">{{ HOME_USD }}</h4>
@@ -134,7 +144,7 @@
         <!-- end counter section -->
 
 
-        @include('frontend._servicios')
+        {{-- @include('frontend._servicios') --}}
 
 
         <!-- start blog section -->

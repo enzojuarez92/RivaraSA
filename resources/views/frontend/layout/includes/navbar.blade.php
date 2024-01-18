@@ -60,8 +60,9 @@
                                             <a href="{{ route('contacto') }}">@lang('home.contact')</a>
                                         </li>
                                         <li>
-                                            <a target="_blank" href="https://clientes.rivara.com.ar/">
-                                                <img style="width: 25px;" src="{{ asset('/img/profile-user.svg') }}" alt="login">
+                                            <a target="_blank" style="color: #86bc42" href="https://clientes.rivara.com.ar/">
+                                                {{-- <img style="width: 25px;" src="{{ asset('/img/profile-user.svg') }}" alt="login"> --}}
+                                                CLIENTE
                                             </a>
                                         </li>
                                     </ul>

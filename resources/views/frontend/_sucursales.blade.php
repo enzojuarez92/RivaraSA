@@ -23,7 +23,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> 2346 - 470525
+                                                            @lang('contact.telefono') <br> (+549) 2346 - 470525
                                                         </p>
                                                         <hr>
                                                         <p>
@@ -48,7 +48,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.celular') <br> 2346 – 538422 / 538423
+                                                            @lang('contact.celular') <br> (+549) 2346 – 538422 / 538423
+                                                        </p>
+                                                        <hr>
+                                                        <p>
+                                                            <i class="far fa-envelope"></i>
+                                                            @lang('contact.email') <br> gonzalo@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>
@@ -72,7 +77,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.celular') <br> 2346 – 538368
+                                                            @lang('contact.celular') <br> (+549) 2346 – 538368
+                                                        </p>
+                                                        <hr>
+                                                        <p>
+                                                            <i class="far fa-envelope"></i>
+                                                            @lang('contact.email') <br> logistica@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>
@@ -91,7 +101,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> 2346 - 471350
+                                                            @lang('contact.telefono') <br> (+549) 2346 - 471350
                                                         </p>
                                                         <hr>
                                                         <p>
@@ -119,7 +129,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> 2346 – 471732
+                                                            @lang('contact.telefono') <br> (+549) 2346 – 471732
                                                         </p>
                                                         <hr>
                                                         <p>
@@ -143,7 +153,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> 2346 – 471732
+                                                            @lang('contact.telefono') <br> (+549) 2346 – 471732
+                                                        </p>
+                                                        <hr>
+                                                        <p>
+                                                            <i class="far fa-envelope"></i>
+                                                            @lang('contact.email') <br> alejandra.merialdo@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>
@@ -166,7 +181,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> 2346 – 471303
+                                                            @lang('contact.telefono') <br> (+549) 2346 – 471303
+                                                        </p>
+                                                        <hr>
+                                                        <p>
+                                                            <i class="far fa-envelope"></i>
+                                                            @lang('contact.email') <br> nramazzotti@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>
@@ -186,7 +206,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.celular') <br> 2346 – 538428
+                                                            @lang('contact.celular') <br> (+549) 2346 – 538428
+                                                        </p>
+                                                        <hr>
+                                                        <p>
+                                                            <i class="far fa-envelope"></i>
+                                                            @lang('contact.email') <br> javiertristant@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>

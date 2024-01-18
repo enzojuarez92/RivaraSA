@@ -54,6 +54,10 @@
                                 <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('direccion') ?? 'Sin datos' }}</span>
                             </li>
                             <li>
+                                <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-solid fa-hashtag text-theme-color"></i></span>
+                                <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">CP:  <b class="ml-2">6634</b></span>
+                            </li>
+                            <li>
                                 <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-mobile-alt text-theme-color"></i></span>
                                 <span style="color:white;" class="d-inline-block width-85 vertical-align-top padding-10px-left">{{ Config::get('telefono') ?? 'Sin datos' }}</span>
                             </li>

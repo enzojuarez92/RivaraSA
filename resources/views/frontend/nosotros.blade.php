@@ -58,7 +58,7 @@
                     <p class="margin-10px-bottom text-justify text-md-left">
                         @php
                             $content = Lang::get('about.content');
-                            $halfLength = ceil(strlen($content) / 2) + 33;
+                            $halfLength = ceil(strlen($content) / 2) + 49;
                             $firstHalf = substr($content, 0, $halfLength);
                             $secondHalf = substr($content, $halfLength);
                         @endphp

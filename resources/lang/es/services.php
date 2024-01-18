@@ -49,7 +49,7 @@ return [
         'item_1_titulo' => 'Molienda de Maíz NO GMO',
         'item_1_texto' => 'En 1995 iniciamos una etapa de industrialización de granos, siendo el primer paso la inauguración de un molino de maíz, que por su capacidad de molienda <b>se ubica en el 2º lugar de Argentina</b>. Como valor fundacional buscamos producir alimentos saludables y que cumplieran con los más altos estándares de calidad internacional. Molemos granos de maíz Flint libres de modificaciones genéticas. La calidad de nuestros productos fue reconocida por los consumidores y hoy, prácticamente, todas las grandes tiendas tienen sus marcas propias de polenta abastecidas exclusivamente por nuestra empresa. Calidad también reconocida internacionalmente que nos permitió ser proveedores de grits para cereales de desayuno a Dinamarca, Japón, Suiza y EEUU.
         <br><br>
-        Nuestros productos de la molienda son libres de transgénicos, aptos para celíacos, con análisis exhaustivos de pesticidas y micotoxinas que convierten nuestras polentas y grits en productos de calidad premium. La certificación de BPM y HCCP asegura la misma calidad para el mercado interno que para el externo, con un sistema de trazabilidad que nos permite el seguimiento desde la semilla hasta el producto en góndola.
+        Nuestros productos de la molienda son libres de transgénicos, aptos para celíacos, con análisis exhaustivos de pesticidas y micotoxinas que convierten nuestras polentas y grits en productos de calidad premium. También elaboramos harinas micronizadas y pre-gelatinizadas. La certificación de BPM y HCCP asegura la misma calidad para el mercado interno que para el externo, con un sistema de trazabilidad que nos permite el seguimiento desde la semilla hasta el producto en góndola.
         <br><br>
         En nuestro compromiso permanente de cuidar el medio ambiente y reducir la emisión de gases contaminantes, en 2019 incorporamos una fuente de energía limpia y renovable con un sistema solar fotovoltaico de 315 paneles que generan una potencia de 203.000 Kwp anuales, con una captura de CO2 de 177,3 toneladas/año.',
         'item_2_titulo' => 'Aceites y harinas',
@@ -59,7 +59,6 @@ return [
         'item_3_texto' => 'En 2020 inauguramos una planta modelo de alimentos balanceados con calidad orgánica certificada. Procesamos granos orgánicos y garantizamos la trazabilidad de todos nuestros alimentos. Esto nos permitió ser los proveedores exclusivos de la red de tambos orgánicos de Nestlé Argentina. También proveemos a distintos criaderos de aves dentro del país y exportamos a emprendimientos orgánicos de países vecinos.',
         'points' => '',
         'item_4_titulo' => 'Pop Corn',
-        'item_4_texto' => 'En 2023 finalizamos la construcción de una moderna planta de clasificación de maíz pop corn (o pisingallo) con silos de fondo plano y aireación inferior que protegen el volumen de expan-sión, norias de baja velocidad, detectores de metal, prelimpiezas, zarandas y mesas densimé-tricas Cimbria, clasificadora óptica Buhler para exportar un producto de calidad inmejorable.',
-
+        'item_4_texto' => 'En 2023 finalizamos la modernización de nuestra planta de clasificación de maíz pop (pisingallo). Con silos de fondos planos con aireación que protegen el nivel de expansión y la humedad optima, norias de baja velocidad, detectores de metal, prelimpiezas, zarandas y mesas densimétricas Cimbria, clasificadora óptica Buhler para exportar un producto de calidad inmejorable.',
     ],
 ];
