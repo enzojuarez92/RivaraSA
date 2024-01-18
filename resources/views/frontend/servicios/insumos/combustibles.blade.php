@@ -9,6 +9,8 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
         </ul>
 
 
@@ -29,6 +31,14 @@
             <div class="carousel-item">
                 <img width="100%" height="auto"
                     src="{{ asset('img/rivara/sliders/combustibles/combustibles 4.jpg') }}" alt="slider insumos" />
+            </div>
+            <div class="carousel-item">
+                <img width="100%" height="auto"
+                    src="{{ asset('img/rivara/sliders/combustibles/estacion de servicio 1.jpg') }}" alt="slider insumos" />
+            </div>
+            <div class="carousel-item">
+                <img width="100%" height="auto"
+                    src="{{ asset('img/rivara/sliders/combustibles/estacion de servicio 2.jpg') }}" alt="slider insumos" />
             </div>
         </div>
 

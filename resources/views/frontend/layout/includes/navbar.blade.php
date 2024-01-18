@@ -62,7 +62,7 @@
                                         <li>
                                             <a target="_blank" style="color: #86bc42" href="https://clientes.rivara.com.ar/">
                                                 {{-- <img style="width: 25px;" src="{{ asset('/img/profile-user.svg') }}" alt="login"> --}}
-                                                CLIENTE
+                                                CLIENTES
                                             </a>
                                         </li>
                                     </ul>

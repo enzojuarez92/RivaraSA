@@ -8,63 +8,16 @@
 
 @section('content')
         <!-- start slideshow-->
-        {{-- <div class="container-fluid full-screen">
+        <div class="container-fluid full-screen">
             <div class="row slider-fade">
-                <div class="owl-carousel owl-theme width-100">
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/Slider5.jpg') }}">
-                        <div class="absolute-middle-center caption">
-                            <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_5_subtitle')</h3>
-                                <h1 class="text-white">@lang('slider.slider_5_title')</h1>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_5_content')</p>
-                                <a target="_blank" href="https://clientes.rivara.com.ar/" class="butn medium theme">
-                                    <span class="alt-font">@lang('slider.slider_5_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/alta/Slider1.jpg') }}">
-                        <div class="absolute-middle-center caption">
-                            <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_1_subtitle')</h3>
-                                <h1 class="text-white">@lang('slider.slider_1_title')</h1>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_1_content')</p>
-                                <a href="{{ route('nosotros') }}" class="butn medium theme">
-                                    <span class="alt-font">@lang('slider.slider_1_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center item bg-img" data-overlay-dark="3" data-background="{{ asset('img/rivara/sliders/alta/Slider2.jpg') }}">
-                        <div class="absolute-middle-center caption">
-                            <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_2_subtitle')</h3>
-                                <h1 class="text-white">@lang('slider.slider_2_title')</h1>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_2_content')</p>
-                                <a href="{{ route('home', '#servicios') }}" class="butn medium theme">
-                                    <span class="alt-font">@lang('slider.slider_2_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center item bg-img" data-overlay-dark="1" data-background="{{ asset('img/rivara/sliders/alta/Slider4.jpg') }}">
-                        <div class="absolute-middle-center caption">
-                            <div class="overflow-hidden">
-                                <h3 class="alt-font font-size28 sm-font-size18 text-white no-margin">@lang('slider.slider_3_subtitle')</h3>
-                                <h1 class="text-white">@lang('slider.slider_3_title')</h1>
-                                <p class="margin-30px-bottom sm-margin-20px-bottom sm-display-none">@lang('slider.slider_3_content')</p>
-                                <a href="{{ route('nosotros') }}" class="butn medium theme">
-                                    <span class="alt-font">@lang('slider.slider_3_link')</span><i class="fas fa-angle-right font-size16 sm-font-size14 text-white margin-10px-left"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                <video width="100%" height="auto" autoplay muted loop>
+                    <source src="{{ asset('video/Video Home Rivara.mp4') }}" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
             </div>
-        </div> --}}
+        </div>
         <!-- end slideshow-->
-        <section class="mt-none">
+        {{-- <section class="mt-none">
             <div class="row text-center">
                 <div class="col-12 mx-2">
                     <video width="90%" height="auto" autoplay muted loop>
@@ -73,7 +26,7 @@
                     </video>
                 </div>
             </div>
-        </section>
+        </section> --}}
     
         @include('frontend._mercados')
 

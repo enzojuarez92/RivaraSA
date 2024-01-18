@@ -52,7 +52,7 @@
                                         <div class="d-inline-block vertical-align-top padding-10px-left width-75">
                                             <h5 class="margin-5px-bottom text-uppercase font-size15 xs-font-size14">@lang('contact.direccion')</h5>
                                             <p class="no-margin line-height-normal">{{ Config::get('direccion') }}</p>
-                                            <P class="no-margin line-height-normal">CP: 6634</P>
+                                            <P class="no-margin line-height-normal">Pcia. Buenos Aires - CP: 6634</P>
                                         </div>
                                     </div>
                                 </div>
