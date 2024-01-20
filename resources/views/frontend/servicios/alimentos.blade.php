@@ -35,7 +35,7 @@
                             </li>
                             <li class="resp-tab-item hor_1" aria-controls="aceite_harinas" role="tab"
                                 style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
-                                <i class="fas fa-solid fa-jar-wheat"></i> Aceites y Harinas
+                                <i class="fas fa-solid fa-jar-wheat"></i> Aceites y Expellers
                             </li>
                             <li class="resp-tab-item hor_1" aria-controls="alimentos_balanceados" role="tab"
                                 style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
