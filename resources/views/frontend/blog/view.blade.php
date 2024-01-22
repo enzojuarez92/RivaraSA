@@ -60,15 +60,14 @@
                                         <p class="special">{{ $post->extract }}</p>
                                         {!! $post->body !!}
                                     </div>
-                                    <div class="share-post">
+                                    {{-- <div class="share-post">
                                         <span>@lang('home.blog-shared')</span>
                                             <ul>
                                                 <li><a href="{{ Share::currentPage()->facebook()->getRawLinks() }}"><i class="fab fa-facebook-f"></i></a></li>
                                                 <li><a href="{{ Share::currentPage()->twitter()->getRawLinks() }}"><i class="fab fa-twitter"></i></a></li>
                                                 <li><a href="{{ Share::currentPage()->linkedin()->getRawLinks() }}"><i class="fab fa-linkedin-in"></i></a></li>
-                                                {{-- <li><a href="{{ Share::currentPage()->whatsapp()->getRawLinks() }}"><i class="fab fa-whatsapp-in"></i></a></li> --}}
                                             </ul>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                             <!--  start post-->

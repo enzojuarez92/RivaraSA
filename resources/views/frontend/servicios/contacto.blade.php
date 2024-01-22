@@ -52,7 +52,7 @@
                     </span>
                     <p class="text-muted my-0">
                         <i class="fa fa-phone"></i>
-                        <a href="https://api.whatsapp.com/send?phone={{ $telefono }}&text=Hola%20{{ $nombre }}%20me%20contacto%20por%20..." target="_blank" class="text-muted">
+                        <a href="https://api.whatsapp.com/send?phone=+549{{ $telefono }}&text=Hola%20{{ $nombre }}%20me%20contacto%20por%20..." target="_blank" class="text-muted">
                             (+54) 9 {{ $telefono }}
                         </a>
                     </p>

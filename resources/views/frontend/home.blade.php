@@ -8,7 +8,7 @@
 
 @section('content')
         <!-- start slideshow-->
-        <div class="container-fluid full-screen">
+        <div class="container-fluid">
             <div class="row slider-fade">
                 <video width="100%" height="auto" autoplay muted loop>
                     <source src="{{ asset('video/Video Home Rivara.mp4') }}" type="video/mp4">
@@ -16,17 +16,6 @@
                 </video>
             </div>
         </div>
-        <!-- end slideshow-->
-        {{-- <section class="mt-none">
-            <div class="row text-center">
-                <div class="col-12 mx-2">
-                    <video width="90%" height="auto" autoplay muted loop>
-                        <source src="{{ asset('video/Video Home Rivara.mp4') }}" type="video/mp4">
-                        Tu navegador no soporta el elemento de video.
-                    </video>
-                </div>
-            </div>
-        </section> --}}
     
         @include('frontend._mercados')
 

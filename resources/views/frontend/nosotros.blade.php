@@ -129,7 +129,7 @@
     </section>
     <!-- end counter section -->
 
-    @include('frontend._servicios')
+    {{-- @include('frontend._servicios') --}}
 @endsection
 
 @push('styles')
