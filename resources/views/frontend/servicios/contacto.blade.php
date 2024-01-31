@@ -2,7 +2,7 @@
     <div class="card mb-3 position-relative z-index-9">
         <div class="row d-flex align-items-center">
             <div class="col-12 col-md-3 my-auto mx-sm-auto sm-margin-10px-top text-center">
-                <img src="{{ asset($foto) }}" alt="profile" class="border-radius-10 mx-md-3" />
+                <img src="{{ '/'.$foto) }}" alt="profile" class="border-radius-10 mx-md-3" />
             </div>
             <div class="col-12 col-md-9">
                 <div class="card-body ml-1 text-center text-md-left">
