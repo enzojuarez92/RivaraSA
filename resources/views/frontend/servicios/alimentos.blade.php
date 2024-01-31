@@ -31,7 +31,7 @@
                         <ul class="resp-tabs-list hor_1">
                             <li class="resp-tab-item hor_1 resp-tab-active" aria-controls="molienda_de_maiz" role="tab"
                                 style="background-color: white; border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
-                                <i class="fas fa-corn"></i> Molienda de Maíz no GMO
+                                <i class="fas fa-corn"></i> Molienda de Maíz
                             </li>
                             <li class="resp-tab-item hor_1" aria-controls="aceite_harinas" role="tab"
                                 style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
