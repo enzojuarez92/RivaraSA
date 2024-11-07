@@ -129,7 +129,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> (+54) 2346 – 471732
+                                                            @lang('contact.telefono') <br> (+54) 2346 - 470178
                                                         </p>
                                                         <hr>
                                                         <p>
@@ -181,12 +181,12 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> (+54) 2346 – 471303
+                                                            @lang('contact.telefono') <br> (+54)  2346 - 538412
                                                         </p>
                                                         <hr>
                                                         <p>
                                                             <i class="far fa-envelope"></i>
-                                                            @lang('contact.email') <br> nramazzotti@rivara.com.ar
+                                                            @lang('contact.email') <br> jose.lopez@rivara.com.ar
                                                         </p>
                                                     </div>
                                                 </div>
