@@ -1,11 +1,13 @@
-<div class="bg-img cover-background theme-overlay border-radius-5 sm-margin-30px-bottom mb-3" data-overlay-dark="8" data-background="img/bg/bg2.jpg">
+
+<div class="bg-img cover-background theme-overlay border-radius-5 sm-margin-30px-bottom mb-3" data-overlay-dark="8"
+    data-background="img/bg/bg2.jpg">
     <div class="card mb-3 position-relative z-index-9">
         <div class="row d-flex align-items-center">
-            <div class="col-12 col-md-3 my-auto mx-sm-auto sm-margin-10px-top text-center">
-                <img src="{{ '/'.$foto) }}" alt="profile" class="border-radius-10 mx-md-3" />
+            <div class="col-12 col-md-4 my-auto mx-sm-auto mx-md-auto sm-margin-10px-top text-center">
+                <img src="/{{ $foto }}" alt="profile" class="border-radius-100 margin-15px-left img-fluid" style="max-width: 100px; max-height: 100px;" />
             </div>
-            <div class="col-12 col-md-9">
-                <div class="card-body ml-1 text-center text-md-left">
+            <div class="col-12 col-md-8">
+                <div class="card-body text-center text-md-left">
                     <span class="text-dark font-size18 my-0 sm-margin-15px-bottom">
                         <b class="mb-0">{{ $nombre }}</b> <br> 
                         {{ $role }}

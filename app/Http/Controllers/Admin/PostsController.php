@@ -6,7 +6,7 @@ use App\Category;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\PostRequest;
 use App\Post;
-use App\tag;
+use App\Tag;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
@@ -31,7 +31,7 @@ class PostsController extends Controller
     public function create()
     {
         $categorias = Category::all();
-        $tags = tag::all();
+        $tags = Tag::all();
         return view('admin.blog.crear', compact(
             'categorias',
             'tags'
@@ -78,7 +78,7 @@ class PostsController extends Controller
         $this->authorize('view', $post);
 
         $categorias = Category::all();
-        $tags = tag::all();
+        $tags = Tag::all();
         return view('admin.blog.edit', compact(
             'categorias',
             'tags',
@@ -103,9 +103,9 @@ class PostsController extends Controller
 
             $tags = [];
             foreach ($request->tags as $tag) {
-                $tags[] = tag::Find($tag)
+                $tags[] = Tag::Find($tag)
                 ? $tag
-                : tag::create(['name' => $tag])->id;
+                : Tag::create(['name' => $tag])->id;
             }
             $post->tags()->sync($tags);
 

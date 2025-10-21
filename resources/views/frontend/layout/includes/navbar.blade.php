@@ -18,7 +18,7 @@
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-12">
                             <div class="menu_area alt-font">
-                                <nav class="navbar navbar-expand-lg navbar-light no-padding current">
+                                <nav class="navbar navbar-expand-lg navbar-light no-padding current fixed-top">
 
                                     <div class="navbar-header navbar-header-custom">
                                         <!-- start logo -->

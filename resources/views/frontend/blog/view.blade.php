@@ -8,11 +8,11 @@
 
 @section('breadcrumb')
             @include('frontend.layout.includes.breadcrumb', [
-                'title' => 'Blog', 
+                'title' => 'Recetas', 
                 'subtitle' => 'Blog Noticias',
                 'links' => array(
                     ['icon' => 'icon-copy', 'name' => __("home.home"), 'url' => route('home')],
-                    ['icon' => 'icon-add', 'name' => 'Blog', 'url' => route('blog.index')],
+                    ['icon' => 'icon-add', 'name' => 'Recetas', 'url' => route('blog.index')],
                     ['icon' => 'icon-add', 'name' => $post->title, 'url' => ''],
                 )
             ])

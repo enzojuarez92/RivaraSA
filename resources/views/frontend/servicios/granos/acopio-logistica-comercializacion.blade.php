@@ -12,7 +12,7 @@
             <li data-target="#myCarousel" data-slide-to="3"></li>
             <li data-target="#myCarousel" data-slide-to="4"></li>
             <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
+            {{-- <li data-target="#myCarousel" data-slide-to="6"></li> --}}
         </ul>
 
         <!-- Slides -->
@@ -35,9 +35,9 @@
             <div class="carousel-item">
                 <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/granos/acopio 6.jpg') }}" alt="slider insumos" />
             </div>
-            <div class="carousel-item">
+            {{-- <div class="carousel-item">
                 <img width="100%" height="auto" src="{{ asset('img/rivara/sliders/granos/acopio 7.jpg') }}" alt="slider insumos" />
-            </div>
+            </div> --}}
         </div>
 
         <!-- Controles de navegación -->

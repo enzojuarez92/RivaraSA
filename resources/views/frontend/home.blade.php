@@ -59,7 +59,7 @@
                     <div class="col-12 col-md-6 col-lg-4 sm-margin-30px-bottom">
                         <div class="counter-box">
                             <span class="icon margin-5px-bottom display-block text-white font-size36 sm-font-size34 xs-font-size30 xs-text-center"><i class="icon-calendar"></i></span>
-                            <h4 class="countup text-white display-block xs-text-center">{{ HOME_ANOS }}</h4>
+                            <h4 class="countup text-white display-block xs-text-center">{{ 88 }}</h4>
                             <div class="separator-line-horrizontal-medium-light3 bg-white margin-15px-tb xs-margin-10px-tb opacity5 center-col"></div>
                             <p class="font-size24 sm-font-size20 xs-font-size18 font-weight-600 text-white no-margin text-center">@lang('home.counter.1')</p>
                         </div>

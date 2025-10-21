@@ -37,7 +37,7 @@
                                 'role' => $item->role ?? '',
                                 'telefono' => $item->phone ?? 'Sin Información',
                                 'email' => $item->email,
-                                'foto' => !is_null($item->image) ? $item->image : 'assets/img/default-avatar.png'
+                                'foto' => $item->image ?? 'assets/img/default-avatar.png'
                             ])
                         @empty
                             <div class="alert alert-success text-center" role="alert">
@@ -75,7 +75,7 @@
                                 'role' => $item->role ?? '',
                                 'telefono' => $item->phone ?? 'Sin Información',
                                 'email' => $item->email,
-                                'foto' => !is_null($item->image) ? $item->image : 'assets/img/default-avatar.png'
+                                'foto' => $item->image ?? 'assets/img/default-avatar.png'
                             ])
                         @empty
                             <div class="alert alert-success text-center" role="alert">
@@ -114,7 +114,7 @@
                                 'role' => $item->role ?? '',
                                 'telefono' => $item->phone ?? 'Sin Información',
                                 'email' => $item->email,
-                                'foto' => !is_null($item->image) ? $item->image : 'assets/img/default-avatar.png'
+                                'foto' => $item->image ?? 'assets/img/default-avatar.png'
                             ])
                         @empty
                             <div class="alert alert-success text-center" role="alert">
@@ -152,7 +152,7 @@
                                 'role' => $item->role ?? '',
                                 'telefono' => $item->phone ?? 'Sin Información',
                                 'email' => $item->email,
-                                'foto' => !is_null($item->image) ? $item->image : 'assets/img/default-avatar.png'
+                                'foto' => $item->image ?? 'assets/img/default-avatar.png'
                             ])
                         @empty
                             <div class="alert alert-success text-center" role="alert">
