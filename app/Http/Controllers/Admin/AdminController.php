@@ -31,14 +31,15 @@ class AdminController extends Controller
         $leadsFont = DB::table('leads')
             ->join('parametros', 'leads.conocio', '=', 'parametros.id')
             ->select(DB::raw('COUNT(conocio) as value'), 'parametros.titulo as label', 'parametros.color')
-            ->groupBy('conocio')
+            ->groupBy('parametros.titulo', 'parametros.color') // Añadí 'parametros.titulo' a la cláusula GROUP BY
             ->get();
 
         $leads = DB::table('leads')
             ->join('parametros', 'leads.fuente', '=', 'parametros.id')
             ->select(DB::raw('COUNT(fuente) as value'), 'parametros.titulo as label', 'parametros.color')
-            ->groupBy('fuente')
+            ->groupBy('parametros.titulo', 'parametros.color') // También añadí 'parametros.titulo' aquí
             ->get();
+
 
         return view('admin.dashboard', compact(
             'posteos',

@@ -29,6 +29,13 @@ Route::get('locale/{locale}', function ($locale) {
 Route::get('/testEmail', 'PagesControler@testEmail')
     ->name('site.testEmail');
 
+    Route::any('ckfinder/connector', '\CKSource\CKFinderBridge\Controller\CKFinderController@requestAction')
+        ->name('ckfinder_connector');
+
+    Route::any('ckfinder/browser', '\CKSource\CKFinderBridge\Controller\CKFinderController@browserAction')
+        ->name('ckfinder_browser');
+
+
 Route::get('/', 'PagesControler@home')->name('home');
 Route::get('/feed', 'PagesControler@feedPosts')->name('feeds.posts');
 Route::get('/organico', 'PagesControler@organico')->name('organico');
