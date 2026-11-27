@@ -23,7 +23,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> (+54) 2346 - 470525
+                                                            @lang('contact.telefono') <br> (+54) 2346 - 687051
                                                         </p>
                                                         <hr>
                                                         <p>
@@ -101,7 +101,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> (+54) 2346 - 471350
+                                                            @lang('contact.telefono') <br> (+54) 2346 - 553296
                                                         </p>
                                                         <hr>
                                                         <p>
@@ -153,7 +153,7 @@
                                                     <div class="card-body bg-white">
                                                         <p>
                                                             <i class="fas fa-phone"></i>
-                                                            @lang('contact.telefono') <br> (+54) 2346 – 471732
+                                                            @lang('contact.telefono') <br> (+54) 2346 – 558871
                                                         </p>
                                                         <hr>
                                                         <p>

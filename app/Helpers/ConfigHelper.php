@@ -62,7 +62,11 @@ class ConfigHelper
             'pop-corn' => [
                 'sigla' => 'pop corn',
                 'titulo' => 'pop corn',
-            ]
+            ],
+            'pregelatinizado' => [
+                'sigla' => 'pregelatinizado',
+                'titulo' => 'Planta de Pregelatinizado',
+            ],
         ];
 
         return $servicios;

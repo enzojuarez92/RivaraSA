@@ -104,6 +104,7 @@ class PagesControler extends Controller
         $aceites = Team::where('servicios', 'like', '%aceite%')->get();
         $balanceados = Team::where('servicios', 'like', '%balanceados%')->get();
         $popCorn = Team::where('servicios', 'like', '%pop-corn%')->get();
+        $pregelatinizado = Team::where('servicios', 'like', '%pregelatinizado%')->get();
         // $contactosPorArea = Team::where('servicios', 'like', '%molienda%')
         //     ->orWhere('servicios', 'like', '%aceites%')
         //     ->orWhere('servicios', 'like', '%balanceados%')
@@ -111,7 +112,7 @@ class PagesControler extends Controller
         //     ->get();
             // dd($molienda);
 
-        return view('frontend.servicios.alimentos', compact('molienda', 'aceites', 'balanceados', 'popCorn'));
+        return view('frontend.servicios.alimentos', compact('molienda', 'aceites', 'balanceados', 'popCorn','pregelatinizado'));
     }
 
     public function verPost(Post $post)

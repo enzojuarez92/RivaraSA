@@ -45,7 +45,6 @@ return [
     ],
     'alimentos' => [
         'titulo' => 'Alimentos',
-
         'item_1_titulo' => 'Molienda de Maíz NO GMO',
         'item_1_texto' => 'En 1995 iniciamos una etapa de industrialización de granos, siendo el primer paso la inauguración de un molino de maíz, que por su capacidad de molienda <b>se ubica en el 2º lugar de Argentina</b>. Como valor fundacional buscamos producir alimentos saludables y que cumplieran con los más altos estándares de calidad internacional. Molemos granos de maíz Flint libres de modificaciones genéticas. La calidad de nuestros productos fue reconocida por los consumidores y hoy, prácticamente, todas las grandes tiendas tienen sus marcas propias de polenta abastecidas exclusivamente por nuestra empresa. Calidad también reconocida internacionalmente que nos permitió ser proveedores de grits para cereales de desayuno a Dinamarca, Japón, Suiza y EEUU.
         <br><br>
@@ -60,5 +59,11 @@ return [
         'points' => '',
         'item_4_titulo' => 'Pop Corn',
         'item_4_texto' => 'En 2023 finalizamos la modernización de nuestra planta de clasificación de maíz pop (pisingallo). Con silos de fondos planos con aireación que protegen el nivel de expansión y la humedad optima, norias de baja velocidad, detectores de metal, prelimpiezas, zarandas y mesas densimétricas Cimbria, clasificadora óptica Buhler para exportar un producto de calidad inmejorable.',
+        'item_5_titulo' => 'Pregelatinizado',
+        'item_5_texto' => 'La pregelatinización es un proceso de modificación física, ecológico y seguro, donde se rompe la estructura cristalina del almidón y se deshidrata para permitir que las harinas se espesen en frío.<br>
+        Ofrecemos harinas pregelatinizadas de maíz, legumbres, arroz, etc.<br>
+        En legumbres mitiga el sabor amargo, mejorando las características organolépticas sin agregado de elementos artificiales o químicos.<br><br>
+        Con esta moderna planta de pregelatinizado profundizamos nuestra oferta de materias primas a la industria de la alimentación.<br>
+        Su uso es imprescindible en productos instantáneos, arepas, budines,  productos de panadería libres de gluten, entre otros tantos usos, alargando la vida útil de las distintas harinas y eliminando factores antinutricionales.'
     ],
 ];

@@ -33,6 +33,10 @@
                                 style="background-color: white; border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
                                 <i class="fas fa-corn"></i> Molienda de Maíz
                             </li>
+                            <li class="resp-tab-item hor_1" aria-controls="planta_pregelatinizado" role="tab"
+                                style="background-color: white; border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
+                                <i class="fas fa-corn"></i> Planta de Pregelatinizado
+                            </li>
                             <li class="resp-tab-item hor_1" aria-controls="aceite_harinas" role="tab"
                                 style="background-color: rgb(245, 245, 245); border-color: rgb(193, 193, 193);border-radius: 15px 15px 0 0;">
                                 <i class="fas fa-solid fa-jar-wheat"></i> Aceites y Expellers
@@ -155,6 +159,112 @@
                                                 <p class="text-justify">
                                                     @php
                                                         $content = Lang::get('services.alimentos.item_1_texto');
+                                                    @endphp
+                                                    {!! $content !!}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resp-tab-content hor_1" aria-labelledby="planta_pregelatinizado">
+                                <div id="myCarouselPre" class="carousel slide margin-40px-bottom" data-ride="carousel"
+                                    style="margin-bottom: 20px">
+                                    <!-- Indicadores -->
+                                    <ul class="carousel-indicators">
+                                        <li data-target="#myCarouselPre" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="1"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="2"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="3"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="4"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="5"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="6"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="7"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="8"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="9"></li>
+                                        <li data-target="#myCarouselPre" data-slide-to="10"></li>
+                                    </ul>
+
+
+                                    <!-- Slides -->
+                                    <div class="carousel-inner">
+                                        {{-- ITEMS planta_pregelatinizado --}}
+                                        <div class="carousel-item active">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/1.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/2.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/3.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/4.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/5.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/6.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/7.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/8.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/9.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/10.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="{{ asset('img/rivara/sliders/pregelatinizado/11.jpg') }}"
+                                                alt="slider insumos" />
+                                        </div>
+                                    </div>
+
+                                    <!-- Controles de navegación -->
+                                    <a class="carousel-control-prev" href="#myCarouselPre" data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#myCarouselPre" data-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-4 order-2 order-md-1">
+                                        @forelse ($pregelatinizado as $item)
+                                            @include('frontend.servicios.contacto', [
+                                                'nombre' => $item->name . ' ' . $item->lastname,
+                                                'role' => $item->role ?? '',
+                                                'telefono' => $item->phone ?? 'Sin Información',
+                                                'email' => $item->email,
+                                                'foto' => $item->image ?? 'assets/img/default-avatar.png',
+                                            ])
+                                        @empty
+                                            <div class="alert alert-success text-center" role="alert">
+                                                No se registraron contactos
+                                            </div>
+                                        @endforelse
+                                    </div>
+                                    <div class="col-12 col-md-8 order-1 order-md-2">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <p class="text-justify">
+                                                    @php
+                                                        $content = Lang::get('services.alimentos.item_5_texto');
                                                     @endphp
                                                     {!! $content !!}
                                                 </p>
